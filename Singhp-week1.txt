@@ -1,1 +1,2 @@
-
+Tried and learned how to use git from the command line, had very few issues.
+Things learned: pull, add, commit, push.
