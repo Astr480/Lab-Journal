@@ -1,0 +1,38 @@
+lab journal Week 1
+
+Learn the basic Unix command just like in Astro 300
+
+for example: ls, cd, pwd
+
+Use jupyter notebook to do python
+
+choose a text editor, I think I will just use the visual studio code
+
+Learn how to use github
+the basic idea for github is that it is a version control tool for everyone
+to contribute to one project. It is amazing to see how people use it for different
+things.
+
+git add FILE
+git commit -m "commet"
+git push
+git pull
+
+pull request: merge your file to the main repository that allow all people can contribute
+to the same project
+
+different tool that we can use:
+
+SIMBAD, NED, astroplan
+
+use astroplan to do obervation
+Initiate a new oberver, can have many method that we can use
+
+concept:
+airmass, the moon immpedes obs, astronomical twilight
+
+some practice about how to use astroplan.
+
+Need to think about some possible research project!
+
+learn how to use pull request feature !
