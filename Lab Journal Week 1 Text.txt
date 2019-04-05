@@ -1,0 +1,25 @@
+Ioana Alexandra Mititean
+4/5/19
+ASTR 480
+Lab Journal: Week 1
+
+A basic overview of what I did this week for ASTR 480. Some GitHub/computing terminology below may not have been used correctly at times.
+4/1/19
+-	First day of ASTR 480.
+-	Intro to Unix – exploring basic Unix commands, such as for moving through directories and viewing the “invisible” files
+-	Intro to GitHub – basic overview, and basic tutorial which covered features such as branches and pull requests
+-	Created a GitHub account for myself and viewed the ASTR 480 repository on GitHub
+
+4/3/19
+-	Second day of ASTR 480.
+-	More in-depth tutorials on using GitHub and on its functionality (creating a text file and uploading it to my repository on GitHub, making changes to the file and merging them to the master branch, etc.)
+-	Basic overview of how to upload the Lab Journal to the ASTR 480 repository, and creating a pull request so that Prof. Tuttle can accept and see the journal file
+-	Collaborated with a partner to access each other’s “practice” repositories (titled “Planets”), make changes to each other’s files, and push the changes back to the other partner
+
+4/5/19 (before class)
+-	Created this Lab Journal entry for Week 1
+-	Reviewed the tutorials on GitHub that we went through (rather quickly) in class, so that I could (attempt) to remember how to upload a text file containing my Week 1 Lab Journal file
+-	Reviewed GitHub tutorials to review (and learn) the basic functionality, such as pull requests, branches, etc.
+
+~This entry turned out more detailed than I anticipated~
+
