@@ -7,3 +7,4 @@ Completed a review of Github. Learned how to use it more completely (i.e. having
 
 GitHub Resource: http://swcarpentry.github.io/git-novice/04-changes/index.html (Module: 4,7, and later 5)
  
+Couldn't figure out how to "Fork" the 480/Lab-Journal, Michael showed me how to do that on top of activating the upstream function. 
