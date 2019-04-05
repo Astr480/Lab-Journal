@@ -1,4 +1,0 @@
-
-Tried and learned how to use git from the command line, had very few issues.
-Things learned: pull, add, commit, push.
-Got stuck in vim a few times, but now I'm using it to edit text files.
