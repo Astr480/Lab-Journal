@@ -81,3 +81,19 @@ Sample:
             Push the change to the Owner's repo on GitHub:
                 $ git push origin master
 Mistake:  While my partner successfully pushed her change to my GitHub repo, I failed to push my change to her remote repo even if I could clone her repo to my local               desktop. Finally, I found the reason is that she forgot to give me the access, which means I actually didn't become her collaberator and then I cannot make a               change to her repo on GitHub.
+Problem solved.
+    7) Conflicts:
+        My collaborator made a change to my text file and pushed it to my repo on Github first,
+        And when I changed the same file locally by another way, I failed to push it to my own repo on GitHub due to the conflicts between the two changes my collaborator and I made.
+        Fix:
+            Start by pulling the repo from GitHub:
+                $ git pull origin master
+            Check the conflicts:
+                $ cat mars.txt (The conflicts are marked in this step)
+            Make a change to the text file and push it again to finish the merging process.
+
+4.5
+JSkyCalc
+Astroplan: An open source observation planning package in Python 
+What affects an observation: Airmass, the moon, and twilights (Astronomical dawn: 18 degrees from the horizon)
+We did a project to research on the spiral galaxy M31 by JSkyCalc when the object is observed from Apache Point Observatory.
