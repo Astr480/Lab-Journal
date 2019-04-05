@@ -5,7 +5,7 @@ http://overthewire.org/wargames/bandit/
 
 vim or emacs?
 
-$ command & 
+$ command &
 runs command in background (e.g. $ jupyter notebook &)
 
 need to Fork repository when I get access
@@ -21,3 +21,18 @@ git push origin master
 
 conflicts when collaborator (or self) has pushed without other pulling repository
 fixed by going through and merging changes
+
+Day 3:
+
+night sky observation tools
+SIMBAD -- stars
+NED    -- galaxies
+
+use multiple tools for crosschecking
+
+astropy/astroplan can be used for sky predicting
+
+things that impede observations
+-airmass
+-moon (can be cheated by observing in moon-dark bands)
+-twilights
