@@ -1,0 +1,6 @@
+This first week was spent setting up github and getting use to it.
+I reviewed some Unix commands.
+I found out I could use nano as a txt editor (learned how to save and exit).
+I don't really know what I am supposed to put in lab journals.
+I also have no idea what I want to research or even how to figure out what I
+want to research. 
