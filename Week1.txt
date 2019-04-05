@@ -1,0 +1,23 @@
+Week 1 Journal
+
+Review of basic command prompt commands..
+
+ls : Lists all the files and directories within the current folder. Not all the directories are shown, -a is the command to reveal all the directories.
+
+cd : Command followed by the name of a directory will take you into the directory. If no name follows, it jumps out of the current directory.
+
+man : Opens up the manual for the commands. It was very useful to view the documentation associated with the command. For example, the -a function in the ls command was learned by opening up the manual for the ls command.
+
+Introduction to Github..
+
+The repository is the place where the project is contained. The repository created is the master branch and we created feature branches by copying the master branch to make edits. This technique allows the project to be editted while keeping the original uneditted project. We learned to make a commit message after making changes on the branch. Next the pull request allows people to make changes to the branch. Once confirmed that the changes are correct, the changes can be merged to the original master branch, forwarding the progress of the project.
+
+Version Control with Git was used as reference to mess with repositories.
+
+Sim and Ned are good resources for what we're doing. Good starting place for single object.
+Jskycalc install recommended.
+Astropy - Astroplan
+
+Airmass- try to target value of 1.5.
+Be weary that the bright moon can mess with observation.
+
