@@ -1,0 +1,8 @@
+Create lab journal and push to repo by class (Done!)
+
+
+Start thinking about possible research topics:
+	lyman alpha forest?
+		Is this a possible observation using available telescopes? #### FIND OUT
+	QSO observations?
+		Whats the upper bound on detectable luminosity of available telescopes? ### FIND OUT
