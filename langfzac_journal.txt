@@ -1,0 +1,23 @@
+##################
+04/03/19
+##################
+git things 
+
+	git status : shows git info and stuff
+	git log    : shows the commit log
+	git diff   : shows the uncommited changes
+	git diff --staged : shows staged changes
+
+CONFLICTS
+	
+	After pull, file will show where conflicts are. Need to push new file once "conflict flags" are removed. 
+
+#################
+04/05/19
+#################
+
+Tools for observing plan:
+	
+	SIMBAD & NED
+	JSkyCalc
+	astroplan (astropy add-on)
