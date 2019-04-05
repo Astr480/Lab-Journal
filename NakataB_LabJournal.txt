@@ -1,9 +1,0 @@
-April 1st:
-Worked through syllabus and learned the basics of github. Most of the github
-material, I have already learned but was good as a refresher
-
-April 3rd:
-Worked on collaborating through github. Followed a novice guide and worked through conflicts
-
-April 5th:
-Turning in Lab Journal
