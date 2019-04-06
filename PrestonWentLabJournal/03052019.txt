@@ -1,0 +1,26 @@
+Notes from 03/05/2019:
+
+Today in class we did a basic activity
+calculating the ideal observation time for
+an object - or we tried, at least. My
+Manjaro VM froze and died in the middle
+of the class for some reason. I have not been
+able to determine the cause. It looks like this
+may be one of those classes.
+
+I've spun up a new VM - Ubuntu this time - and now
+plan to make use of the VirtualBox snapshotting
+feature after every lecture. This way I lose at most
+one lecture's worth of work.
+
+Finally, we were introduced to the quarter project!
+I want to do something computational, so that I can
+present it to potential employers. What interests me
+know is using various machine learning techniques to
+classify objects. I could pull a large set of objects
+from Simbad and throw scikit-learn, Theano, and 
+TensorFlow at it! With luck, I can even get GPU
+acceleration going - though that may no work well
+with a VM.
+
+Preston Went
