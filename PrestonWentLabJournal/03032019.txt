@@ -1,0 +1,11 @@
+Notes from 03/03/2019:
+
+Today we followed a git tutorial in class. I
+have used it a bit before, but not enough to
+have a really solid understanding of how it
+works.I have located a good reference text on
+the git website "Pro git", which could be
+useful for understanding all of git's
+eccentricities.
+
+Preston Went
