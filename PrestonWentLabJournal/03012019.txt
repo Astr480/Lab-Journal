@@ -1,0 +1,15 @@
+Notes from 03/01/2019:
+
+Today we configured our work environments. I
+left my computer at home, and so was left trying
+to get ChromeOS working as a development
+environment. This should be avoided however
+possible in the future.
+
+After getting home I spun up a Manjaro VM in
+VirtualBox. It seems to work fairly well, though
+the Guest Additions for VirtualBox were obnoxious
+to install. It may be easier to just use Ubuntu in
+the future.
+
+Preston Went
