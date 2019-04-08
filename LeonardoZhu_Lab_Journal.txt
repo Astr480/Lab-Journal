@@ -1,0 +1,99 @@
+4.1:
+We talked about several basic commands in Linux/Unix:
+    $ man (manual)
+    $ pwd (print working directory)
+    $ cd 
+    $ mv
+    $ rm 
+    $ cp
+    $ ls
+    $ ls -a (list all including hidden files)        *useful
+    $ more (file perusal filter for crt viewing
+    $ less (opposite of more)
+
+An introduction to git and GitHub:
+    I did the Hello World project on GitHub, by which I learned how to 
+    1)create and use a repository, 
+    2)create and manage a new branch, 
+    3)make changes to a file and push them as commits to GitHub, 
+    4)open and merge a pull request within a repository.
+    
+4.3
+Some details about version control with git and GitHub:
+Sample:
+   1) Setup: 
+        $ git config --global user.name "Own_user_name" 
+        $ git config --global user.email "Own_email_address"                                                         
+
+   2) Create a local repository:
+        First create a directory,
+        Make the directory a repository:
+            $ git init (Git creates a hidden directory within the original directory)
+        Check:
+            $ git status
+    3) Tracking changes and commits:
+        Create a .txt file and type some text into the file:
+            $ nano some.txt
+        Check the txt file:
+            $ ls
+            $ cat some.txt
+        Check the repository now (The new file shows up but Git isn't keeping track of the new file):
+            $ git status
+        Track the file (into the staging area):
+            $ git add some.txt
+        Check the status agian and we can find the file is tracked by Git,
+        Record the change as a commit (Git stores a permanent copy of all changes inside the .git directory) :
+             $ git commit -m "A brief comment"           
+        Check the status again and we can find the working directory is clean now,
+        We can check the history by:
+            $ git log
+     
+        And we can modify the text file ($ nano) and see the difference by:
+            $ git diff
+        After review, we need to add and commit it agian to save the change:
+            $ git add some.txt
+            $ git commit -m "A brief comment"
+    4) Ignoring things:
+        Create a directory to include all files we want to ignore (not include the files already tracked):
+            $ nano .gitignore
+        Add and commit the ignored stuffs:
+            $ git add .gitignore
+            $ git commit -m "commit message"
+        Check the status of the ignored files:
+            $ git status --ignored
+    5) Remote repository on GitHub:
+            First create a repository on GitHub,
+            Connect the local and remote repositories:
+                $ git remote add origin URL
+            Check the command above:
+                $ git remote -v
+            Push the changes from the local repository to the remote one on GitHub:
+                $ git push origin master
+    6) Collaborating:
+            Give the Collaborator access under the Settings of the target repository,
+            The Collaborator downloads a copy of the Owner's repository to his local machine (cloning a repo):
+                $ git clone URL ~/Desktop/Owner's file
+            The Collaborator makes a change in the local clone:
+                $ cd ~/Desktop/Owner's file
+                $ nano some.txt
+                $ git add some.txt
+                $ git commit -m "commit message"
+            Push the change to the Owner's repo on GitHub:
+                $ git push origin master
+Mistake:  While my partner successfully pushed her change to my GitHub repo, I failed to push my change to her remote repo even if I could clone her repo to my local               desktop. Finally, I found the reason is that she forgot to give me the access, which means I actually didn't become her collaberator and then I cannot make a               change to her repo on GitHub.
+Problem solved.
+    7) Conflicts:
+        My collaborator made a change to my text file and pushed it to my repo on Github first,
+        And when I changed the same file locally by another way, I failed to push it to my own repo on GitHub due to the conflicts between the two changes my collaborator and I made.
+        Fix:
+            Start by pulling the repo from GitHub:
+                $ git pull origin master
+            Check the conflicts:
+                $ cat mars.txt (The conflicts are marked in this step)
+            Make a change to the text file and push it again to finish the merging process.
+
+4.5
+JSkyCalc
+Astroplan: An open source observation planning package in Python 
+What affects an observation: Airmass, the moon, and twilights (Astronomical dawn: 18 degrees from the horizon)
+We did a project to research on the spiral galaxy M31 by JSkyCalc when the object is observed from Apache Point Observatory.
