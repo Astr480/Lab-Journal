@@ -7,3 +7,13 @@ Start thinking about possible research topics:
 	QSO observations?
 		Whats the upper bound on detectable luminosity of available telescopes? ### FIND OUT
 		Possibly observing Q1241+176         12 44 10.8248623367 +17 21 04.509382201
+
+	
+
+
+
+
+Observation using Lick Observatory:
+	Observe QSO's
+	Using SDSS northern data from washington site
+	Right skeleton code for assignment
