@@ -1,0 +1,2 @@
+On monday I used more of AstroPy. We also reviewed some tools on how to observe. I started the next
+assignment as well, and so far I'm having trouble cleaning up the database a little bit. Will work on it and do some analysis to finish the worksheet.
