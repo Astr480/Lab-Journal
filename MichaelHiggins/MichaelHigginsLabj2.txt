@@ -1,0 +1,5 @@
+This week I wrote some python code using Astroplan that could take a 
+list of galaxies from the UGC catalogue and determine which objects 
+would be visible on my observation day. Then I wrote code to create two 
+lists for the RA and DEC of the objects which would return tuples in 
+hours minutes seconds and degrees minutes seconds respectively.
