@@ -21,3 +21,14 @@ PROJECT CONSIDERATIONS: Moon time
 -arcsat sassy about nautical Twilight timing, vs astronomical twilight
 ACTIVITY:FROM APO, M31, what season is best, on April 16, how many observing hours,
 on Dec 31, is the moon in the way/ what is the moons phase, and how many hours can observe on Dec 31
+
+Day 4:
+-Partner PROJECT- Navigating the Night Sky with LEXIEEEEEEEEE
+-Object type: exoplanets
+-Database: NASA
+-'&'' for Jupyter notebook leaving kernel open
+
+Day 5:
+-continue on partner PROJECT
+is observing length corrected? NO, must make array for every day for correct total time
+-will continue on friday, where its due, As well as lab journal for week 2 (updated)
