@@ -1,0 +1,12 @@
+On monday I used more of AstroPy. We also reviewed some tools on how to observe. I started the next
+assignment as well, and so far I'm having trouble cleaning up the database a little bit.
+Will work on it and do some analysis to finish the worksheet.
+
+On wednesday, I started sorting out and cleaning the data. First I converted the columns to the same
+units so I could combine some of them. Had some frustrating experiences with pandas, so I converted
+the data to a AstroPy table. It worked out pretty well, now I will set up the observer to answer
+all the questions on the homework.
+
+On Friday, I worked more on the code. I got the program working with
+just one object at one time. I tried to make a for loop but some indices are
+messed up. In order to fix this I will probably create objects to make it smoother.
