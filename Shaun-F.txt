@@ -17,3 +17,9 @@ Observation using Lick Observatory:
 	Observe QSO's
 	Using SDSS northern data from washington site
 	Right skeleton code for assignment
+
+	TODO:
+		make skyview plots
+		determine if objects are visible during hours of observing (midnight to midnight)
+		determine moon phase during observation hours
+		finish assingment
