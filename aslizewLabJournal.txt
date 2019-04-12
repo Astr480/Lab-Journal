@@ -32,3 +32,8 @@ Day 5:
 -continue on partner PROJECT
 is observing length corrected? NO, must make array for every day for correct total time
 -will continue on friday, where its due, As well as lab journal for week 2 (updated)
+
+Day 6:
+-Finished up the partner project,
+-I figured out how to do the correct observing length!!!! I had to write out each day but
+the astropy time package is super cool. 
