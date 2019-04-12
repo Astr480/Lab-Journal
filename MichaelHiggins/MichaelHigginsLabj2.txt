@@ -3,3 +3,11 @@ list of galaxies from the UGC catalogue and determine which objects
 would be visible on my observation day. Then I wrote code to create two 
 lists for the RA and DEC of the objects which would return tuples in 
 hours minutes seconds and degrees minutes seconds respectively.
+
+On Wednesday I wrote code that would use Astroplan to create airmass vs observing time graph
+ for all of my galaxies on the first observation dates and the second set of dates a month later.
+
+I compared these values and then looked at the position of the moon of both observation months and
+found that only one of my object a month later was >30 degrees away from the moon in the night sky.
+This led me to conclude that I REALLY DO NOT want it to be cloudy on my first observation dates.
+
