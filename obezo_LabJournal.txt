@@ -1,3 +1,23 @@
+Week 1
 Created Lab Journal
 Learned about how to use git
 Introduced to the research paper and starting to think about what topic I'll do for the project
+
+Week 2
+Monday
+Started using python to help plan observations.
+
+Wednesday
+We continued using python for planning.
+Learned a command that creates a table for the observation period and spent a lot of time getting it to work
+
+
+
+
+
+
+
+
+
+
+
