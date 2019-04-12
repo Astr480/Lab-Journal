@@ -1,2 +1,11 @@
 Test Lab Journal.
 Thank you again for extending this assignment. I just got back from my trip. 
+
+April 8, 2019 (Monday)
+It took me a bit of time to relearn how to use python for astronomical analysis, but I was  able to slowly figure things out again, thanks to looking at old assignments from Astro 300 with Toby. Missing class on Friday set me back a little, and I was unable to finish the in-class assignment observing M31.
+
+April 10, 2019 (Wednesday)
+I was not feeling well, so I was unable to make it to class. My partner Brandon and I were working on the project, but because he is out of town, it was harder to work on the project together. 
+
+April 12, 2019 (Friday)
+Today, we are supposed to work on the group project and turn it in. My partner has the paper, and he will be out of town until the end of the weekend. We will continue working on the group project throughout the weekend using the extension.
