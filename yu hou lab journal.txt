@@ -36,3 +36,42 @@ some practice about how to use astroplan.
 Need to think about some possible research project!
 
 learn how to use pull request feature !
+
+Week 2
+
+class 1
+Finishing last week's assingment about how you can use different method to
+do the same thing
+
+Seasonal Obserbability can be dome by just looking at the RA from the vernal equnoix
+then we need the sun in the opposite side
+
+Or we can just see it in jSkyCalc
+
+Length of the night can be just done in astroplan
+
+class 2
+
+Keep working on the planning observation
+
+we choose to do binary star they are not that birght
+
+we first pull all the data from the internet then try to see if it is visiable
+in each night of our observation window
+
+Obserbability table can be useful but we can only get if it is obserbable or not
+we need more data related to it like airmass and location
+
+class 3 
+
+Still working on the planning obervation
+
+We did the first part by test each day for wheather it is visiable or not 
+from the astroplan 
+if it is visiable more than 10 night then, we ramdom choose 10 of them to contiune
+
+Moon is hard to work with, we try to plot the airmass for all the 10 object that works
+
+but then we would not know how the moon illumination effect the obervation
+
+Try to use some other tools to get this done. 
