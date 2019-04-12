@@ -17,4 +17,4 @@ JSkyCalc breakthrough courtesy of Prof. Tuttle. In order to change the input val
 
 Was able to complete most of the NightSky assignment with Michael. JSkyCalc is super usful once you know how to navigate the things that make JSkyCalc... "special" as Prof. Tuttle so generously puts it. One thing to note is that ploting the airmasses of multiple objects with similar RA and Dec, is so redundant that it eventually make the entirety of the plot unreadable. Last, JSkyCalc proficiency note. The moon despite my assumptions is not on the "Planets" button. I know its not a planet but, we seem to grant special privilages to items we strongly depend on (ex. Sun not star, moon not satallite, etc.). This information is on the Seasonal Observatbility table, and notes the phase of the moon (New, Full) for given dates. 
 
-Github progress was a lie!!! I mistakenly cloned the general Astr480/NighSky repo instead of forking it to a repository.
+
