@@ -15,3 +15,9 @@ but at least the table is working now! Next time I will be looking at the moon
 illumination and changing the date. Hoepfully I'll get it done. I am learning
 more about formating tables.
 
+4/12
+
+I am continuing to work on the project. I am not looking at the moon
+illumintion part. So it is basically done. still having a few issues doing
+some of the extra stuff, like plotting the moons path across the sky.
+
