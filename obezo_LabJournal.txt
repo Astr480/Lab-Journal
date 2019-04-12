@@ -11,8 +11,9 @@ Wednesday
 We continued using python for planning.
 Learned a command that creates a table for the observation period and spent a lot of time getting it to work
 
-
-
+Friday
+We learned how to use Moon Seperation Constraint
+We checked our observations for the window a month past.
 
 
 
