@@ -1,0 +1,44 @@
+Day 4:
+
+talked about ways of checking observability conditions
+
+began navigating assignment
+working with Pratt
+objects: merging Galaxies
+database: Catalog of Merging Galaxies
+https://iopscience.iop.org/article/10.1088/0067-0049/181/1/233
+location: CFHT
+obs window: 9/1/19 - 9/15/19
+
+working on getting table from separate HMS/DMS columns to 1 RA and Dec column
+I think converting from a pandas table to an astropy table might make life with units easier
+
+
+Day 5:
+
+why are tables so frustrating
+
+converted each RA column to hourangle then deg and each Dec col to Degree
+adding RA cols to get RA, Dec cols to get Dec
+
+I need to create an object based on each RA/Dec to check if it is in sky
+
+only want objects that:
+  airmass < 1.75 for 5hr
+  up for 5hr in dark
+check above for each night in observing window
+
+switching to object-oriented to facilitate easier analysis
+
+Day 6:
+
+ugh time zones
+
+everything was working but now nothing is
+
+shouldn't i be able to subtract a Time object from another to get a TimeDelta objects
+(I think i figured it out?)
+
+my code is super slow
+
+haven't dealt with the moon yet
