@@ -2,3 +2,22 @@ Test. I am testing to make sure this works
 
 open NightSky then jupyter notebook then astroconda and attempt to run. git add NAME git commit -m "" git push
 Pull request
+
+4/8/19
+will be given an observatory and a night, look for a month later. find a list 
+that has about 20 items. is it better to get rained out?
+
+4/10
+
+Continue working on the navigating project, it got really messed up. EVENTUALLY
+I got something to work. Still unsure if I am actually doing the right thing,
+but at least the table is working now! Next time I will be looking at the moon
+illumination and changing the date. Hoepfully I'll get it done. I am learning
+more about formating tables.
+
+4/12
+
+I am continuing to work on the project. I am not looking at the moon
+illumintion part. So it is basically done. still having a few issues doing
+some of the extra stuff, like plotting the moons path across the sky.
+
