@@ -1,0 +1,17 @@
+Week 1:
+	Class1:
+		Class logistics and worked with terminal window
+	Class2:
+		Learned Github
+	Class3:
+		Absent
+Week 2:
+	Class1:
+		Absent
+	Class2:
+		Joined group for Nightsky assignment. Started working with data set of Quasars. 
+		Was able to read in data set and began looking through data and find Quasars that should be visible at our assigned observatory.
+	Class3:
+		Continued working on NightSky assignment. Sorted data and sifted out any objects that would not be visible in our observing time. 
+		Ended up with 23 objects that should be visible between April 1 - April 15. Plotted airmass graph on April 15 for all 23 Quasars.
+		
