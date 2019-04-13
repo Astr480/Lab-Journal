@@ -1,0 +1,43 @@
+#######################################
+	Week 2 Lab Journal
+#######################################
+#######################################
+	04/08/19
+#######################################
+
+proper syntax for SkyCoord : tuple (coordinates, names)
+
+Example of editing csv columns: 
+#
+f = pd.read_csv("binary_star.csv")
+keep_col = ['Identifier','RA','DEC']
+new_f = f[keep_col]
+new_f.to_csv('binary_stars.csv', index=False)
+#
+
+Check site names in astropy:
+	astropy.coordinates.EarthLocation.get_site_names()
+
+#######################################
+	04/10/19
+#######################################
+
+Using individual night time windows to 
+
+Need to figure out is_observable(time_range=thing) when thing is an array.
+Returning weird error where is says array is empty. 
+
+Issue fixed. Set the start and end times to be the same...
+
+#######################################
+	04/12/19
+#######################################
+
+Finished object list. Most have over 10 observable dates, so chosing 10 random objects
+
+Syntax for plotting air mass of mulitple objects:	
+	[plot_airmass(target, MDO, time_range[0]) for target in final_targets]
+
+Working on figuing out how to plot moon vs object position. 
+
+
