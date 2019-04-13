@@ -1,0 +1,39 @@
+Day1 (4/1)
+Write-up deadline is June 7th (last day of class)
+	can use ARCSAT, MAST, SDSS... generally optical
+	(should I do things with MRO, solar telescope, radio???)
+Shells are variants on unix that set behaviors on how you interact with it. default is bash.
+	(ubuntu failed me so I'm going to replace my operating system eventually)
+	(do ls -a to see invisible files)
+Navigate unix with overthewire.org/wargames/bandit
+
+Day2 (4/3)
+A fork is a separate cloned copy of the repository that i can work on separately without affecting the main tree
+a branch is within the main tree but doesnt touch all of the files?
+a remote is a pointer for the fork; a local boy is the thing that you have to commit and push to a designated remote.
+saved list of collaboration git commands at https://education.github.com/git-cheat-sheet-education.pdf
+
+Day3 (4/5)
+Got assigned Lick Observatory, window of observation starting april 1st and ending april 15th
+Spent a lot of time searching through different catalogues of quasars until we found one visible from the northern hemisphere
+Spent the rest of the time formating different timezone readouts, making sure the local time was different from UTC which is different from arizona time
+
+Day4 (4/8)
+Got another partner who did research on quasars and had a catalogue containing much fewer quasars than had been downloaded from SDSS
+turned the data into a panda table, learned how to rearrange/rename/delete columns, and finished up the activity for apache point
+learned how to set the origin for my remote, got yelled at for using sudo
+
+Day5 (4/10)
+spent downloading astroplan and becoming familiar with target lists
+didnt know there was a function for constraining the targets based on ra and dec and spent a substantial amount of time drawing the galactic coordinate system
+
+Day6 (4/12)
+created a mask of the panda data frame that only contains targets viewable at night
+converted coordinates to hr angle and degree using skycoords
+input the window start/end times, converted to an interval occurring at astr twilight
+constrains contained moon illumination
+created a table using observability_table(constrains, lick, targets, time_range=observing_range)
+ran into an error where the constrains arent recognized. almost done with this, will submit code tomorrow after volunteering at astroball =)
+
+
+
