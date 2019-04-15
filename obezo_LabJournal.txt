@@ -15,6 +15,27 @@ Friday
 We learned how to use Moon Seperation Constraint
 We checked our observations for the window a month past.
 
+Week 3
+Monday
+Some useful references:
+http://adsabs.harvard.edu/abstract_service.html
+https://www.annualreviews.org/journal/astro
+
+Fun topic paths:
+https://www.annualreviews.org/doi/full/10.1146/annurev-astro-081817-051853 (Hot Jupiters)
+https://www.annualreviews.org/doi/full/10.1146/annurev-astro-081811-125523 (^           )
+dual star systems
+
+
+Data Locations
+http://tdc-www.harvard.edu/astro.data.html
+
+
+
+
+
+
+
 
 
 
