@@ -35,5 +35,16 @@ constrains contained moon illumination
 created a table using observability_table(constrains, lick, targets, time_range=observing_range)
 ran into an error where the constrains arent recognized. almost done with this, will submit code tomorrow after volunteering at astroball =)
 
-
-
+Day7 (4/15)
+freedom w data used for the final paper but PROBS just 1 day of ARCSAT
+with reading scientific papers (for the purposes of obtaining references):
+-read abstract/conc n look at plots first
+-search via keywords
+-use ags to see if the paper is one in a series
+-summarize what you read immediately after reading, and include bibtec info alongside, store in an accessible place
+ideas:
+-cepheid variable... cant compare across wavelengths
+-constraints on observation is what should be focused on. dealing with data, dealing with noise
+-delta scuti ? on the instability strip, timescale of pulsation is only a few hours
+-astroseismology?? looking for pulsational modes using kepler r-tests, short timeseries of bright stars, talk to merideth rawls (?)
+-deblending/centroiding to find binaries, depending on resolution
