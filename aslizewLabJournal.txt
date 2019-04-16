@@ -36,4 +36,26 @@ is observing length corrected? NO, must make array for every day for correct tot
 Day 6:
 -Finished up the partner project,
 -I figured out how to do the correct observing length!!!! I had to write out each day but
-the astropy time package is super cool. 
+the astropy time package is super cool.
+
+Day 7:
+-Oliver's 481 talk :D
+-RESEARCH PROPOSALS~~~~~~~~~~ DUE friday
+-end goal= 15 page paper decribing work (observations and analysis done)
+-some description (not every command), plots, why sources, also submitting code,
+-teams but separate codes and writeups
+-scientific paper - introduction, what and why, referenes in intro, tell us something of obects and methods to study,
+Data section, observation stuff, weather etc of the Night
+-analysis, results, and conclusions (regular flow)
+-grading rubric will be on canvas, checklist with points
+-May 20 first draft and peer review and tuttle review,
+-seconds draft May 29, be much done, some analysis and data spots missing but bulk of outline, sections, references, writing etc done
+-June 3- W credit third draft, prose writing,
+-measuring dust lanes in spirals, photometry and cmds in clusters, multiple band analysis of local galaxies
+-ARCSAT stuffs
+-get used to research, try something doable (not a noble prize)
+-remote observing, april 29-may 6, may 8-may 11
+-Note if using arcsat, a-wing telescope, archive, etc in proposal!!! (how getting data)
+-evening arcsat orientation  if many groups, might set people up (have whole nighttime)
+-scientific papers, abstracts and conclusions then plots and tables, summary paragraph ideal and what conclusions / main points
+-Annual reviews, interesting topics/ project ideas, change w time but general enough to give osme idea of a field, and references and foundations
