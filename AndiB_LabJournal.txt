@@ -48,3 +48,6 @@ ideas:
 -delta scuti ? on the instability strip, timescale of pulsation is only a few hours
 -astroseismology?? looking for pulsational modes using kepler r-tests, short timeseries of bright stars, talk to merideth rawls (?)
 -deblending/centroiding to find binaries, depending on resolution
+
+Day8 (4/17)
+-using astropy isnt great for fits files but theres a thing where you open with .fits, set a variable for the header, then open info using repr(file_header[0])
