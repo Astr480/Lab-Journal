@@ -59,3 +59,13 @@ Data section, observation stuff, weather etc of the Night
 -evening arcsat orientation  if many groups, might set people up (have whole nighttime)
 -scientific papers, abstracts and conclusions then plots and tables, summary paragraph ideal and what conclusions / main points
 -Annual reviews, interesting topics/ project ideas, change w time but general enough to give osme idea of a field, and references and foundations
+
+Day 8:
+-Photon road from emission thru space thru opticals thru electronics, all increase noise etc, spectra change
+-Broadband photometry, narrow band like faint spectroscopy
+-Dust, grav lensing, etc in space
+-Intervening materials, smoke, dust in atmosphere and on top of telescopes, weather, sky brightness
+-Always-- less photons.
+-Lowest airmass is 1
+-Kept working on FITS lab, due Monday
+-turned in project proposal!
