@@ -56,3 +56,60 @@ Getting everything together on my computer to send into github
 Checked that my write up included everything it needed
 It's easier than I thought to push a folder into github, had a slight problem with a space in my folder name
 Not much to do today
+
+
+
+
+Monday 4/15:
+
+Start working on project proposals this week
+No idea what my topic will be
+
+There will be observing time at arcsat
+Even if you have a partner you must submit your own write up and code
+
+Reading scientific papers:
+Read the abstract then the conclusion before reading the whole paper
+It can help to write a summary of a paper so you can actually see if you have an understanding of the paper
+
+
+Use Annual reviews of astronomy to check out some papers and think about a possible topic
+Make sure to find a topic that I can find an archive for
+Looking at exoplanets (maybe inhabitable ones, maybe hot jupiters)
+
+
+
+Wednesday 4/17:
+
+Still no idea what to do for the project, outside of it being on exoplanets
+
+Starting lab for the week, looking at fits files to better understand ccd
+Started with fitsviewer but switched to ds9, seems to work better
+
+Checked out certain regions of a flat, and the overscan
+The histogram overscan has a fairly normal distribution
+The histogram of the regions have a extremely skewed distribution
+
+On to the bias frame (has not been exposed to light)
+Mean is much smaller but that is expected
+
+
+
+Friday 4/19:
+
+Some lessons on observing
+Focus on what you are observing, and what you are trying to observe
+
+We are going to do a quick assignment on the life of a photon
+It hits the instrument before it hits the ccd (the detector)
+
+Techniques on how to view flux of objects
+  imaging
+  photometry
+  spectroscopy
+
+Filters differ in transmission percentages and what wavelength they let in
+Less transmission means less light getting through so you must observe longer
+
+Finally decided on my project proposal with 20 minutes to go
+Finish the lab for this week over the weekend
