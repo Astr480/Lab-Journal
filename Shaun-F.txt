@@ -44,3 +44,18 @@ CLASS PROJECT NOTES:
 
 	### URL for QSO Q1241+176 spectra:
 		http://das.sdss.org/cgi-bin/fiber?PLATE=2600&MJD=54243&RERUN=26&FIBER=560
+
+	Some papers and webistes on QSO time variability:
+		
+		Time Variability of Quasars: the Strucutre Function Variance
+		basis characteristics of variability ------> https://ned.ipac.caltech.edu/level5/Sept01/Peterson2/Peter2_1.html
+		UW (macleod) time variability data -------> http://faculty.washington.edu/ivezic/macleod/qso_dr7/
+		Letter on Quasar variability and Gravitational microlensing ------> https://iopscience.iop.org/article/10.1086/310689/fulltext/5165.text.html
+
+
+
+
+
+
+
+
