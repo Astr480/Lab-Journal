@@ -51,3 +51,17 @@ ideas:
 
 Day8 (4/17)
 -using astropy isnt great for fits files but theres a thing where you open with .fits, set a variable for the header, then open info using repr(file_header[0])
+-for project: giving up on brett's strange dynamic star
+-observe variable stars include delta scuti, Rapidly oscillating Ap stars, alpha cygni variables
+-delta scuti are low mass (A0-F5), high metallicity, period of .5-7hrs. amplitudes larger than .3mag are HADS or dwarf Cepheids
+-roAp have short-timescale variations ranging from 5-23 min. high-overtone, low-degree, non-radial pressure modes. axis of pulsation aligned with magnetic axis, modulating the amplitude
+-Alpha cygni variables have longer variations (days to weeks), irregular pulsations w amp .1mag, non-radial pulsations. supergiant (B or A). blah. long period. blah.
+
+Day9 (4/19)
+-we observe apparent mag, not absolute mag
+-CCDs interpret photons which interact with the material, exciting an electron which can fall into a potential well
+-instrument then registers that well as a 1
+-oversaturation results in overflow of electrons into the wells above and below
+-Resolution = wavelength / diameter of aperture
+-spectroscopy is flux per unit wavelength
+-airmass, dust gets in the way
