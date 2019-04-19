@@ -65,3 +65,4 @@ Day9 (4/19)
 -Resolution = wavelength / diameter of aperture
 -spectroscopy is flux per unit wavelength
 -airmass, dust gets in the way
+-turned in proposal!!!! i can do both types of variable stars!!!!
