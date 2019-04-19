@@ -19,7 +19,28 @@ Observation using Lick Observatory:
 	Right skeleton code for assignment
 
 	TODO:
-		make skyview plots
-		determine if objects are visible during hours of observing (midnight to midnight)
-		determine moon phase during observation hours
-		finish assingment
+		### DONE #### make skyview plots
+		### DONE #### determine if objects are visible during hours of observing (midnight to midnight)
+		### DONE #### determine moon phase during observation hours
+		#### DONE ####
+ 		finish assingment 
+
+
+CLASS PROJECT NOTES:
+	Gaia DR2 took photometric data on QSO Q1241-176
+	VERON-CETTY M. -P. and VERON P. A catalogue of quasars and active nuclei: 13th edition
+		contains info on QSO 
+		COntains info on position, redshift, photometry as well
+	SDSS Quasar catalog V. Seventh data release
+		also took flux measurements of QSO 
+		OBJ_ID: SDSS J123310.82+172104.5
+
+	possible questions:
+		spectra on Q1241+176? Possible with available telescopes?
+			could we measure the lyman alpha forest with this?
+				could be a bit of a stretch....
+	can access SDSS DR7 by skyserver.sdss.org/dr7/en/
+
+
+	### URL for QSO Q1241+176 spectra:
+		http://das.sdss.org/cgi-bin/fiber?PLATE=2600&MJD=54243&RERUN=26&FIBER=560
