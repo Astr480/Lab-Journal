@@ -189,3 +189,60 @@ To determine the situation of observation one month later:
 We changed the time range for month later and based on the moon phases calendar we changed 
 the illumination of the moon to regenerate a new table.
 In summary, based on the new table, it would be worse for our previous ten objects if we postpone the observation.
+
+Week 3
+4.15
+Observing/Data Project Proposal:
+Useful resources:
+SAO:http://adsabs.harvard.edu/abstract_service.html
+Annual Review of Astronomy and Astrophysics:https://www.annualreviews.org/journal/astro
+
+Possible topics:
+Dark Matter
+Neutron Stars(pulsars)
+
+I finally chose to research on pulsars.
+Papers:
+	https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081913-035948
+	https://www.annualreviews.org/doi/abs/10.1146/annurev.astro.38.1.717
+	https://www.annualreviews.org/doi/abs/10.1146/annurev.astro.38.1.717
+	https://www.annualreviews.org/doi/abs/10.1146/annurev.aa.30.090192.001043
+	
+4.17
+We analyzed some FITS files and got familiar with the tool "ds9".
+
+
+4.19
+The basics of astronomical observations:
+Lots of considerations(Brightness, flux, optical wavelengths, etc.) before an observation.
+
+We made a diagram of path of a photon from an astronomical object to a .fits file.(object - the interstellar junk - atmosphere - telescope - imaging camera or polarimter - computer - .fits file)
+
+What we measure is the apparent magnitudes.
+
+Resolution = wavelength / aperture
+
+Techniques:
+	Imaging
+	photometry
+	spectroscopy
+
+Fiters: different with the transmission value for various wavelengthes.
+
+Differential vs. Absolute Photometry: 
+	differential: comparison to a star of "unknown" luminosity
+	absolute: comparison to a star of "known" luminosity
+	choosing: field size, availability, unnecessary.
+
+Round stars with square pixels:
+	Measure the flux of a star(round) from a CCD(square of rectangular pixels)
+	Choice:
+		Toss all partial pixels
+		Use those pixels (will result in more sky than full "objects" pixels)
+		Use a weighting scheme
+
+Spectroscopy:spectrum
+	Intervening materials: 
+		interstellar dusk (reddening in IR)
+		closer by: weather(clouds), dust, sky brightness, airmass(atmosphere)
+
