@@ -26,14 +26,19 @@ https://www.annualreviews.org/doi/full/10.1146/annurev-astro-081817-051853 (Hot 
 https://www.annualreviews.org/doi/full/10.1146/annurev-astro-081811-125523 (^           )
 dual star systems
 
-
 Data Locations
 http://tdc-www.harvard.edu/astro.data.html
 
+Wednesday
+FITS files program
 
+Friday
+Links to reosurces
+https://www.annualreviews.org/doi/abs/10.1146/annurev.aa.05.090167.000541
+https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.2638C/abstract
 
-
-
+Followed path of a photon
+Continued fits problem data
 
 
 
