@@ -21,3 +21,25 @@ I am continuing to work on the project. I am not looking at the moon
 illumintion part. So it is basically done. still having a few issues doing
 some of the extra stuff, like plotting the moons path across the sky.
 
+4/15
+
+I looked over a few different articles and decided to do something with
+globular clusters. I think I will be comparing globular clusters. One 
+of which possibly created an open cluster. The paper discusses the proper 
+motion, but I would also like to look at some of th eother factors, like
+luminosity or the cmd or age. basically see that if there are any other
+factors. I'd also like to see if there are any open clusters near by 
+globular cluster of choice.
+
+4/17
+
+we looked at stuff with ds9, turn region on in edit before drawing the box. the ceter and size
+have to do with x1 x2 y1 y2 i think.
+
+4/19
+
+looking over things to observe. i have finished my proposal and am excited
+to start! Although I am still concerned I ont be able to get the code to
+work.. Leanred more about the CMD. Look up more about Photometry. round stars
+and pixels, only use full pixels. 
+
