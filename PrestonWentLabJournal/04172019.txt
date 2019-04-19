@@ -1,0 +1,15 @@
+Notes for 04/17/2019:
+
+First thing's first: I've been mislabeling all of my 
+notes as being in March, not April.
+
+Today, we started working with FITS files in SAO's 
+DS9. Attempting to start the program on my Ubuntu VM 
+immediately killed it, and I had to revert to a 
+snapshot. Good thing I take one every day.
+
+Otherwise, DS9 seems useful, but complicated almost 
+beyond being so. I may try using AstroPy in the 
+future.
+
+Preston Went
