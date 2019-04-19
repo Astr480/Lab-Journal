@@ -58,7 +58,9 @@ CLASS PROJECT NOTES:
 	Interesting project that used data collected at APO to look for QSO variations:
 		https://iopscience.iop.org/article/10.1086/380563/pdf
 
-
+	CONCERNS:
+		How well can we resolve the object? ----> Probably point source. Should fill a few pixels
+		What range of wavelengths can we observe?
 
 
 
