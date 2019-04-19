@@ -7,3 +7,19 @@ Worked on collaborating through github. Followed a novice guide and worked throu
 
 April 5th:
 Turning in Lab Journal
+
+April 15th:
+-Started to consider ideas about possible data/observing projects.
+-Took a look at the Annual review in order to find some possible projects
+-Looked at some papers considering black holes but tended to focus on gravitational lensing
+
+April 17th:
+-Started work on the Fits files and Calibration frames
+-Had some trouble trying to use QfitsView and decided to use DS9 instead
+-Did not know what some of the terms were so had some trouble with overscan until finding out
+
+
+April 19th:
+-listened to lecture on a variety of materials
+-proceed with the fits files adn calibration frames
+-still having to calculate x and y coordinates by hand and unsure if there is something in ds9 to help
