@@ -39,6 +39,9 @@ CLASS PROJECT NOTES:
 		spectra on Q1241+176? Possible with available telescopes?
 			could we measure the lyman alpha forest with this?
 				could be a bit of a stretch....
+		Perhaps compare the structure function to other typical structure functions.
+		
+
 	can access SDSS DR7 by skyserver.sdss.org/dr7/en/
 
 
@@ -51,7 +54,9 @@ CLASS PROJECT NOTES:
 		basis characteristics of variability ------> https://ned.ipac.caltech.edu/level5/Sept01/Peterson2/Peter2_1.html
 		UW (macleod) time variability data -------> http://faculty.washington.edu/ivezic/macleod/qso_dr7/
 		Letter on Quasar variability and Gravitational microlensing ------> https://iopscience.iop.org/article/10.1086/310689/fulltext/5165.text.html
-
+	
+	Interesting project that used data collected at APO to look for QSO variations:
+		https://iopscience.iop.org/article/10.1086/380563/pdf
 
 
 
