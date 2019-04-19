@@ -4,6 +4,12 @@ It sounds like the telescopes we have access to have limited spectroscopic abili
 
 I need to have a meeting with the professor to figure out what a good project would encompass.
 
+For the assignment of finding a catalog for finding quasars we were able to find the catalog on the NASA HEARSAR(sp?) website. The formatting needed to be fixed first so I used the FixedTarget command after I ran into issues with SkyCoord.
 
+I made a plot to see what objects would be visible by ploting the attenuation, moon seperation, and altitude. I am trying to figure out how to factor in moon luminosty.
+
+I used a moon phase calendar from google to check the moon phase during my time window at CTIO. 
+
+I can still optimize the code better to sort the table by fractional observation time in order to rank objects for different observation times.
 
 

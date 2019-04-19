@@ -1,0 +1,25 @@
+Notes for 03/10/2019:
+
+Tom and I have some work to do. Our observability
+for the objects we drew from SIMBAD was terrible,
+so we need new objects. After some fiddling around,
+we found we could just add some AND qualifiers to
+the SQL script we used to pull from SIMBAD to 
+constrain the declinations of our objects to
+be similar to the latitude of the Dominion 
+Astrophysical Observatory.
+
+Running the script with this new data produced 
+excellent results: The typical object was 
+observable for 18 hours using extremely strict 
+constraints. This included constraining the moon
+illumination to be very low, and the moon 
+separation to be very high.
+
+Adjusting the time window to simulate getting rained 
+out to one month later had less stellar results. In 
+this time frame, the objects were only typically 
+observable for 6 hours. This is still good enough to 
+get a couple objects, at least!
+
+Preston Went

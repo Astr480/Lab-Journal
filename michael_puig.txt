@@ -1,2 +1,58 @@
-test line for lab journal
+Friday 4/5:
 
+Use simbad to gain knowledge on specific stars or a group of stars
+Ned is better for extragalactic research, learning about galaxies
+
+Jskycalc: download it and try it out
+iobserve is an alternative to Jskycalc
+
+What to consider while observing:
+Airmass is how much atmosphere is in between you and your object
+The more vertical the better (at the zenith airmass=1)
+You want an airmass at 1.5 or less
+While observing consider what phase the moon is in because its brightness can effect observing greatly
+When does your night actually start?
+  Night does not start until a certain darkness
+
+
+Monday 4/8:
+
+To help find the best time to observe m31 you can see when the worst time to observe is and add 6 months
+Do this by checking when it coincides with the sun the most
+
+
+Next project: pick a partner, and work on observation project
+work on through Friday and turn in on Monday
+I am working with Travis Mandeville and we are researching galaxies
+We are using the NGC catalog
+
+
+
+Wednesday 4/10:
+
+*Forgot to save my journal for this day so I am trying to fill it from memory
+
+First optical picture taken of a black hole
+It was a supermassive black hole in m87
+It matches what a model would expect the galaxy to appear just very blurry
+
+We have started finding galaxies to observe using simbad
+Picked 20 galaxies and got their RA, DEC and epochs
+We plugged them in Jskycalc and narrowed in down 10 galaxies that fit our window
+NCG_34 and NGC_35 are going to be back up objects because their airmass never really gets under 1.5
+Had to fight with Jskycalc because it had a lot of trouble accepting our object list
+Travis figured out how to get it to create an airmass graph for all of our objects
+We were also able to use jskycalc to view if the moon would affect our observations using the seasonal
+observability tool
+
+
+Friday 4/12:
+
+Created my folder for NightSky with my screenshots from jskycalc and my writeup
+screenshots are of the airmass graph and seasonal observability table
+
+Finishing up my writing for the Planning observations assignment
+Getting everything together on my computer to send into github
+Checked that my write up included everything it needed
+It's easier than I thought to push a folder into github, had a slight problem with a space in my folder name
+Not much to do today

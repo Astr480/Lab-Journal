@@ -4,3 +4,72 @@ I found out I could use nano as a txt editor (learned how to save and exit).
 I don't really know what I am supposed to put in lab journals.
 I also have no idea what I want to research or even how to figure out what I
 want to research. 
+
+Date: Monday April 8
+Worked through theobserving M31 activity. I had to review astropy and figure 
+out Jskycalc. 
+Also found out I can get data tables from NASA, which was helpful for the
+activity: Planning Observations. 
+
+Date: Wednesday April 10
+I worked on the activity Planning Observations. I had to figure out what
+constraints would be relavent (airmass, distance from moon, astronomical
+twilight) and how to apply them to my list of objects. I managed to get
+a reasonable list of objects I can observe. Now, I just got to figure out
+what to do with that list.
+Also, https://www.calendar-12.com/moon_calendar/2019/march is a useful 
+website for figuring out the moon phase.
+
+Date: Friday April 12
+I finished up the Planning Observation assignment. I keep forgetting how to 
+clone repositories, so I am going to put the steps here:
+1. Copy link from github
+2. Go to the derectory you want to put it in
+3. type "git clone" then paste the link
+4. Hit Enter!
+
+Anika also thought me that in jupyter notebook, highlighting a line and
+hitting the quotes key will put quotes around that line. I found that
+to be a handy trick.
+
+I felt pretty proud of myself for figuring out how to get the observing
+activity onto github by myself. Now I just hope my code is correct and is
+actually doing what I think it is doing.
+
+Joke of the week: What does noise does a space turkey make?
+			Hubble, hubble, hubble!
+
+WEEK 3
+
+Date: Monday, April 15
+
+Today we started working on our research proposal. I still don't understand
+what to do. So, after having a slight mental break down, I decided I would 
+try to keep things simple. My goal for this class is to learn how to do
+research and how to operate a telescope remotely. I am hoping just looking
+at a few, or maybe just one in-depth, open star clusters with the ARCSAT
+and getting whatever information I can the it. 
+
+I am probably going to use this list of open clusters:
+http://cdsarc.u-strasbg.fr/ftp/cats/B/ocl/
+and astropy to see what clusters are visible during our window at ARCSAT.
+
+Date: Wednesday, April 17
+
+I died a little on the inside trying to do the FITS files assignment. I
+started by using QFitsView and after waisting a lot of time trying to 
+complete the assigned tasks, I gave up on Q and downloaded ds9. After 
+many sighs and raised hands, I shakily managed to do the first part of 
+the assignment. Trying to start the second part of the assignment, I 
+realized the file I needed wasn't in the ones given.
+
+Notes for ds9:
+When creating a region, to draw it you have to go to edit then region.
+For histogram graphs, to change the range you have to unclick automatic.
+
+I am turning this journal in early since I won't be able to go to class on 
+Friday.
+
+Joke of the week: What is an astronauts favorite key on they keyboard?
+                  The space bar!
+

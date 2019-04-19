@@ -1,0 +1,27 @@
+Ioana Alexandra Mititean
+4/12/19
+ASTR 480
+Lab Journal: Week 2
+
+4/8/19 
+- Continued working on the Python code to answer the 4 questions about observing M31 (listed on the class lecture slides from the previous day in class).
+- Looked back over my ASTR 300 code for planning observations with Astroplan, and applied some of the code to observations of M31.
+- 'Navigating the Night Sky' short project was introduced, I teamed up with a partner, chose an object type and chose to code in Jupyter Notebook (Python).
+
+4/10/19 
+- Learned how to navigate the Milliquas quasar catalog on Heasarc, selected 50 potential targets and saved them as a CSV file. Unfortunately for me, the 
+quasars were ordered by RA, so I chose to sort the entire catalog alphabetically by quasar name (which helped increase the variety of RAs for the targets). 
+- Determined which objects were visible at night (above the horizon) manually by examining their RAs and DECs and deciding whether each would be visible from my
+observing location (I removed objects which were obviously not visible).
+- Began coding up observations in Jupyter Notebook and planning out how I will organize my code to determine the observability of 10 chosen targets.
+- Looked online for the formatting of celestial object coordinates that are accepted by SkyCoord; observed that it is possible to pass in the coordinates as formatted
+on the original Milliquas Catalog, but requires some manipulation. Contented to handpick 10 observable objects based on RA and DEC (and observatory
+location), and then manually modify the coordinate format to be accepted by SkyCoord in my code. I plan to find how to pass in the coordinates without manual manipulation, but requires more time than I had to complete this project. 
+
+4/12/19
+- Continued coding in Jupyter Notebook to complete the 'Navigating the Night Sky' project with partner. I examined Astr 300 code for planning observations with Astroplan, 
+and created an observability table for my quasar targets that lists whether each target is at all observable during the observing window and for what fraction of the 
+entire observing window each is visible.  
+- I successfully coded up a plot of the airmass of the targets versus time (throughout the observing window).
+- Completed my code and paper for the assignment as class ended. 
+- Created and filled in this journal entry (Week 2), and updated it as the class day progressed. 
