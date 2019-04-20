@@ -75,3 +75,30 @@ Moon is hard to work with, we try to plot the airmass for all the 10 object that
 but then we would not know how the moon illumination effect the obervation
 
 Try to use some other tools to get this done. 
+
+Week 3
+
+Finally we are working on the project and try to come up with a project proposal
+
+The resason that I love physic and astromy are mostly from science fiction, as the result "three body problem"
+is one of my favourite novel.
+
+I am thnk about doing something about the exo planet and triple star system
+
+triple star system might just be too rare, I think I will add binary star too
+
+For a planet to be habitable, it need to have the right temperture and stable orbit for life to form
+also magnetic field, tidal effect, etc....
+
+Working on the Fits file, it is a very interesting way to store image I only work with it on Astr 300
+it directly record the data from the ccd and have some other feature can be add to the file encodeing
+
+We talked about some basic idea about how to do observation. Including how a photon travel from a star to the fit file
+
+Some basic tool and method that we can use to do observation, for example imaging and spectroscopy
+
+Just noticed that fit file can also store spectroscopy data, it look nothing like a real picture
+
+Filters: different type, U, R, I ...... each filter could need different treatment in terms of exposure time
+
+differential vs. absolute photometry: need to do this becuase sometimes it is hard to find a reference star
