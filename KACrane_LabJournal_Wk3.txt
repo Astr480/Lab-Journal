@@ -1,0 +1,54 @@
+Day 7:
+
+proposal needs to include how i expect to collect data (archival, telescope, ARCSAT, etc)
+
+relation between rotation curve/mass distribution/mass?
+Does the mass distribution relate to the amount of luminous matter?
+
+http://www.ioa.s.u-tokyo.ac.jp/~sofue/smd2018/
+
+mass to mass-to-light ratio ratio
+
+
+Day 8:
+
+DS9 notes
+to select region:
+	edit --> region --> (select on image)
+
+to get stats:
+	click highlighted region -->
+
+
+Day 9:
+
+Astronomical Observation
+
+what are we observing?
+	light curves
+		eclipses
+		exoplanet transits
+	galaxies
+		edge on vs face on
+		gas
+		kinematics
+	planetary nebulae
+		info about star that has died
+		maybe some from binary/triple systems, leading to weird shapes
+	color-magnitude diagrams
+		info about population
+
+balance between guiding assumptions and open-mindedness
+
+CCD
+	photon colliding with pixel creates electrons, which register as voltage
+
+Imaging: pictures
+photometry: measuring apparent magnitudes
+spectroscopy: measuring different wavelengths
+
+filters inform how exposure time must be adjusted
+
+round objects onto square pixels
+
+"we're backwards compatible to ancient Greece"
