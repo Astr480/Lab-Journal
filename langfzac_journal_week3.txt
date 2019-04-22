@@ -1,0 +1,35 @@
+##################################
+	Week 3
+#################################
+
+plot_sky() does not work with current 'release' 
+version of astroplan. Gives error involving matplotlib
+kwarg. Need to edit line in plots/sky.py. Remove 
+'frac = somethings'.
+
+##################################
+	04/15/19
+##################################
+
+Decided on something in the realm of transits.
+
+Possible: Looking at transits and TTVs to compare to NBodyGradient
+Could look at constraining masses.
+
+Link to Kepler Data: https://exoplanetarchive.ipac.caltech.edu 
+
+##################################
+	04/17/19
+################################## 
+
+DS9 THINGS: 
+	To select/draw regions you must have "regions" selected in the 
+	'edit' menu.
+	Right click and drag to adjust contrast?
+##################################
+	04/19/19
+################################## 
+
+Photon "Path" -> Medium(gas, dust), Lensing, Redshift  -> Atmosphere -> Mirror -> Instrument -> CCD -> Computer/Fits
+
+
