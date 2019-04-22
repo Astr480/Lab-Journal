@@ -1,0 +1,18 @@
+Notes for 04/19/2019:
+
+We talked about general observing today. Starting with 
+the life of a photon was a good idea, and I may steal it 
+for my ASTR 101 tutoring this quarter. It was rather 
+surprising to hear that telescope properties are 
+dependant upon the facing of the telescope, but it makes 
+sense.
+
+Project proposals were due today, and I'm feeling pretty 
+good about it. I'll need to work on the FITS assignment at 
+home, which is not ideal, but it gives me the 
+opportunity to try using AstroPy. I've heard that the 
+second part of the assignment might be easier with it.
+
+This is going to be a long weekend.
+
+Preston Went
