@@ -1,0 +1,19 @@
+Monday:
+I showed up to class late because I was giving a Monday meeting at 
+CENPA.(It went really well, yay!) Once I got to class I started looking 
+up papers for inspiration on what to observe and decied I wanted to do 
+something ith surface brightness or photometry.
+
+Wednesday:
+I worked on the fits file stuff for the class period and got up to the 
+first half of it done. One very important thing to remember with ds9 is 
+that to select a region I need to change the cursor to region in order 
+for that to work. ds9 is weird sometimes, but shutting it down and 
+trying again seems to fix the bugs.
+
+Friday:
+I finished the second half of the fits assignment and decided to observe 
+an AGN and try and gather data on its surface brightness and surface 
+photometry. I am worried this may be too difficult since I have never 
+done surface photometry before, but I hope it will all work out. I also 
+checked and found a candidate for my AGN to observe.
