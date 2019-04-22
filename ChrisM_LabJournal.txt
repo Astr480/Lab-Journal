@@ -12,4 +12,9 @@ I used a moon phase calendar from google to check the moon phase during my time 
 
 I can still optimize the code better to sort the table by fractional observation time in order to rank objects for different observation times.
 
+Potential projexts:
+Is there galaxy rotational axis correlation: Requires a catalog with spectra to fit rotation curves. Correlate with galaxy classification, "Axis ratio", and density of galaxies in surrounding space. SDSS galaxy environment information catalog. https://www.sdss.org/dr15/data_access/value-added-catalogs/
 
+I updated my notes for my project and have opened six papers and saved them to my Zotero.
+
+It is difficult to work on this project only from the astrolab. I should figure out how to work on this from home.
