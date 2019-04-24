@@ -105,3 +105,25 @@ April 22th, 2019:
 		
 
 		We then did a class project with emission lines and filters.
+
+
+
+
+
+April 24, 2019:
+	
+	Finished class project last time. Today are continued working on my research project.
+	Wrote some code that tells me the observing time of the QSO (when its up, airmass, etc.). Looks like I should be able to do some pretty good observing during the allotted time. 
+	I continued my research on the theory of quasar variabilitiy (mainly on the structure function, which I will most likely use and compare to other quasars).
+
+
+	Research Project Notes:
+		
+
+		Ensemble Photometric Variability paper:
+			Quasars exhibit continuum variability on order of 10% on timescale of months to years.
+			Anticorrelation between quasar variability and luminosity found
+			Strong evidence that variability increases with decreasing rest wavelength.
+			correlation of variability with redshift reported
+			variability sometimes found to be correlated with radio loudness
+			they assumed the concordance cosmology with H0 = 65 kmps per Mpc.
