@@ -127,3 +127,27 @@ April 24, 2019:
 			correlation of variability with redshift reported
 			variability sometimes found to be correlated with radio loudness
 			they assumed the concordance cosmology with H0 = 65 kmps per Mpc.
+
+
+
+
+April 25, 2019 (outside class):
+	
+	read a bit on the structure function. Definition is here ---> http://faculty.washington.edu/ivezic/REU08/quasarweb/structure/structure1.html
+	Another definition of the structure function ---> https://arxiv.org/pdf/astro-ph/0411348.pdf
+
+	I need to start looking into collecting early data for the QSO. 
+	
+	I obtained fits files from DR12 for this QSO. 
+
+
+
+April 26, 2019:
+	TA went through some Python tutorials. I spent some time working on my GR homework.
+	
+	I continued studying the structure function
+
+	I also obtained more fits files for this QSO from earlier SDSS releases
+
+
+
