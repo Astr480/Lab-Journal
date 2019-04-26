@@ -43,3 +43,29 @@ to start! Although I am still concerned I ont be able to get the code to
 work.. Leanred more about the CMD. Look up more about Photometry. round stars
 and pixels, only use full pixels. 
 
+4/22
+
+overscan, light has been blocked, only a little scattered light getting through
+"souls have been trapped in telescope"
+undering lying guides for distributions to understand what is happening in the system
+CCD linear, to a point
+pixels saturate
+CCD changing in temperature, cool them or dark current will be high, also can't be
+too cold or the electrns will be sluggish. 100secod image, need a dark thats a 100
+second. dark same length as data working with. I looked at many lamps today. so 
+many lamps.
+
+
+4/24 I worked on the CCD homework, finished the lab and looked at when my
+globular clusters will ride and set.
+
+4/26
+
+simbad, visar(?), everything that isnt important has a comment sign in front
+(.... ,comment'#', delim_whitespace=True) instead of delim_ use(.., sep='\t')
+de.drop([0,1]) #to drop rows, to do this to the original add# ,inplace=True]
+mix type: string, float, int.. but sometimes it misses them. make all columns
+numbers, .dtype
+
+na_filer=
+basically just keep trying stuff.
