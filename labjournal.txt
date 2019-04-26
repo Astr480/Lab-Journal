@@ -73,3 +73,47 @@ Friday.
 Joke of the week: What is an astronauts favorite key on they keyboard?
                   The space bar!
 
+Week 4
+
+Date: Monday, April 22
+
+Today we worked on the lab for emission tubes and spectroscopes. In conclusion,
+my eyes hurt. We also talked about CCDs in class and I was completely lost. What are counts??
+What's going on with the Gaussian and Poisson distributions? What are the they telling us?
+How are the incoming photons interacting with the electrons in the pixels? What is 
+meant by continuous scales? What is the meaning of life??  AAAAAHHH!!!
+
+Date: Wednesday, April 24
+
+I have been working all day on my research project. I spent a few hours on 
+trying to get a data file that is compatible with astroplan. Then I narrowed
+hundreds of open stellar clusters down to about 60. I then narrowed it down 
+even more to just Melotte 111 (Coma Stellar Cluster) and Stephenson 1 (del lyr
+cluster).  I fisrt did all this with python, then to be more exact and
+less reliant on my probably faulty code, Anika hit me up with 
+arcsecond.io. A handy dandy site that does everything I was trying to do
+in python but better. 
+
+Date: Friday, April 26
+
+I started the day by working on the CCD reading and assignment. I think I am starting to understand
+them a little. Turns out counts are the voltage read out of each pixel's electrons, which makes
+a lot more sense now. I continued working one my research project by starting up a Latex document
+and creating a bib list with bibtext codes. I also looked more into how to make HR diagrams from CCD
+images. I determined I will need to use a filters in blue and visual bands, and I will need to take a
+dark flat for the same time amount of time I take my actually images. 
+Note: be careful with leaving FITS files open.
+
+Joke of the week:Why does a space rock taste better than an Earth rock?
+		 It's a little meteor!
+
+BONUS JOKE: Why didn't the Dog Star laugh at the joke?
+	    It was too Sirius!
+
+     |\_/|                  
+     | @ @   Woof! 
+     |   <>              _  
+     |  _/\------____ ((| |))
+     |               `--' |   
+ ____|_       ___|   |___.' 
+/_/_____/____/_______| 
