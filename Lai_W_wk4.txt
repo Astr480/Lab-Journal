@@ -1,0 +1,11 @@
+it was interesting to see what the real telescope look like in the classroom. surprisingly, i cannot see through any of them, which means that they block out all the optical wavelength.
+
+looking at the lights emitted by the gas tube was not very spectacular, but when looked at through a spectroscope, the light becomes spread. the different tubes ended up having different spectral lines depending on what type of gas is in it. the tool itself was confusing to use at first, eventually i found out that there is actually two inputs. the small opening is to aim at the target light to be analyzed, the large slit next to it lets in light so the built in measure can be seen. the adjustment knob helps line up the spectral lines to the measure in order to see what wavelength the lines are at.
+
+the three tubes i looked through for the first part of lab was helium, bromine, and neon. after getting used to the tools, it was very easy to see the lines of the lights. when it matched with solution found of the internet, i realized that this is not really percision work, as the results were very clear.
+
+i think one of the mystery gas was xenon as it has a lot of visible lines. it tool a long time to figure it out as most people are expecting a few distinct lines like the other gases, no one was expecting so many lines at such broad range of wavelengths.
+
+my research topic is to look for exoplanets. after thinking about it for awhile, i feel that it would be best to look at stars that are closer to reduce the noice coming from obstacles in space. i want the data to stand out, so limiting the range within the milkyway (or even closer) would probably be best. using the apo is cool, but i kind of want data to spread out for more than a week. to look at transit planets, i think having more consecutive days would results in more targets.
+
+my next goal is to find a reliable source of observational data, read some papers on graviational microlensing to know more about it, and find some papers that have the exoplanets recorded, this is something i can look to see if my techniques are correct.
