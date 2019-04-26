@@ -26,3 +26,21 @@ Worked heavily with DS9 looking at FITS files. Some "special" traits of DS9, if 
 Worked on my project proposal. As a result I was forced to use JSkyCalc, and as expected it attempted to frustrate me to the point of snapping my laptop in half. It exentually cooperated and I used it to verify what objects I had identified as Type I Cepheid, will be observable from APO during our observing window. Unfortunately, only 2 of my objects will be viewed at an airmass of less than 1.5. The others are still up and observable, but with an airmass of less than 2. I don't forsee this being a tremendous setback as I am primarily concerned with the period of the luminosity variations. I don't need the optimal airmass to get this information on each star. 
 
 Continued working on the FITS file assignment using DS9. Note: The variability in our flat field is suprisingly "unflat". Also, DS9 had a small moment of specialness that caused the Overscan area on the image, which should not be fractional, to be... fractional. Never underestimate the power of restarting the program as that was the only action that would correct whatever issue was causing this error. For finding information having to do with everything from the Telescope, Observatory, Filter, RA & Dec, even the temperature of the detector during the observation. 
+
+===============================================================================
+Week 4:
+
+Worked on the spectra activity. While I was not able to complete it entirely, I did get most of the way through it. The most interesting part by far was using the small spectroscope. Learning how to change the aperature and resolution was incredibly cool. 
+
+I was able to finish the spectra activity on Wednesday. With the remaining time I was able to complete my observing time request for my research project. I needed to double check the magnitudes associated with each of my targets to ensure that not only would they have a usable Apparent Mag, but also the the stars in question would not saturate the detector. I concluded that with the exception of Polaris, most of them should not be an issue. All of my objects will be available between 11:00PM and 1:00AM with airmasses around 1.8 for all objects. This is not necessarily optimal, bt for purposes of my project, this is probably not the end of the world. 
+
+On Friday we got a crash course in reading in data from Meredith (resident Pandas professional). This is very useful for Werk Squad, as we are begining to take apart and analyze all of our identifications, requiring all of the Pandas.  While digesting all of the knowledge presented the most relevant item to someone as 'green' as myself is: help(command). 
+
+Notes:
+Isolate a particular column: df['Header'] single column or multiple
+Convert value to string:     for col in ['Header_1', 'Header_2', , ]
+			     df.astype(str).str.strip()
+			     pd.to_numeric(df)  
+
+Built-in plotting:	     df.plot.scatter('Header_1', c='Header_2')
+
