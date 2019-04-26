@@ -1,0 +1,36 @@
+Ioana Alexandra Mititean
+4/18/19
+ASTR 480
+Lab Journal: Week 3
+
+4/15/19
+- Worked in class to ponder deeply and thoroughly about an astronomy project of interest to me. I first thought about investigating life and habitability
+of planets, but I felt that a topic less biology-related might make more sense for this class. Also, I know little about biology.
+- Used most of the class period to browse the articles on Annual Reviews of Astronomy & Astrophysics, and read the abstracts of articles that attracted my
+attention most.
+- Thought about researching high-mass stars, since I find them more interesting and easier to observe/retrieve data on than faint low-mass stars. 
+- After thinking of high-mass stars I shifted to high-mass binary star systems, and then to binary star systems in general. I realized I know little about
+how binary star systems form, and thought to do a project related to their formation/theories of their formation. 
+- Found some resources that might help me decide on a project topic, and saved them on the proposal paper. 
+
+4/17/19
+- The assignment 'Fits Files and Calibration Frames' was introduced, and the entire rest of the class period was spent working on the assignment.
+- Downloaded the required Zip folder from Canvas for the first problem in the assignment. 
+- Must uninstall WinZip. No idea why I have that installed, since it prevented me from opening the Zip file.
+- Progress on the assignment was slow so far (I am not adept with computer technology) but thank goodness I have the weekend to work :)
+
+4/19/19 
+- In further developing my project I thought of the categories and characteristics of binary star systems and thought it interesting to investigate those 
+in more detail. 
+- I also thought it interesting to investigate correlations between these characteristics and see if they match up with current theories of binary star formation.
+- This led me to a basic overview of a project, which I wrote on the proposal sheet.
+- I found a few more resources from the Web that may help me in my project, and included them on the proposal sheet. 
+- Also in class, together we discussed the journey of a photon as it travels from a celestial object to an observer (data). 
+- We segwayed into discussion/overview of observation of astronomical objects, including a basic review of filters, workings and limitations of observation tools, 
+CCDs, and factors that interfere with observations (a LOT of factors). 
+
+- Thought to set up my tiny amateur telescope at home later this weekend, and point it at something when the stubborn sky clears.
+- I once saw Saturn. It was awesome.
+- Also Jupiter and the 4 largest moons.
+- I also think that, if time outside of the Fits Files assignment, this weekend I will read up on CCDs from the CCD textbook for this class, and to read up
+more on astronomical observation (partly to feel more generally prepared in astronomy and also to satisfy my curiosity). 

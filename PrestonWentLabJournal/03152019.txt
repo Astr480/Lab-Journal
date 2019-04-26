@@ -1,0 +1,18 @@
+Notes for 03/15/2019:
+
+Today we discussed our projects and worked on selecting them. I
+had already thought about what I want to do, and decided to make
+a star classifier. There are a few papers describing similar 
+projects. I saved them to my bookmarks for later reading. 
+Skimming them suggests that the project is not only feasible, 
+but also incredibly effective.
+
+Techniques others have used include principle component analysis
+(naturally), various types of artificial neural networks, and a 
+number of clustering methods. The literature does not mention a 
+few more modern, effective clustering algorithms (like HDBSCAN) 
+so I may test those to make an original contribution.
+
+All in all, things are looking promising.
+
+Preston Went

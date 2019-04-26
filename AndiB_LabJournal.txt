@@ -35,5 +35,34 @@ constrains contained moon illumination
 created a table using observability_table(constrains, lick, targets, time_range=observing_range)
 ran into an error where the constrains arent recognized. almost done with this, will submit code tomorrow after volunteering at astroball =)
 
+Day7 (4/15)
+freedom w data used for the final paper but PROBS just 1 day of ARCSAT
+with reading scientific papers (for the purposes of obtaining references):
+-read abstract/conc n look at plots first
+-search via keywords
+-use ags to see if the paper is one in a series
+-summarize what you read immediately after reading, and include bibtec info alongside, store in an accessible place
+ideas:
+-cepheid variable... cant compare across wavelengths
+-constraints on observation is what should be focused on. dealing with data, dealing with noise
+-delta scuti ? on the instability strip, timescale of pulsation is only a few hours
+-astroseismology?? looking for pulsational modes using kepler r-tests, short timeseries of bright stars, talk to merideth rawls (?)
+-deblending/centroiding to find binaries, depending on resolution
 
+Day8 (4/17)
+-using astropy isnt great for fits files but theres a thing where you open with .fits, set a variable for the header, then open info using repr(file_header[0])
+-for project: giving up on brett's strange dynamic star
+-observe variable stars include delta scuti, Rapidly oscillating Ap stars, alpha cygni variables
+-delta scuti are low mass (A0-F5), high metallicity, period of .5-7hrs. amplitudes larger than .3mag are HADS or dwarf Cepheids
+-roAp have short-timescale variations ranging from 5-23 min. high-overtone, low-degree, non-radial pressure modes. axis of pulsation aligned with magnetic axis, modulating the amplitude
+-Alpha cygni variables have longer variations (days to weeks), irregular pulsations w amp .1mag, non-radial pulsations. supergiant (B or A). blah. long period. blah.
 
+Day9 (4/19)
+-we observe apparent mag, not absolute mag
+-CCDs interpret photons which interact with the material, exciting an electron which can fall into a potential well
+-instrument then registers that well as a 1
+-oversaturation results in overflow of electrons into the wells above and below
+-Resolution = wavelength / diameter of aperture
+-spectroscopy is flux per unit wavelength
+-airmass, dust gets in the way
+-turned in proposal!!!! i can do both types of variable stars!!!!
