@@ -1,0 +1,29 @@
+##################################
+	Week 4
+##################################
+	04/22/19
+##################################
+
+CCDs:
+	Reads out each pixel, passing counts from pixel to pixel
+	Shift cells down, then all across to the amplifier, repeat
+
+Noise: 
+	Shot Noise: Deals with the photons arrival. Poisson Distribution
+	Dark Current: Thermal noise. Function of time. Take darks that are the same length as data
+	Read Noise: Electronics variation. Gaussian.
+
+##################################
+	04/24/19
+##################################
+
+Just worked on the HW.
+
+##################################
+	04/26/19
+##################################
+
+use delimiter and drop in pandas to format data file. Drop removes specific lines
+	file.drop([0,1], inplace = True) removes the first two rows
+
+Use file['COLUMN'].apply(DTYPE) to change a column to a specific type
