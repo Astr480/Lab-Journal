@@ -1,0 +1,10 @@
+Notes for 04/26/2019:
+
+Today we planned on covering some example operations 
+in Python. I work as a Python programmer and had a 
+scholarship event to attend that overlapped the class, 
+so I opted to skip.
+
+I will work on the project over the weekend.
+
+Preston Went
