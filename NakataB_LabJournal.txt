@@ -23,3 +23,19 @@ April 19th:
 -listened to lecture on a variety of materials
 -proceed with the fits files adn calibration frames
 -still having to calculate x and y coordinates by hand and unsure if there is something in ds9 to help
+
+April 22nd: 
+-Worked with spectrocopy and filters for the "Day of Hardware"
+-Filters was the easiest to get through, had some trouble working the the
+spectroscopes.
+-Took a lot of time to calibrate the spectroscopes in order to observer the emission tubes
+
+April 24th:
+-Unforuntely, I was sick and was not able to attend class today however, we were supposed to
+work on finishing the "Day of Hardware"
+
+April 26th:
+-Worked/learned about Pandas and fits from lecture
+-Brainstormed possible ideas for observing projects.
+-Possible ideas would be dark matter (this seem to hard though) and then focused on some idea
+about dwarf galaxies
