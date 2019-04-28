@@ -102,3 +102,47 @@ Just noticed that fit file can also store spectroscopy data, it look nothing lik
 Filters: different type, U, R, I ...... each filter could need different treatment in terms of exposure time
 
 differential vs. absolute photometry: need to do this becuase sometimes it is hard to find a reference star
+
+Week 4
+ Class 1
+
+ distruibution difference between gaussis and poisson
+ photon distruibute like poisson
+
+ charge transfer: loss charge between transfer
+ readout: readout from each pixel then transfer them to the next pixel, finally move all of them to the last roll
+
+ QE comparisons
+
+ Key feature:
+    CCD are linear
+    pixel can saturate
+    gain is intrinsic
+    Responsive in the optical
+    CCD have become commercially viable
+
+CMOS: the charge to voltage conversion are in the pixel
+
+Noise:
+    shot noise: photon arrival at the chop for any given interval is governed by the poisson distruibution
+    Dark current: need to cool it, function of time , need dark which match the length of the time of exposure
+    read noise: gaussian, around bias level
+
+CLASS 2
+
+    we did the experiment of spectroscopy, where we use a very simple spectroscopy device to look at different elements
+    There are H that we can clearly see the three bright balmer series emission line. 
+
+    Also many other elements for us to explore, the scope spectroscopy can get a better view of the spectrom line than the
+    palastic one. 
+
+    some line are repeated in different elements, I guess it is becuase they all have the same electron orbit energy which result
+    in emmit the same frequence line
+
+    We also did the filter experiment, which is simple, different filter are only allow certain band of frequence to be through
+    THe interesting one is the UV filter which block most of the sunlight, but when you see a sunglasses from the UV filter,
+    you see the sunglasses become transparent
+
+CLASS 3
+    we talked about some method to manipulate the data you can find from the catalog. Like add or delete some rows or coloumn
+    Also, we looked about how to use fits file to draw in the python
