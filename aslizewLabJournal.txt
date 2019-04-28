@@ -69,3 +69,74 @@ Day 8:
 -Lowest airmass is 1
 -Kept working on FITS lab, due Monday
 -turned in project proposal!
+
+Day 9:
+-next week test taking data w CCDs, brief pause to play w SPECTROgraphs cool!HW/reading due next Monday
+CCDs:
+-Fits flat0012- flat for Arctic isnt rly flat.  Telescope and instrument have vignetting (light blocked), chip bigger than field of view,
+-Bias/Overscan is line.  not actual pixels, but where readout amplifiers have gone past and show electronics
+- Baffle is where telescope connects to instrument, scatter is in wrong direction (restricts fov)
+- Trapped Souls
+- Four amplitudes- four times the amt.  Can do >1 amplifiers
+-how many counts=??
+-usually use logarithmic or zscale (bigger stretch wider range)
+-Continuous scale is easier to judge how regions are related (transition regions!!!! dont use rainbow)
+-Histograms- different regions are governed by different distributions
+-Poisson= How many times does an event occur
+-Gaussian = all DF w large samples system.  not always perfect, offset, smoother with more and mroe points
+-Data distributions, large area= Gaussian, smaller area- bing bing bong lines
+PHOTOns GOVERNED by POISSON (quantized and independent), looking at probability of arrival
+-Lots of photons (flat) approached a Gaussian
+-Overscan still gaussian (small area tho)
+-Variations n CCDs etc change DF,
+-Bias = 0 second image.  Look at noise from individual pixels (just readout, not info)
+-CCD  detectors and how they change w different wavelengths
+-Charge transfers- one/4 number of readout amplifiers (only one at a time), transfer charge from pixel to pixel until amplifier (bucket brigade)
+-Use electricity to keep created electrons in single well, but still need to be passed.  Voltage change moves electrons a lil bit! Sometimes lose things methods
+-quantum efficiency = photons vs electrons. as time goes by transfer number aint ideal
+-Readout CCD, vertical / parallel array, been optimized.  Things get read one at a time, read entire last row then bumps down
+-CCD properties, QE, gain, intrinsic stuff, size. While taking data- orientation,
+-Linear, up to a point (incr photons, incr electrons LINEARLY, responsiveness in optical- material issue
+-Detectors- CMOS technology (detectors in cellphone).  Photon and electron as well as voltage conversion all in pixels each.  this reduces contiguous area of object (electronic take up room, so not taking in light there.  microlenses focuses light onto pixel, fully fill field! cool)
+-Types of noise, shot noise, thermal noise/dark current, read noise, and bias level/across every pixel baselevel
+-Shot noise= poisson distrib, photons come in windows but theres variation, different counts
+-Dark current- fundmtl to material. We cool CCDS from this.  Adds electrons to counts, fcn of time. too cold reduces QE.  DCurrent- more noise over time, so need same length of data
+-Read noise is Gaussian, CCD electronics better, set floor number of counts
+-use all these characteristics to erase stuff form data!
+-LAB w SPECTROgraphs! wowza!
+
+Day 10+11: Finish spectra lab with gas tubes, filters, etc
+-Turned in google form for observing project
+
+Day 12: Meredith class, working with files and fits and Astropy
+-Using VizieR. Unit and format options, click relevant,  can compute distance, can compute RA, DEC in degrees (with underscore if not frm original data set)
+-Table formats: Unlimited rows, tab separated, submit button not for each group, submit and download (asu.tsv, rename as things)
+-! in Jupyter notebook-- Shell commands!!!!! (like terminal!!!!!)
+-comments in files #, read inc catalogue with Pandas.  ignore comments / ignore a character (comment="#")
+-read.csv for any text and column file
+-delim whitespace=true, but careful!!! Might mess up.
+-sep="\t" separated by tabs !!!!! Nice.
+-Drop method-- .drop()[0,1]), inplace=True to replace table instead of make comment
+-Dtype warnings- columns have mixed types-- when Pd reads in, auto set data type for each (missing, numbers, spaces not numbers).  Cant infer = object (.dtype_)
+-To make all numeric, .astype.  type help[thing] for help
+-Use df.apply(function) i.e. Make np.float, do math, etc to apply across all the columns instead of four loops
+-.strip() gets rid of strings/whitespace at end, astype string to make all strings, may need for loop
+-If index gets crazy, use .loc[:,col]  (: all indices for this particular column), then reassign pd.to_numeric after turned into string to make all numeric
+-Dropping na, any or all, inplace true.  (if ANY or ALL in a row are nan, get rid.  Use any if need whole data for each rows)
+-Pandas built in plotting, dont need to import matplotlib (.plot, pass col names)
+-select types of data. df.query('(colname<#)'), returns subplot.  colormap, vmin, vmax
+-astropy tables, use pandas not astropy.  more complete/powerful
+-FITS files, import matplotlib
+-fits.open('file name')--- need to close file (always open, looking thru file)-- instead,
+-with fits.open as f:.,... then once leave tabbed area, file closed
+-f.info shows properties, NDU stores mg data and header for extensions, dimensions, cards= nmbr header keywords
+-astropy has conversions of ra, dec, to deg, world coords, etc using/from header
+-data is a huge array, doesnt make sense yet.
+-print median, std, can use astropy for histograms etc (plt.hist(data.ravel(), bins=100)), ravel changes 2d array to 1d array, not inplace so data no change
+-zeroith pixel is bottom left, other formats have top left so tell origin as lower
+-df.query to pick out certain stars to plot over img
+-from astropy.wcs import WCS (world coordinate system), W=WCS('file') to get info frm header, or certain values
+-.values when trying to do conversions to prevent pandas frmo freaking outl (makes np arrays, no more panda attachment)
+-all_world2pix to object, origin usually 0 but somtimes labeled as 1. in python always 0.  -->> give pixel values of image
+-plt scatter of stars over the .imshow
+-.sample draws random sample frm a df, like a preview
