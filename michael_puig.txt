@@ -1,18 +1,114 @@
-Friday 4/5:
+Friday 4/26:
 
-Use simbad to gain knowledge on specific stars or a group of stars
-Ned is better for extragalactic research, learning about galaxies
+Learning about coding and downloading from databases
+Vizier
+You can control the dimensions of the catalog you download
+Reading in a csv, you can use delimwhitespace so it recognizes spaces
 
-Jskycalc: download it and try it out
-iobserve is an alternative to Jskycalc
+All done with pandas
+There can be a lot of trouble just trying to get a catalog in order
 
-What to consider while observing:
-Airmass is how much atmosphere is in between you and your object
-The more vertical the better (at the zenith airmass=1)
-You want an airmass at 1.5 or less
-While observing consider what phase the moon is in because its brightness can effect observing greatly
-When does your night actually start?
-  Night does not start until a certain darkness
+After the lecture start working on ccd homework
+
+Wednesday 4/24:
+
+Today working on the light filters
+Most simple part of the lab
+
+No other work to do
+Finsih up all of the writing on the lab, then head out
+
+
+
+Monday 4/22:
+
+Distributions:
+Photons usually follow Poisson distribution unless it is a flat which is more gaussian
+
+Bias is a 0 second image
+A detector will mean a device that used to measure electromagnetic radiation
+
+Charge transfer:
+Charge is transferred from pixel to pixel until it gets to the amplifier
+As charge is transferred thousands of times there can be complications
+
+CCD:
+They are linear
+Pixels can saturate, gain is intrinsic
+need cooling, but should not be cooled too much because it slows electrons
+
+Playing with light today, through spectroscopes
+Plastic blue spectroscopes are extremely tough
+
+
+
+Friday 4/19:
+
+Some lessons on observing
+Focus on what you are observing, and what you are trying to observe
+
+We are going to do a quick assignment on the life of a photon
+It hits the instrument before it hits the ccd (the detector)
+
+Techniques on how to view flux of objects
+  imaging
+  photometry
+  spectroscopy
+
+Filters differ in transmission percentages and what wavelength they let in
+Less transmission means less light getting through so you must observe longer
+
+Finally decided on my project proposal with 20 minutes to go
+Finish the lab for this week over the weekend
+
+
+
+Wednesday 4/17:
+
+Still no idea what to do for the project, outside of it being on exoplanets
+
+Starting lab for the week, looking at fits files to better understand ccd
+Started with fitsviewer but switched to ds9, seems to work better
+
+Checked out certain regions of a flat, and the overscan
+The histogram overscan has a fairly normal distribution
+The histogram of the regions have a extremely skewed distribution
+
+On to the bias frame (has not been exposed to light)
+Mean is much smaller but that is expected
+
+
+
+Monday 4/15:
+
+Start working on project proposals this week
+No idea what my topic will be
+
+There will be observing time at arcsat
+Even if you have a partner you must submit your own write up and code
+
+Reading scientific papers:
+Read the abstract then the conclusion before reading the whole paper
+It can help to write a summary of a paper so you can actually see if you have an understanding of the paper
+
+
+Use Annual reviews of astronomy to check out some papers and think about a possible topic
+Make sure to find a topic that I can find an archive for
+Looking at exoplanets (maybe inhabitable ones, maybe hot jupiters)
+
+
+
+Friday 4/12:
+
+Created my folder for NightSky with my screenshots from jskycalc and my writeup
+screenshots are of the airmass graph and seasonal observability table
+
+Finishing up my writing for the Planning observations assignment
+Getting everything together on my computer to send into github
+Checked that my write up included everything it needed
+It's easier than I thought to push a folder into github, had a slight problem with a space in my folder name
+Not much to do today
+
 
 
 Monday 4/8:
@@ -46,70 +142,19 @@ We were also able to use jskycalc to view if the moon would affect our observati
 observability tool
 
 
-Friday 4/12:
 
-Created my folder for NightSky with my screenshots from jskycalc and my writeup
-screenshots are of the airmass graph and seasonal observability table
+Friday 4/5:
 
-Finishing up my writing for the Planning observations assignment
-Getting everything together on my computer to send into github
-Checked that my write up included everything it needed
-It's easier than I thought to push a folder into github, had a slight problem with a space in my folder name
-Not much to do today
+Use simbad to gain knowledge on specific stars or a group of stars
+Ned is better for extragalactic research, learning about galaxies
 
+Jskycalc: download it and try it out
+iobserve is an alternative to Jskycalc
 
-
-
-Monday 4/15:
-
-Start working on project proposals this week
-No idea what my topic will be
-
-There will be observing time at arcsat
-Even if you have a partner you must submit your own write up and code
-
-Reading scientific papers:
-Read the abstract then the conclusion before reading the whole paper
-It can help to write a summary of a paper so you can actually see if you have an understanding of the paper
-
-
-Use Annual reviews of astronomy to check out some papers and think about a possible topic
-Make sure to find a topic that I can find an archive for
-Looking at exoplanets (maybe inhabitable ones, maybe hot jupiters)
-
-
-
-Wednesday 4/17:
-
-Still no idea what to do for the project, outside of it being on exoplanets
-
-Starting lab for the week, looking at fits files to better understand ccd
-Started with fitsviewer but switched to ds9, seems to work better
-
-Checked out certain regions of a flat, and the overscan
-The histogram overscan has a fairly normal distribution
-The histogram of the regions have a extremely skewed distribution
-
-On to the bias frame (has not been exposed to light)
-Mean is much smaller but that is expected
-
-
-
-Friday 4/19:
-
-Some lessons on observing
-Focus on what you are observing, and what you are trying to observe
-
-We are going to do a quick assignment on the life of a photon
-It hits the instrument before it hits the ccd (the detector)
-
-Techniques on how to view flux of objects
-  imaging
-  photometry
-  spectroscopy
-
-Filters differ in transmission percentages and what wavelength they let in
-Less transmission means less light getting through so you must observe longer
-
-Finally decided on my project proposal with 20 minutes to go
-Finish the lab for this week over the weekend
+What to consider while observing:
+Airmass is how much atmosphere is in between you and your object
+The more vertical the better (at the zenith airmass=1)
+You want an airmass at 1.5 or less
+While observing consider what phase the moon is in because its brightness can effect observing greatly
+When does your night actually start?
+  Night does not start until a certain darkness
