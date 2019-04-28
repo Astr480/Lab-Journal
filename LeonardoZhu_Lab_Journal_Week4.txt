@@ -1,0 +1,286 @@
+Week 1
+4.1:
+We talked about several basic commands in Linux/Unix:
+    $ man (manual)
+    $ pwd (print working directory)
+    $ cd 
+    $ mv
+    $ rm 
+    $ cp
+    $ ls
+    $ ls -a (list all including hidden files)        *useful
+    $ more (file perusal filter for crt viewing
+    $ less (opposite of more)
+
+An introduction to git and GitHub:
+    I did the Hello World project on GitHub, by which I learned how to 
+    1)create and use a repository, 
+    2)create and manage a new branch, 
+    3)make changes to a file and push them as commits to GitHub, 
+    4)open and merge a pull request within a repository.
+    
+4.3
+Some details about version control with git and GitHub:
+Sample:
+   1) Setup: 
+        $ git config --global user.name "Own_user_name" 
+        $ git config --global user.email "Own_email_address"                                                         
+
+   2) Create a local repository:
+        First create a directory,
+        Make the directory a repository:
+            $ git init (Git creates a hidden directory within the original directory)
+        Check:
+            $ git status
+    3) Tracking changes and commits:
+        Create a .txt file and type some text into the file:
+            $ nano some.txt
+        Check the txt file:
+            $ ls
+            $ cat some.txt
+        Check the repository now (The new file shows up but Git isn't keeping track of the new file):
+            $ git status
+        Track the file (into the staging area):
+            $ git add some.txt
+        Check the status agian and we can find the file is tracked by Git,
+        Record the change as a commit (Git stores a permanent copy of all changes inside the .git directory) :
+             $ git commit -m "A brief comment"           
+        Check the status again and we can find the working directory is clean now,
+        We can check the history by:
+            $ git log
+     
+        And we can modify the text file ($ nano) and see the difference by:
+            $ git diff
+        After review, we need to add and commit it agian to save the change:
+            $ git add some.txt
+            $ git commit -m "A brief comment"
+    4) Ignoring things:
+        Create a directory to include all files we want to ignore (not include the files already tracked):
+            $ nano .gitignore
+        Add and commit the ignored stuffs:
+            $ git add .gitignore
+            $ git commit -m "commit message"
+        Check the status of the ignored files:
+            $ git status --ignored
+    5) Remote repository on GitHub:
+            First create a repository on GitHub,
+            Connect the local and remote repositories:
+                $ git remote add origin URL
+            Check the command above:
+                $ git remote -v
+            Push the changes from the local repository to the remote one on GitHub:
+                $ git push origin master
+    6) Collaborating:
+            Give the Collaborator access under the Settings of the target repository,
+            The Collaborator downloads a copy of the Owner's repository to his local machine (cloning a repo):
+                $ git clone URL ~/Desktop/Owner's file
+            The Collaborator makes a change in the local clone:
+                $ cd ~/Desktop/Owner's file
+                $ nano some.txt
+                $ git add some.txt
+                $ git commit -m "commit message"
+            Push the change to the Owner's repo on GitHub:
+                $ git push origin master
+Mistake:  While my partner successfully pushed her change to my GitHub repo, I failed to push my change to her remote repo even if I could clone her repo to my local               desktop. Finally, I found the reason is that she forgot to give me the access, which means I actually didn't become her collaberator and then I cannot make a               change to her repo on GitHub.
+Problem solved.
+    7) Conflicts:
+        My collaborator made a change to my text file and pushed it to my repo on Github first,
+        And when I changed the same file locally by another way, I failed to push it to my own repo on GitHub due to the conflicts between the two changes my collaborator and I made.
+        Fix:
+            Start by pulling the repo from GitHub:
+                $ git pull origin master
+            Check the conflicts:
+                $ cat mars.txt (The conflicts are marked in this step)
+            Make a change to the text file and push it again to finish the merging process.
+
+4.5
+JSkyCalc
+Astroplan: An open source observation planning package in Python 
+What affects an observation: Airmass, the moon, and twilights (Astronomical dawn: 18 degrees from the horizon)
+We did a project to research on the spiral galaxy M31 by JSkyCalc when the object is observed from Apache Point Observatory.
+
+Week 2
+4.8 
+We worked on the project of planning an observation on the galaxy M31.
+First I set up the location of our observatory (APO) and the object(M31):
+	apo = Observer(longitude = -105.820278 * u.deg,
+            latitude = 32.780278 * u.deg,
+            elevation = 1707 * u.m,
+            timezone = 'Antarctica/Davis',
+            name = "Apache Point Observatory"
+            )
+	target = FixedTarget.from_name("m31")
+
+Then based on the coordinates of the galaxy, I conclude that the best season for observation is in Autumn, as the sun would be opposite to the object at night:
+	target.ra
+
+To find the length of observing time on April 16th, 2019:
+	time1 = Time("2019-04-16")
+	reference_time = time1
+	astro_set = apo.twilight_evening_astronomical(reference_time, which='nearest')
+	astro_rise = apo.twilight_morning_astronomical(reference_time, which='next')
+	observing_length = (astro_rise - astro_set).to(u.h)
+
+To determine the interference created by the moon:
+	1.illumination:
+		time2 = Time("2019-12-31")
+		reference_time = time2
+		moon = get_body('moon', time2 )
+		moon_illum = moon_illumination(time2) * 100
+	2.moon phase: https://www.timeanddate.com/moon/phases/
+	Thus, The moon would interfere with the observation somewhat on Dec 31st, 2019, 
+	as it will be waxing from a new moon and its illumination will be 21.6% of the full moon's 		illumination.
+To find the length of time of observing the object Dec 31st, 2019:
+	reference_time = time2
+	astro_set2 = apo.twilight_evening_astronomical(reference_time, which='nearest')
+	astro_rise2 = apo.twilight_morning_astronomical(reference_time, which='next')
+	observing_length2 = (astro_rise2 - astro_set2).to(u.h)
+	Combined with the plot of the airmass:
+		start_time = astro_set2
+		end_time = astro_rise2
+		observing_range = [astro_set2, astro_rise2]
+		time_grid = time_grid_from_range(observing_range)
+		plot_airmass(target, apo, time_grid)
+		plt.axhline(y=2, color='g');
+	The length would be 5 hours.
+
+4.10 & 4.12
+We started to plan an observation on objects from a catalog we got online.
+Our assigned observatory is the Palomar observatory, and the assigned observing time is Oct.15th to Oct.30th, 2019.
+
+The most important tool used in this project is the method from the Astroplan called "observability_table" which helped us to generate a concise table of the visibilities of the input objects with some clearly defined parameters(constraints).
+
+The first step is to sort out the objects which have their own names from the catalog we downloaded from the ESA website:
+	mask = list()
+	for n in range(len(data['Name'])):
+    		if(isinstance(data['Name'][n],str)):
+        		mask.append(True)
+    		else:
+       			mask.append(False)
+	data[mask].to_csv('hipparcos.csv')
+
+Then we set up the location of our observatory and define the positions of our objects:
+	 palomar = Observer.at_site('Palomar')
+	 stars = list()
+	 for s in range(len(star_table['Name'])):
+    		coords = SkyCoord(star_table['ra (deg)'][s]*u.deg, 
+                                star_table['dec (deg)'][s]*u.deg, 
+                                frame='icrs')
+    		stars.append(FixedTarget(name=star_table['Name'][s], coord=coords))
+
+To create an observability table:
+	1.define the time range:
+		time = Time(["2019-10-15 00:00", "2019-10-30 23:59"])
+	2.Constraints(we choose those values as we thought they would fit our case):
+		constraint = [AltitudeConstraint(30*u.deg, 90*u.deg),AirmassConstraint(2), 
+              		 AtNightConstraint.twilight_astronomical(),MoonIlluminationConstraint(0.4),
+             		 MoonSeparationConstraint(min = 10*u.deg)]
+	3.observability table:
+			observability_table(observer = palomar,
+                    			constraints = constraint,
+                    			targets = stars,
+                    			time_range = time)
+
+Based on the table above, we picked ten visible objects for the following steps. 
+
+To determine the moon's interference with our observation, we found the moon phases from: https://www.calendar-12.com/moon_calendar/2019/october And based on the moon phases calendar, the moon will be waning gibbous on Oct 15th, 2019 (the start of our observing window) and keep waning until Oct 27th, 2019. Then the moon will be waxing from a new one at the end of our window. And with the moon's illumination, the moon will interfere with our observation somewhat at the beginning of our observing window. And with the moon waning later, the interference would be ignored.
+
+To determine the situation of observation one month later:
+We changed the time range for month later and based on the moon phases calendar we changed 
+the illumination of the moon to regenerate a new table.
+In summary, based on the new table, it would be worse for our previous ten objects if we postpone the observation.
+
+Week 3
+4.15
+Observing/Data Project Proposal:
+Useful resources:
+SAO:http://adsabs.harvard.edu/abstract_service.html
+Annual Review of Astronomy and Astrophysics:https://www.annualreviews.org/journal/astro
+
+Possible topics:
+Dark Matter
+Neutron Stars(pulsars)
+
+I finally chose to research on pulsars.
+Papers:
+	https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081913-035948
+	https://www.annualreviews.org/doi/abs/10.1146/annurev.astro.38.1.717
+	https://www.annualreviews.org/doi/abs/10.1146/annurev.astro.38.1.717
+	https://www.annualreviews.org/doi/abs/10.1146/annurev.aa.30.090192.001043
+	
+4.17
+We analyzed some FITS files and got familiar with the tool "ds9".
+
+
+4.19
+The basics of astronomical observations:
+Lots of considerations(Brightness, flux, optical wavelengths, etc.) before an observation.
+
+We made a diagram of path of a photon from an astronomical object to a .fits file.(object - the interstellar junk - atmosphere - telescope - imaging camera or polarimter - computer - .fits file)
+
+What we measure is the apparent magnitudes.
+
+Resolution = wavelength / aperture
+
+Techniques:
+	Imaging
+	photometry
+	spectroscopy
+
+Fiters: different with the transmission value for various wavelengthes.
+
+Differential vs. Absolute Photometry: 
+	differential: comparison to a star of "unknown" luminosity
+	absolute: comparison to a star of "known" luminosity
+	choosing: field size, availability, unnecessary.
+
+Round stars with square pixels:
+	Measure the flux of a star(round) from a CCD(square of rectangular pixels)
+	Choice:
+		Toss all partial pixels
+		Use those pixels (will result in more sky than full "objects" pixels)
+		Use a weighting scheme
+
+Spectroscopy:spectrum
+	Intervening materials: 
+		interstellar dusk (reddening in IR)
+		closer by: weather(clouds), dust, sky brightness, airmass(atmosphere)
+
+Week 4
+4.22
+FITS files:
+	Bias/Overscan: The thick dark line in a .fits file.
+	Poisson Distributions: How many times does an event occur?
+	Gaussian Distributions
+	
+	Photon - Independent (quantized)
+	Probability of their arival - Poisson
+	Lots of photons(flats) - approaching Gaussian
+Detectors:
+A detector will mean a device used to detect/measure electromangetic radiation.
+
+CCDs:
+Readout:Vertical(parallel array) or horizontal(serial register)
+Quantum efficiency
+
+Key features:
+	CCDs are linear(to a point)
+	Pixels can saturate
+	Gain is intrinsic
+	Responsive in the optical 
+Noise sources in a CCD:
+	Shot noise: noise = sr. of signal (Poisson distribution)
+	Thermal noise / Dark Current: This noise is a function of time. (Poisson)
+	Read Noise: Variations in the CCD readout/electronics will cause a normal distribution 			    around the bias level. (Gaussian)
+	Bias
+
+We also worked on drawing and analyzing gas emission spectra and finding out the result for different combinations of flashlights and filters, by which we got familier with spectroscopes and filters. 
+
+4.24
+We finished the project about the hardwares like spectroscopes and filters in different colors.
+Resource used to analyze the recorded spectra: 
+	Spectra of Gas Discharges: http://astro.u-strasbg.fr/~koppen/discharge/
+
+4.26
+Download tables: http://cdsportal.u-strasbg.fr/
+We basically reviewed some methods of Python to import a table and analyze data including plotting data with WCS.
