@@ -12,9 +12,31 @@ I used a moon phase calendar from google to check the moon phase during my time 
 
 I can still optimize the code better to sort the table by fractional observation time in order to rank objects for different observation times.
 
-Potential projexts:
+
 Is there galaxy rotational axis correlation: Requires a catalog with spectra to fit rotation curves. Correlate with galaxy classification, "Axis ratio", and density of galaxies in surrounding space. SDSS galaxy environment information catalog. https://www.sdss.org/dr15/data_access/value-added-catalogs/
 
 I updated my notes for my project and have opened six papers and saved them to my Zotero.
 
 It is difficult to work on this project only from the astrolab. I should figure out how to work on this from home.
+
+Vignetting: dark regions at edges due to scattering
+
+Bias/Overscan: give information about electronics. Might have something to do with amplifiers.
+
+A large enough number of samples will cause many types of distrobutions (poisson included) into gaussian distributions.
+
+Serial register/horizontal CCD: bottom row of CCD array. Gets pushed right to a single cell.
+
+Dark current = thermal noise
+
+quantum efficiency is bad for ~<300nm
+
+n_{tot}=sqrt{(n_{phot})^2+(n_{dark})^2+(n_{read})^2+(n_{bias})^2}
+
+noise=sqrt{signal}
+
+want to subtract dark current from scan by exposing for same amount of time.
+
+bias is read noise?
+
+We looked at spectra and learned about astropy tables and how to make them managable as well as pandas.
