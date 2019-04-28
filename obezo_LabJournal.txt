@@ -40,6 +40,16 @@ https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.2638C/abstract
 Followed path of a photon
 Continued fits problem data
 
+Week 4
+Monday
+Started the project. Took a lot of time to understand how to use the sprectrameter for the second part
+
+Wednesday
+Finished that project
+
+Friday
+Spent time on python.
+Learned about vizier (https://vizier.u-strasbg.fr/viz-bin/VizieR)
 
 
 
