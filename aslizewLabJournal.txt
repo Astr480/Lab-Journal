@@ -140,3 +140,24 @@ Day 12: Meredith class, working with files and fits and Astropy
 -all_world2pix to object, origin usually 0 but somtimes labeled as 1. in python always 0.  -->> give pixel values of image
 -plt scatter of stars over the .imshow
 -.sample draws random sample frm a df, like a preview
+
+Day 13:
+-Group project, lab report practice/assignment
+-make comparisons to actual google data (value from vendors/manufacturer)
+-Look at back of camera to see what type of camera it is, might vary,
+-Binning- want 1x1, no change. 1x1 is all pixels.  2x2 binning combines two pixels' charges.  -> less spatial resolution, but for brighter things, the full well goes up (sharing across 4 pixels, might not need high spatial resoltuion)
+-Arcsat- all need same binning to process that data
+-Gain, Read noise.  Bias (overscan) -> electronic noise.
+-don't let flat saturate (all pixels have same counts and you'll get spikes etc).  Expose for less time (shouldnt actually be super flat)
+-Intentionally saturate to find when nonlinear starts (can convert easily etc)
+-To measure linearity, mess w exposre / count number vary it intentionally (change lamp, we'll use exposure time instead)
+-Dark current from temperature (electrons in the silicon, warmer/longer exposure reads out more)
+APO NOTES-- weather generally getting better, friday nighy showers DANG
+-https://irsc.apo.nmsu.edu/ can show clouds etc/ sky standard deviation-- plot bouncing a lot is cloud density
+-https://weather.apo.nmsu.edu/ shows clouds, forecast for the week.  breezy ok, but rain and humidity and high wind is bad so cant open telescope.
+    -cloud cover, seeing, transparency (clear sky forecast.  look at these for cloud cover etc on observing dates).  Don't care too much about temperature, mirror should be same temp as outside air.  wind sucks
+    -better spatial res for lower seeing
+-https://weather.apo.nmsu.edu/cgi-bin/weather.py current weather summary
+    -all the telescopes, sensors on mountain telling about conditions (observing specialists use these)
+    -Arcsat doesnt rly have sensors, follow others (Follow 3.5 meter (if 3.5 closed, we close, if open, we open)
+    -yellow text, speed 30 mph.  red = bad, yellow = kinda bad, white = ok.
