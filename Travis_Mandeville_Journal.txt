@@ -44,3 +44,10 @@ Convert value to string:     for col in ['Header_1', 'Header_2', , ]
 
 Built-in plotting:	     df.plot.scatter('Header_1', c='Header_2')
 
+===============================================================================
+Week 5:
+Monday we spent going over the CCD Characterization project. For the latter half of class we went to work with the CCD to get our data for the project. The CCD was pretty difficult to get to cooperate. Getting an appropriate bias was incredibly wonky due to the fact that we could not set the exposure to zero, but instead the smallest value that would work was only 0.12s. We were able to get about 14 flats. Though the example suggested getting 16, we ran out of time.
+
+Wednesday was largely spent working on coding. Pulling the data out of the FITs file and into a pandas df, was easier than I thought, Meradith's tutorial last Friday was very helpful for this. Subtracting the dataframes proved to be more difficult. I moved on to just attempting to plot the CCD array, but that too was not willing to cooperate... Much more time will be required.
+
+Finally got both the plotting of the CCD array to work, as well as getting the dataframes to subtract from one another. With those main obstacles overcome, I was able to get both the Gain and Read Noise. Also found out that I made a mistake or JSkyCalc betrayed me, i'll conclude the latter has occured. Long story short, none of my objects would have been observable but Professor Tuttle came to the rescue via I_Observe, and new targets were aquired. Observing dates/times for me will be 5/3 (1AM-) and 5/8 (1AM-).
