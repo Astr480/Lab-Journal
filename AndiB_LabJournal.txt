@@ -77,6 +77,7 @@ Day11 (4/24)
 
 Day12 (4/26)
 -skipped to do 226 hw, told that the class is optional
+-made a list of roAP stars with periods less than ten min
 
 Day13 (4/29)
 -introduced to the CCD lab.... Anika, Megan, two others are my partners
@@ -85,3 +86,25 @@ Day13 (4/29)
 -want mirror to be the same temp as the air... wind affects dome closure
 -"current weather summary" gives a dark screen describing all telescopes on mountain. yellow/red text denotes alarming conditions
 -rec: use a finding chart of the sky with digitized sky survey
+
+Day14 (5/1)
+-CCD lab time! We went into the TEG AUEG corner to the spectrograph, which will eventually be underneath MRO (I'll be in charge of programming an arduino to turn the spectrometer lamp on/off)
+-a pencil was used to prop open the box which the CCD was pointed into. lamp could be turned on/off, illuminating the slit
+-usb plugged in, camera connected to CCDsoft, temperature turned on which turns on the fan. both imager and autofocus turned on
+-i played with the exposure, bin size, light, etc. while we set up the format
+-for flats, an exposure time of 90 seconds was sufficient for a solid circle and max saturation of 48,000 counts
+-reduced exposure by 9s until 18s. saved all fits files to my usb which i emailed to my groupmates
+
+Observing (5/2)
+-VPN client didn't work on my tablet, so I used my windows computer to login. took a while to get things moving.
+-took bias. couldn't determine how to take flats without it being twilight... couldve made dome flats, but that wouldve required us to close the dome
+-first exposure i tried to take, i checked the autofocus boxes, which the system really didn't like. it took a while to bring the observatory back online
+-after some trial and error (i had very optimistic limits for RA), i was able to take images of four different roAp stars!!!!!!
+-the first two i imaged were more test-run-y... the last two had periods of 5.4 and 8.3, and i used halpha and sdss_u for both
+-couldnt figure out how to download the files so i'll do it in class tomorrow!!!!
+
+Day15 (5/3)
+-determined how to fts the files... basically. i didn't need permission, and didnt need a vpn yesterday. went to localhost in my terminal, cd'ed into my specific directory
+-mget the fits files! megan took flats but they werent in bin4 which is brutal. i'll probably have to retake all my observations, which is fine
+-opened the files... the halpha exposure of HD 137949 is just. empty. which is super weird. i'll be able to try other filters later
+-i think i'm going to stick with two of the stars, HD 137949 and HD 134214
