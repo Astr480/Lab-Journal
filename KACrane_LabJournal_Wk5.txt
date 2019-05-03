@@ -1,0 +1,29 @@
+Day 13:
+
+CCD characterization lab
+  must keep track of all details personally, even though in group
+  write lab report by self
+
+  1x1 binning throughout
+  don't want flat to saturate (need to expose for less time)
+    same counts
+    weird shapes
+  intentionally saturate to measure linearity
+
+  can't expose for much less than 0.1 sec
+
+  f5 VPN to access ARCSAT
+
+Day 14:
+  collecting data with CCD
+
+  do I need to convert/rename .fit to .fits?
+
+  weird circle in images
+  lines on bias field: why aren't they the same value all
+  along line?
+
+Day 15:
+  tiny, negative gain: wrong but fine
+
+  need to saturate CCD: Meredith's fault
