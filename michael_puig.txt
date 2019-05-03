@@ -1,3 +1,48 @@
+Friday 5/3:
+
+Reread the assignment
+Check out the jupyter notebooks
+
+Notebook will not open my fits files beacause exptime is not in the header
+Turns out it needs to be exposure
+Our data is linear enough
+
+On to the gain
+gain of about 0.4
+read noise of about 16 (is this right?)
+
+
+
+Wednesday 5/1:
+
+Today we're reading through the assignment
+Start on the analysis
+
+First draft of final paper is due May 20th, I should probably get on that
+
+Sarah talked about the education system
+Research is much more important than teaching ability
+Reminds me of Bulgac
+
+Trying to read this assignment but keep zoning out
+
+
+
+Monday 4/29:
+
+Picking groups to work with for the next couple weeks
+
+We are the first group to use the ccd thing
+Taking biases and flats
+biases were easy enough, but it is extremely difficult to find the saturation point of the flat
+
+To get the right amount of light into the box we tried to hold it open with a pencil and different sizes of tapes
+We also tried a flashlight but that brought in too much light
+Eventually the pencil ended up letting in the right amount of light
+Saturation at about 90 seconds
+
+
+
 Friday 4/26:
 
 Learning about coding and downloading from databases
