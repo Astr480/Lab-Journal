@@ -40,3 +40,11 @@ want to subtract dark current from scan by exposing for same amount of time.
 bias is read noise?
 
 We looked at spectra and learned about astropy tables and how to make them managable as well as pandas.
+
+We took images on a CCD in order to classify it. It seems pretty straight forward and similar to how I have classified equipment in my optics lab. I need to get cracking on my assignments because I have group meeting presentation next week.
+
+I lost some of my journal. I have to remember to save whenever using vim.
+
+We had a good in class conversation about professor incentivization to teach better and it inspired me to write a paper to the physics department about our situation as such a large department
+
+I am going to spend the weekend looking over my catalogs and quasi-coding how I will determine correlations and galactic spin axis. Fun fun!
