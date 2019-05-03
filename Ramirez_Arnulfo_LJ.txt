@@ -5,6 +5,7 @@ Week 1:
 		Learned Github
 	Class3:
 		Absent
+
 Week 2:
 	Class1:
 		Absent
@@ -14,4 +15,27 @@ Week 2:
 	Class3:
 		Continued working on NightSky assignment. Sorted data and sifted out any objects that would not be visible in our observing time. 
 		Ended up with 23 objects that should be visible between April 1 - April 15. Plotted airmass graph on April 15 for all 23 Quasars.
+
+Week3:
+	Class1:
+		Absent
+	Class2:
+		Began working on FITS files & Colab assignment. 
+	Class2:
+		Absent
+
+Week4:
+	Class1:
+		Completed Fits
+	Class2:
+		Do not recall
+	Class3:
+		Do not recall
+Week5:
+	Class1:
+		Absent
+	Class2:
+		Did reading on variable galaxies and quasars. Looked at different variables to observe. 
+	Class3:
+		Gathered the data for the CCD assignment.
 		
