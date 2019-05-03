@@ -1,0 +1,21 @@
+Notes for 05/03/2019:
+
+Today was, admittedly, rather unproductive. The 
+virtual machine I work on required substantial updates - 
+as Ubuntu 19 was just released. I also had to update 
+my VirtualBox installation and rebuild the VirtualBox 
+guest utilities. The good news is that nothing 
+spontaneously combusted! The bad news is that I spent 
+the entire class downloading an entire operating system 
+through a 600 kb/s virtual connection.
+
+I was witting next to a member of my team for the CCD 
+project, and he made good progress analyzing and 
+visualizing the data. He recommended a Python package 
+called Glob for importing all of the FITS data we 
+collected. Initial results from analysis look 
+very promising.
+
+We'll see how my own work goes.
+
+Preston Went

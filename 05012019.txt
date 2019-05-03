@@ -1,0 +1,21 @@
+Notes for 05/01/2019:
+
+Today was spent mainly on three tasks.
+
+First, I read through the theory and practical 
+descriptions of the measurements we did in the last 
+section.
+
+Second, I studied up on how to use AstroPy for FITS 
+file manipulation. Unfortunately, none of this is 
+particularly simple. I'm excited to hear I have at least 
+one weekend to do this, and plan to use that time well. 
+(Quit laughing - it could happen.)
+
+Finally, I listened to Prof. Tuttle deliver a fantastic 
+impromptu discussion on the current state of higher 
+education in the United States. I'm no longer upset 
+at having been rejected by all of the programs I applied 
+to.
+
+Preston Went
