@@ -164,3 +164,7 @@ May 1st, 2019:
 	Began code writing for CCD project, too. Started calculating Gain and Read nosie
 
 
+
+May 3rd, 2019:
+	Worked on the CCD project. Made it to the linearity section. Will recollect data on Monday so we can see the saturation behavior of the CCD.
+	I also found some more papers for my research project that I will read. Stuff on the structure function and how to calculate it for a single quasar. 
