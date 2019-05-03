@@ -117,3 +117,37 @@ BONUS JOKE: Why didn't the Dog Star laugh at the joke?
      |               `--' |   
  ____|_       ___|   |___.' 
 /_/_____/____/_______| 
+
+WEEK 5
+
+Date: Monday, April 29
+
+We started the CCD lab today, but my group didn't have a chance to start
+getting any data, but hopefully we'll start on Wednesday. Instead, I tried to 
+get prepared for observing on the ARCSAT. I have learned that there is still 
+much more I have to do. It's a bit overwhelming.
+
+Date: Wednesday, May 1
+
+We got the CCD data today, which wasn't as bad as I thought it would be. 
+Everything went smoothly. I just hope we didn't forget to take any
+pictures. Now, I gotta go through a lot of fits files and figure out
+what to do with them. Being able to use the tools hands on really helped
+me understand a little more on how the stuff works.
+
+Date: Firday, May 3
+
+I managed to get through a lot of the data analysis of the CCD lab. I still 
+need to get the dark current and perhaps figure out why my gain is so
+low (currently 0.09...). I am rather greatful for the sample code given to 
+us from canvas, thank you.
+
+Joke of the week: How do you know when the moon is going broke?
+		  When it's down to its last quarter! 
+
+                              _..._
+                            .'  ::::.
+                           :    :::::: 
+                           :    ::::::
+                           `.   :::::'
+                             `-.::''
