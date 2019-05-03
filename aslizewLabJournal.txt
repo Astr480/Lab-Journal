@@ -161,3 +161,8 @@ APO NOTES-- weather generally getting better, friday nighy showers DANG
     -all the telescopes, sensors on mountain telling about conditions (observing specialists use these)
     -Arcsat doesnt rly have sensors, follow others (Follow 3.5 meter (if 3.5 closed, we close, if open, we open)
     -yellow text, speed 30 mph.  red = bad, yellow = kinda bad, white = ok.
+Day 14: CCD Camera lab! Took data.
+Dat 15: Made graphs and finished analysis of CCD characterization lab.
+  -Python is fun! I do have questions on if my graphs are correct (about the dark Current)
+  -Observing tonight with class with sweet and salty sNACKS!
+  -My observing on Saturday ad Sunday!!!!! AHHHHH! I have all of my finding charts ready.
