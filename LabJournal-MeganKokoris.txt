@@ -69,3 +69,22 @@ numbers, .dtype
 
 na_filer=
 basically just keep trying stuff.
+
+4/29
+
+Started reading the CCD project and also looked over observing project more.
+
+5/1
+
+We took all of our pictures today and began working on the project. I ran into
+an issue about my observing project. One program says I wont see it, but
+another said I will?? Will take care of that 5/2. I think it'll work
+because Prof. Tuttle showed me that I would be able to observe it and I'm
+guessing I made an error.
+
+we also got pizza 
+
+5/3
+
+Worked on the CCD code, I am done with gain and linearity and am currently
+working on band_gap. I also did my observing last night!
