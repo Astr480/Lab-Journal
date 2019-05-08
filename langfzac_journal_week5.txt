@@ -1,0 +1,29 @@
+##################################
+	Week 5
+##################################
+##################################
+	04/29/19
+##################################
+Took flats and biases for report. 
+Use the pencil for proper amount of light.
+Exposure of 105 seconds for saturation. 
+
+##################################
+	05/01/19
+##################################
+
+Literally did nothing....
+
+##################################
+	05/03/19
+##################################
+
+glob is good.
+Grabs all the files
+
+For our "FIT" files, need to change keyword
+'exptime' to 'exposure'. File format diff??
+
+Getting a value for noise thats correct, but 
+gain is off... 1/gain returns correct value though. 
+
