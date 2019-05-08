@@ -1,0 +1,55 @@
+GOALS:
+1. detector gain and read noise
+2. detector linearity
+3. detector dark current, temperature dependence
+4. estimate of silicon band-gap energy
+5. comparisons to manufacturer specifications
+
+1.
+  Read noise= mean error contributed to pixel by amplifier
+  Gain= number electrons per data unit produced in conversion
+    lower gain, smaller signal enters converter
+Procedure:
+-BIAS: CCD tube covered, cap on camera, save all option on.  take series with ____ exposure time
+-FLATS: Use tissue/diffuse material to get even exposure, UNCHECK save all.  Do diff exposure times, want Poisson noise/ regular noise, not non-linearity.
+  -exp with exposure times until ~25000 ADUS
+  -find exposure time and take a few flats with this same time-- SAVE!!
+Equations:
+all F, B (bias, flat) are mean pixel values of the image, ANY 2 bias/flats, but SAME pixel regions
+Gain=((F1+F2)-(B1+B2))/((/sigma^2_F1-F2)-/sigma^2_B1-B2))
+/sigma_read=Read Noise/Gain (in ADUs)
+/sigma_flat=sqrt(F*Gain)/Gain (in ADUs)
+Read Noise=Gain*(/sigma_B1-B2)/sqrt2
+-- can use diff regions/ try diff sets for diff values (but same regions for each set)
+2. Linearity of the CCD
+  The degree to which output signal is proportional to the incoming photons received by the detector
+  Goal-- find linear limit
+Procedure:
+-Increase exp time from flat until ADU saturation.  then, take series of 1t, .9t, .8t, etc, take more flats,
+-Minimum exposure is around .12 seconds, so might be limit
+-keep log of the exposure times
+Analysis:
+Plot avg counts (in ADUs) and time to see linearity and when it breaks down
+3. Dark Current
+  Electrons boosted into conduction by thermal excitation.  Room temp reallt dominates, so cooling decreases
+  Max reduction ~40 C
+-->No Procedure? Just calculate with data???
+Equations:
+D=2.5*10^15*A*I_d*T^1.5*e^(-E_g/2kT)
+D=Dark Current in electrons/pixel/sec, A=is the pixel area, cm^2, I_d is dark current in nA/cm^2, E_g is band gap, T is temp in K
+--assuming constants, and with k=8.6e-5 ev/K, reduces to:
+y=Ke^-bx, where x=1/T and b=E_g/2K
+Analysis:
+Plot fcn of D as fcn of inverse temperature in K to determine band gap value
+4. Compare manufacturer values
+
+Report: include calculations whenever possible
+-basic intro of gathering data
+    CCD background, experiment set up, brief theory of parameters
+-Read noise, Gain calculations
+    values for terms, value for read noise, explains logic/why makes sense, compare to IRAF findgain task
+-Linearity of the CCD
+    Data table, plot, binning and FWU or ADU sat explanation, conclusion of the inearity of the detecro explanation, why linearity is important, camera FWC or ADU saturation explanation, UV or IR change explanation
+-Dark current, band gap energy
+    Graph of D, logic for solving for E_g, compare values, questions on convergence, slope and constant questions, dark current at 0C questions
+-Summary, comparisons to manufacturer, conclusions
