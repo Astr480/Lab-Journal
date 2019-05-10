@@ -1,0 +1,29 @@
+Ioana Alexandra Mititean
+5/10/19
+ASTR 480
+Lab Journal: Week 6
+
+5/6/19
+- As a class, we reviewed basic CCD characteristics, such as quantum efficiency, full-well capacity/saturation, and characteristics of images (biases, flats & linearity).
+- The class was asked to perform a calculation of 'signal to noise' ratio using a posted equation and information required to calculate each of the components to plug 
+into the equation. Some of these components included the gain, number of pixels (total), and dark current. 
+- My group for the "CCD Characterization" lab allowed other groups to use our (so amazingly awesome) data images.
+
+5/8/19
+- The lab assignment "CCD Reduction and Photometry" was handed out and introduced. 
+- "CCD Reduction and Photometry" was given an overview.
+- As a class, we downloaded wolf1346.tar.gz from Canvas and were advised to download the Python package CCDProc as well.
+- Then we retrieved ARCSAT data from APO using the sftp command. These data are to be used in the "CCD Reduction and Photometry" lab, to learn and practice reducing data.
+- We also used this opportunity to learn how to quickly download data, using commands such as 'get blabla.fits' or mget 'bla*.fits'. 
+- We also learned the good practice of checking the headers of our data files to double-check that the files were not misnamed. 
+- We briefly overviewed the importance of creating a "master bias" of bias images. 
+
+5/10/19
+- Continued our discussion of data reduction.
+- Learned briefly about HGC's - Hickson Compact Groups - and viewed an example and its associated header. 
+- Discussed instrumental effects on an image. We also discussed some natural interference, such as points of light caused by cosmic rays. 
+- Downloaded more .fits files from APO (biases, flats, objects, and darks).
+- Learned about spectrographs, and how a grating is used to create a spectrum directly of the object being viewed.  
+- This weekend, I will complete the majority of my "CCD Characterization" lab for Monday. Unfortunately I had little time during the week due to the homework
+in my other two classes being due each Friday. However, I am confident that if I focus on this lab for the entire (roughly) weekend, I will be able to finish and do
+a fair job.
