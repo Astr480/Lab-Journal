@@ -105,6 +105,34 @@ Observing (5/2)
 
 Day15 (5/3)
 -determined how to fts the files... basically. i didn't need permission, and didnt need a vpn yesterday. went to localhost in my terminal, cd'ed into my specific directory
--mget the fits files! megan took flats but they werent in bin4 which is brutal. i'll probably have to retake all my observations, which is fine
+-mget the fits files! megan took flats but they werent in bin4 which is brutal. i'll probably have to retake all my observations, which is fin
 -opened the files... the halpha exposure of HD 137949 is just. empty. which is super weird. i'll be able to try other filters later
 -i think i'm going to stick with two of the stars, HD 137949 and HD 134214
+
+Day16 (5/6)
+-reasserted deadlines - CCD lab due next monday
+-things we want to know about our CCD's:
+"full well": max electrons a pixel can hold... bigger pixels (bins) can hold more charge. measured using a photon transfer curve
+"read noise": false positives... measured by calculating the standard deviation of bias
+"charge transfer efficiency": transferring loss from pixel to pixel, usually super efficient. use Fe55 x-ray source then do stats of how much transferred
+"dark current": caused by thermal charge generation, reduced with cooling. measured with taking darks.
+"quantum efficiency": how efficiently the ccd detects light. measured with standard, well-calibrated illumination. often variable with time/wavelength.
+-photon transfer curve lets us know which portion of the CCD gives a linear behavior. a full well has a slope=1
+-shot noise is the time for photons to hit even if coming from the same source.
+-ADC is the electronic component that performs the conversion from analog to digital... it has a defined number of bits which dictates max output. if the ADC has 16 bits, max value = 65500
+NOISE:
+-usually read noise (bias) or shot noise (bright) regime. signal to noise is either ~S (read) or ~sqrt(S) (shot)
+-alter ADU saturation when using up a byte by having both positive and negative bias (if u set all bias to zero straightaway). bias is not a function of time.
+-flats reveal pixel to pixel variation. histogramming creates a gaussian distr. we flatten our observations by dividing by the flat fields
+DARKS:
+-scales with time
+-can show large scale pattern noise (like if there are mechanical cooling boys that aren't constant across the CCD)
+
+Day17 (5/8)
+-fixed astroplan!! scheduled an observing run
+-was late to class bc my grandpa died and i had family stuff messing up my day
+
+Day18 (5/10)
+-lots of reasons that you may not pick the center of your object (avoid bright object)
+-dots in the vingetting (part blocked by the instrument) and main image are cosmic rays. are not gaussian, maybe more streaky, while stars are round
+-infrared sky glows, including in spectral data. very difficult to calibrate in the infrared
