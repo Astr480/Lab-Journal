@@ -38,4 +38,11 @@ Week5:
 		Did reading on variable galaxies and quasars. Looked at different variables to observe. 
 	Class3:
 		Gathered the data for the CCD assignment.
-		
+
+Week6:
+	Class1:
+		Worked with the data taken for CCD assignment. Also planned the observations for later that week.
+	Class2:
+		Absent
+	Class3:
+		Worked on CCD assignment further. 
