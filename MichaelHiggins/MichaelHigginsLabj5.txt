@@ -1,0 +1,16 @@
+Monday:
+We spent all of today gathering data with the CCD. We placed a piece of
+paper over the camera and turned the lights off to get all of our flats. For
+our bias we took a .12s exposure with the lense cap on the camera.
+
+Wednesday:
+We were processing the data we got on Monday and had an issue where we were
+finding our gain was negative. We tried to figure this out for the entire
+class, but couldn't figure it out. I also set up my dates for observing
+to be on Saturday and Sunday.
+
+Friday:
+We figured out the reason our gain was wrong was because our data was
+formatted to int16 instead of int64. Making this switch gave us a reasonable
+gain and read noise. We realized our flats did not expose up to saturation
+so we will need to retake flats on Monday.
