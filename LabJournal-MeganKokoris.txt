@@ -69,3 +69,95 @@ numbers, .dtype
 
 na_filer=
 basically just keep trying stuff.
+
+4/29
+
+Started reading the CCD project and also looked over observing project more.
+
+5/1
+
+We took all of our pictures today and began working on the project. I ran into
+an issue about my observing project. One program says I wont see it, but
+another said I will?? Will take care of that 5/2. I think it'll work
+because Prof. Tuttle showed me that I would be able to observe it and I'm
+guessing I made an error.
+
+we also got pizza 
+
+5/3
+
+Worked on the CCD code, I am done with gain and linearity and am currently
+working on band_gap. I also did my observing last night!
+
+
+5/6
+
+characterzing CCDs;
+
+full well-max number of electrons a pixel can hold? bigger pixels, binned, can
+hold more charge
+System gain constant-electrons per DN
+
+full well- using a photon transfer curve
+system gain control- PTC also
+read noise- calculation sigma(standard deviation) of bias. Make sure to
+use 'clean' parts of chip
+Charge transfer efficiency; using Fe55 x ray source
+dark current- by taking dark frames
+quantum efficiency- flats and something calibrated
+
+photon transfer 
+		curves- read noise dominated- so few photons strongest noise 
+		is from chip
+		short noise- when the arrival time of the photons does a thing
+		full well- turn over and start going down
+two kinds of saturation- how many photons can you accecp. Analogue to digital
+ADC has a certain number of bits, max output fot the CCD. will stop being able
+to count. hardware and software. 
+
+ptc: theory vs data, red is real, it turns over and enter nonlinear as it goes
+into ful well. magenta, big issues in flat feild, not really flat and you can mask
+it out
+dark current is lower down and a linear line, but not linearity stuff
+NOISE- three kinds of noise dominate at different regions. read noise we
+remove with our bias.
+
+the ccd eq.
+
+S is sigmal, S* signal for object, Ss sky signal, t is time, dc dark current
+R is read noise, G is gain. n is number of pixels
+
+bias have zero exposure time, exposure not time, additive and we subtract it
+flat field arent perfectly flat
+
+flat-illuminated evenly by light
+
+5/8
+
+I worked on the bias/flat/fits lab thing. I am confused. I feel like I am 
+behind in the actual project. I started my paper, but like have zero code.
+
+wish me luck.
+
+5/10
+
+ra and dec- checking it on the header thing
+
+(do i print the CCD paper? turn it in on github? canvas?)
+
+overscan is the dark line down the center between different amplifiers
+some cosmic rays and such
+tiny white points in dark band- those are the cosmic rays and such. high
+energy particles. (can we look at these for fun??) they are disrespectful 
+jerks.
+
+how to get rid of them?
+
+how you load it in will make it different
+if you read it in as an array there is a thin break in amp. ds9 is easier
+a white line is also incorrect
+
+DONT LICK THE CCD
+
+not a lot of sky lines in the optical
+
