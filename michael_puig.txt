@@ -1,3 +1,68 @@
+Friday 5/10:
+
+Was not in class, nothing to report
+
+
+
+Wednesday 5/8:
+
+Learning about data reduction today
+
+download ccdproc
+in the command line, get to apo archive
+Download biases, flats, objects and darks
+
+Cannot find sky flats or darks to save my life
+Got em
+
+Checking out the biases
+  one dud, but the rest are fine
+
+Darks
+  all good
+
+Dome flats
+
+
+
+
+
+Monday 5/6:
+
+Outline of our day:
+Learn about ccd
+Work on the ccd paper
+
+Full well - maximum number of electrons for a pixel
+Read noise - voltage uncertainty
+
+How do we measure?
+Full well - using a photon transfer curve
+Read noise - calculation SD of bias
+Dark current- taking dark frames
+QE - flats with well calibrated and controlled illumination
+
+Two kinds of saturation
+Full well saturation
+ADU saturation
+
+Working on a CCD problem
+All in electrons
+
+Data reduction:
+
+Dont set bias to 0, adds negative numbers to your reduction
+Bias is a function of readout, not of time
+
+Take flats in the filter you will be observing in
+
+Back to the CCD assignment
+My linearity plot is completely out of whack
+Spent the next 20 min watching Preston troubleshoot the plot and finally get it working
+
+
+
+
 Friday 5/3:
 
 Reread the assignment
