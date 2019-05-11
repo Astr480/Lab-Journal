@@ -150,4 +150,44 @@ April 26, 2019:
 	I also obtained more fits files for this QSO from earlier SDSS releases
 
 
+April 29th, 2019:
+	Need to generate finding charts for research project
+		cadc: canadian astronomical data center
+	Class notes:
+		Started CCD project.
+		Read of bit of the project outline
+		Discussed APO operations and planning
 
+
+May 1st, 2019:
+	Continued work on the CCD project. Began the paper outline and calculations.
+	Began code writing for CCD project, too. Started calculating Gain and Read nosie
+
+
+
+May 3rd, 2019:
+	Worked on the CCD project. Made it to the linearity section. Will recollect data on Monday so we can see the saturation behavior of the CCD.
+	I also found some more papers for my research project that I will read. Stuff on the structure function and how to calculate it for a single quasar. 
+
+
+
+
+May 5th, 2019:
+	QUESTION: How to identify quasar across multiple data releases? Objid doesnt seem to work....
+
+
+may 6th, 2019:
+	Continued CCD project. Was planning on collecting more data since our groups didnt reach saturation, but we got data from another group that did.
+
+
+
+may 8th, 2019:
+	Worked in the CCD project alot. Managed to plot the dark current. Getting close to finishing all the code.
+	Today we talked about data analysis for CCD observations. Discussed various noise sources and how to calculate SNR.
+	My group also started discussing our observations at APO. Prof Tuttle offered to take back up data if she gets the chance since our forecast looks pretty cloudy and stormy. 
+
+
+
+May 10th, 2019:
+	continued work on the CCD project. 
+	started collecting more data for my Research project.
