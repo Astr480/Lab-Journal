@@ -1,0 +1,23 @@
+Ioana Alexandra Mititean
+5/3/19
+ASTR 480
+Lab Journal: Week 5
+
+4/29/19
+- CCD text homework was turned in at the start of class.
+- The 'Characterizing a CCD' assignment was passed out and introduced. 
+- The class got into (rough) groups for the assignment.
+- As a class we went through the CCD lab assignment, and Sarah highlighted important parts and gave us an overview of the rubric and what we (in groups) will do when we see
+the CCD itself.
+- I continued reading through the lab in detail and understood what I was to do for the data analysis portion. 
+- One group was chosen to collect data with the CCD already (I believe this happened Monday, but I am not 100% certain).
+
+5/1/19
+- Most of the groups in the class went out with Meredith to collect data with the CCD.
+- My group did not go yet so I read through the CCD lab assignment again to remind myself of my task for the assignment.
+- After reading through the lab, I re-read through the CCD Handbook (CH2) about general CCD characteristics to remind myself of how they work. 
+
+5/3/19
+- Collected data using the CCD with my group.
+- All the relevant files (FITS) were distributed through mail through the group. 
+- Made this lab journal entry :)
