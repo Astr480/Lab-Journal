@@ -166,3 +166,55 @@ Dat 15: Made graphs and finished analysis of CCD characterization lab.
   -Python is fun! I do have questions on if my graphs are correct (about the dark Current)
   -Observing tonight with class with sweet and salty sNACKS!
   -My observing on Saturday ad Sunday!!!!! AHHHHH! I have all of my finding charts ready.
+
+Day 16:
+CCDs and Data reduction
+Characterizations:
+  1. Full well capacity- max # electrons a pixel can hold.  fcn of pixel size (binning)
+    Use a photon transfer curve
+  2. System gain constant = electrons per DN (digital numbers)
+    PTC as well
+  3. Read Noise- "voltage uncertaintY"
+    Calculate sigma of bias
+  4. CTE= charge transfer efficiency, usually close to .99999999
+    Use a Fe55 Xray source
+  5. Dark Current- thermal charge generation
+    Take dark frames
+  6. Quantum efficiency- How efficient detects light
+    well calibrated source flats (know exactly the source)
+  QE=Nabs/Ninc = (1-Ra)e^stuffs.
+  -signals can be variable with time as well as wavelengths
+  PTC: first, read noise, then shot noise, then fixed pattern noise.
+    flat, linear, incr slope to full well then down.
+    (theory vs  actual data).  Turns over in nonlinear as you approach full well (not ALL linear)
+    Flat field errors might make it curve up aaaaaaaaaaa
+  FULL WELL vs ADU SATURATION:
+    full well governed by pixels.  how many can you accept.
+    ADU (analog to digital converter), ADC has number of bits that have a max output of CCD.
+    -wrong number of bits gives weird signal.  ADC stops being able to count when saturated (hardware and software)
+  NOISE: Read: remove with bias. not ideal (subtract)
+        Shot: bright objects ~ sqrt(object signal)
+        Pattern:
+      CCD EQUATION-- S/N full sqrt equation. wow! throw away sigma (digitization noise)
+      npix for source count. nsky is sky pix
+SUBTRACT BIAS.  Bias is a voltage applied to the chip. some reasonable nonzero count number
+    If you set bias to 0, bias is NOT same for each read out (not fcn of time) so the distribution goes pos and negative so computers dont like it
+    (used up a bit with a negative sign (-4 vs just 4)) (additive, so subtract)
+FLAT FIELDS. DIVIDE science obs by flat.  pixels have different responsiveness/sensitivities
+  -pixel response function of WAVELENGTH not times
+DARKS-- thermal. temp decrease (QE also drops oops)
+  DC fcn of time (increaseswith time.  long exposures -> long darks)
+  long vs short dark. (i.e 900 sec totally gets shape vs 40 sec looks more like bias)
+  -precautions rather than desperate need.
+
+  
+Day 17: DATA REDUCTION
+-NEW lab-- ^ , plus photometry.  download folder frmo canvas for sample files on Wolf
+-Install CCDProc python package (done)
+-downloading- get filename, mget something*.FITS
+Observing Project Progress:
+Taken a lot of data, now looking through (subtracting bias, dividing by corrected flats)
+-so far there are a LOT of donuts.  Not sure if the data is usable!
+
+Day 18:
+Out of town, class is probably working on Data Reduction assignment
