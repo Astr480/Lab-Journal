@@ -12,7 +12,7 @@ I used a moon phase calendar from google to check the moon phase during my time 
 
 I can still optimize the code better to sort the table by fractional observation time in order to rank objects for different observation times.
 
-
+Potential projexts:
 Is there galaxy rotational axis correlation: Requires a catalog with spectra to fit rotation curves. Correlate with galaxy classification, "Axis ratio", and density of galaxies in surrounding space. SDSS galaxy environment information catalog. https://www.sdss.org/dr15/data_access/value-added-catalogs/
 
 I updated my notes for my project and have opened six papers and saved them to my Zotero.
@@ -39,12 +39,23 @@ want to subtract dark current from scan by exposing for same amount of time.
 
 bias is read noise?
 
-We looked at spectra and learned about astropy tables and how to make them managable as well as pandas.
+today we are beginning a characterization lab report on CCDs. Refer to the back of the packet for grading.
 
-We took images on a CCD in order to classify it. It seems pretty straight forward and similar to how I have classified equipment in my optics lab. I need to get cracking on my assignments because I have group meeting presentation next week.
+Compare measurements with vendor information.
 
-I lost some of my journal. I have to remember to save whenever using vim.
+Gain: #electrons/ADU. But it is somehow inversely related to the gain of the amplifier?
 
-We had a good in class conversation about professor incentivization to teach better and it inspired me to write a paper to the physics department about our situation as such a large department
+Must take two bias frames and two flatfield exposures to get difference images
 
-I am going to spend the weekend looking over my catalogs and quasi-coding how I will determine correlations and galactic spin axis. Fun fun!
+get ___ for single files and mget ___* for all files that begin with the same starting part.
+
+We are working on a new Reducing Imaging Data using Bias, Flats, Darks, and Images.
+
+Thus far I have been using ds9 to collect data for the processes. I will probably have to come in over the weekend because my personal research is pressing and I have a group meeting presentation coming up tomorrow. Yay 19 credits...
+
+
+
+
+
+
+
