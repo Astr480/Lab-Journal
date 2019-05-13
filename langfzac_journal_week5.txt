@@ -25,5 +25,5 @@ For our "FIT" files, need to change keyword
 'exptime' to 'exposure'. File format diff??
 
 Getting a value for noise thats correct, but 
-gain. 1/gain returns correct value though. 
+gain is off... 1/gain returns correct value though. 
 
