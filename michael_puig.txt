@@ -1,3 +1,113 @@
+Friday 5/10:
+
+Was not in class, nothing to report
+
+
+
+Wednesday 5/8:
+
+Learning about data reduction today
+
+download ccdproc
+in the command line, get to apo archive
+Download biases, flats, objects and darks
+
+Cannot find sky flats or darks to save my life
+Got em
+
+Checking out the biases
+  one dud, but the rest are fine
+
+Darks
+  all good
+
+Dome flats
+
+
+
+
+
+Monday 5/6:
+
+Outline of our day:
+Learn about ccd
+Work on the ccd paper
+
+Full well - maximum number of electrons for a pixel
+Read noise - voltage uncertainty
+
+How do we measure?
+Full well - using a photon transfer curve
+Read noise - calculation SD of bias
+Dark current- taking dark frames
+QE - flats with well calibrated and controlled illumination
+
+Two kinds of saturation
+Full well saturation
+ADU saturation
+
+Working on a CCD problem
+All in electrons
+
+Data reduction:
+
+Dont set bias to 0, adds negative numbers to your reduction
+Bias is a function of readout, not of time
+
+Take flats in the filter you will be observing in
+
+Back to the CCD assignment
+My linearity plot is completely out of whack
+Spent the next 20 min watching Preston troubleshoot the plot and finally get it working
+
+
+
+
+Friday 5/3:
+
+Reread the assignment
+Check out the jupyter notebooks
+
+Notebook will not open my fits files beacause exptime is not in the header
+Turns out it needs to be exposure
+Our data is linear enough
+
+On to the gain
+gain of about 0.4
+read noise of about 16 (is this right?)
+
+
+
+Wednesday 5/1:
+
+Today we're reading through the assignment
+Start on the analysis
+
+First draft of final paper is due May 20th, I should probably get on that
+
+Sarah talked about the education system
+Research is much more important than teaching ability
+Reminds me of Bulgac
+
+Trying to read this assignment but keep zoning out
+
+
+
+Monday 4/29:
+
+Picking groups to work with for the next couple weeks
+
+We are the first group to use the ccd thing
+Taking biases and flats
+biases were easy enough, but it is extremely difficult to find the saturation point of the flat
+
+To get the right amount of light into the box we tried to hold it open with a pencil and different sizes of tapes
+We also tried a flashlight but that brought in too much light
+Eventually the pencil ended up letting in the right amount of light
+Saturation at about 90 seconds
+
+
+
 Friday 4/26:
 
 Learning about coding and downloading from databases
