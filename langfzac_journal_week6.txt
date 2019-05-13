@@ -1,0 +1,28 @@
+####################################
+	Week 6
+####################################
+####################################
+	05/06/19
+####################################
+
+Multiply anything in ADUs by the gain 
+(electrons/ADUs) to get electrons.
+
+####################################
+	05/08/19
+####################################
+
+mget in sftp for multiple files
+
+Need to figure out a better way to 
+view mulitple files. 
+glob + imshow??
+
+####################################
+	05/10/19
+####################################
+
+Found the spec sheet for the guide camera: http://www.astrosurf.com/re/st7.html
+
+Gain is off by a lot, but dark current and readout are almost the same
+
