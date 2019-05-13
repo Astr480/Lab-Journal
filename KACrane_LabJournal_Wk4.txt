@@ -1,0 +1,71 @@
+Day 10:
+
+baffle responsible
+restricts view
+
+bias/overscan is a measurement of telescope electronics (amplifiers)
+
+
+different regions in image governed by different statistics
+  Poisson
+    how many of something
+    looks like Gaussian at large sample
+    photon
+      independent
+      probability of arrival
+      lots of photons approximates Gaussian
+  Gaussian
+    CCD electronics noise
+    can calculate noise and gain from histogram
+
+bias image: 0 sec image
+  noise from individual pixels
+
+detectors: device used to detect/measure/count electromagnetic radiation
+
+Charge transfer
+  each amplifier can only read one pixel at a time
+  transfer charge from pixel to amplifier
+  quantum efficiency: efficiency of converting photons to electrons
+  moves charge from pixel to pixel
+  read across row, then all rows shift down, repeat
+
+
+back-thinned vs front illuminated
+back-thinned have higher QE and wavelength responsivity
+
+CCD notes
+  CCDs are linear (counts propto photons)
+  pixels can saturate
+  gain is intrinsic
+  responsive in optical
+  commercially viable
+  time resolution = exposure time
+
+
+CMOS (complementary metal-oxide-semiconductor)
+  charge to voltage happens in each pixel
+  each pixel has its own electronics (electronic behavior)
+
+microchannel plate
+  continuous time resolution
+
+noise
+  shot noise
+    underlying (Poisson) photon noise
+  thermal/dark current
+    temperature of device means moving electrons
+    why we cool CCDs
+    adds electrons, more over more time
+    "dark" needs to be same length as exposure time
+  read noise
+    due to bias level of CCD
+
+Day 11:
+  continuing hardware assignment
+
+  how do you get practice reading spectral lines?
+
+Day 12:
+
+  
