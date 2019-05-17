@@ -1,0 +1,44 @@
+Ioana Alexandra Mititean
+5/17/19
+ASTR 480
+Lab Journal: Week 7
+
+5/13/19
+- In class we had a lecture on photometry, photutils, PSF, basics of the sky background (such as why it is annoying).
+- We chose data to use for the data reduction 
+- For the rest of the class we spent some time working on the Data Reduction/Photometry lab.
+- I asked Sarah a few questions about the lab, such as how to get the overscan parameters of an image file. 
+- I also installed Python 3.6 and photutils. 
+
+5/15/19
+- I stayed home from school today completely (that sentence feels a bit awkward). I took the time to work hard on all of my schoolwork - 
+until Friday, I was completely and utterly swamped in homework (all of my classes had a major assignment due on Friday).
+- I read through the Data Reduction/Photometry lab again to remind myself of what I must do to complete it, and I continued doing
+some preliminary things to prepare for the bulk of the lab (updated many Python packages, opened up relevant files and web pages 
+relevant to data reduction/photometry, etc.)
+
+5/17/19
+- In class Sarah reminded us that the first draft (super rough draft) of the project paper is due on Monday. 
+- She also announced that the Data Reduction/Photometry lab will be due next Friday instead (thank goodness)
+- In class we went over what contents (roughly) to include in the first paper draft (due Monday), and how a scientific paper will most likely differ from an
+  English literature paper.
+- We also went over what sections to include in our final papers, some of which are included below:
+	> Introduction (abstract optional)
+	> Possibly a background, to help contextualize the work
+	> Explanation of approach, theory
+	> Data/Analysis
+	> Results/Interpretation
+	> Conclusion
+- Sarah also gave us tips on what to do and not to do in our papers:
+	> Some to-do's:
+		~ Include references (bibliography, in-line references)
+		~ Make sure all included tables/plots are referenced in the text
+		~ Make all plots and tables clear, with complete labels
+		~ Plots with multiple lines (overplotting) should have legends and be very clear which dataset is which
+	> Some to-don'ts (most are technically just opposites of the to-do's):
+		~ Plagiarize
+		~ Plot too many lines (or too many similar lines on a single plot)
+		~ Include a plot with little relevance to the work or simply not mentioned in the text
+		~ Think that making plots, tables or figures enormous will reduce the amount of text I must write to reach the paper length requirement 
+- The rest of the class period was spent working on various ASTR 480 work - either the project draft or the Data Reduction/Photometry lab.
+- I also made this lab journal. I haven't learned my lesson to not put it off until every Friday. 
