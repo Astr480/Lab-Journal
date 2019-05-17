@@ -161,3 +161,52 @@ DONT LICK THE CCD
 
 not a lot of sky lines in the optical
 
+5/13
+
+confused.
+
+psf (point spread function) the response of your telescope/instrument/system
+to the object you are observing
+
+systems have aberations, want as many photons from the object without introducing
+noise from other sources. The sky glows. have this sky backgroud, so they all have sky counts
+in the image that we need to get rid of. astronmical bckground effects, but they still cause a
+background, also local source. caused by dust.
+how do we calculate sky.
+does proximity matter?
+apperature photometry- how much energy in appeature
+PSF- 
+
+what shape is youre apperature
+wheres the center?
+exclude nearby objects?
+how far away should sky pixels be?
+how to deal with large objects?
+
+
+5/15
+
+Well I figured out the data reduction up to PSF(??)
+
+5/17
+
+tie into larger field, and say how the stuff youre doing is realated to the 
+larger field. ads and type in key words
+intro, methods/data, results/discussion, conclusion, 
+methids: what're you looking at, wheres it coming from, very explicit about
+lables, most of paper will be in methods, with a little in results
+guess in results, weird result, what does it mean, its okay not to know
+results, i fit this to this and i think it means this
+report vs interpret
+
+intro and conlusion shorter
+
+Details: show data, plots and tables. dont need to put all images in, but
+put one as an example. Nothing should only exsist in captions.
+
+refer to figures
+
+reference a lot.
+
+units and everything. lable..
+
