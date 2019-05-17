@@ -53,7 +53,25 @@ We are working on a new Reducing Imaging Data using Bias, Flats, Darks, and Imag
 
 Thus far I have been using ds9 to collect data for the processes. I will probably have to come in over the weekend because my personal research is pressing and I have a group meeting presentation coming up tomorrow. Yay 19 credits...
 
+PSF - point spread function. Must make sure that we are subtracting background from our image to ensure our signal is all from our object
 
+There are many different sources that can be giving different point spread functions as well as varying the background at all background wavelengths.
+
+To find the background you can point at a "dark" area of sky and try to characterize the background.
+
+Masking nearby objects might make sense if the point spread function is an issue.
+
+Does is make sense to define the center of the object as its peak.
+
+Have to deal with other objects that may not be spatially resolvable as well as other galaxies with foreground stars.
+
+When using data for Aperature photomotry it is best to use point sources.
+
+Using the gaussian fits in DAOStarFinder it seems to REALLY like some of my brightest stars. It tends to fit more gaussians to my brightest stars and I don't see any parameters to adjust this.
+
+adjusting the FWHM to be larger seems to have helped but may have just better stacked the same gaussians. Tough to say.
+
+This is a lot of work for this week. Mary gates is tomorrow and I can't come to class and we have the rough draft of our paper due Monday. I think the Reducing Imaging Data would have been fine if it was accompanied by a jupyter notebook for the apperature and PSF portions. Maybe I'm just really bad at coding though.
 
 
 
