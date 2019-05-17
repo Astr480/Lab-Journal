@@ -239,3 +239,38 @@ blue box inside the grey box which the blue box contain the bright of the spectr
 There are gap in the wavelength that we can not get on the ground
 We can use telescope on a plane or in space to avoid the gap
 
+Week 7
+
+Class 1
+
+PSF(Point Spread Function)
+system have aberrations that give shape to the images they are creating
+Even with no aberrations, we get a shape like a ring around the main gaussian distruibute
+sky background: the sky is glowing, a lot of things can cause it like ground light scattering in the nearby atmosphere
+Also unresolved astronomical objects; the zodiacal light is caused by sunlight reflecting
+Hydroxl emmission lines from the atmosphere cause a lot of narrow lines.
+
+different photometric approaches
+aperture photometric
+PSF photometric
+
+Class2
+Keep working on the photometry lab. 
+Using DAOStarFinder do find star in the picture where you can setup some parameter to change how many star you can
+identify. 
+Need to subtract the median, also need to cliped the background by some sigma to get the right number
+tricky to let the image to show with the imshow function
+
+
+Class 3
+science paper is different than english paper
+Need to be reproductable
+paper section : 
+Introduction, Methods/Data, Results/Discussion, conclution/Summary
+
+Details: include/present your data
+Include the theorem s and equations
+Reference! your information comes from somewhere. Make sure to credit that work appropriatily
+Can use wikipedia to start the formation of your reference. Like look at what paper they are referencing 
+plots:
+Be legible, have labels, have captions, be referred to the text of the paper
