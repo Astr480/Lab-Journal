@@ -1,0 +1,20 @@
+Notes for 05/17/2019:
+
+CCDProc is a pain. After six hours of work at home, 
+I still have not finished the data reduction lab. I 
+honestly think that parts of it would be more easily 
+done using raw NumPy arrays. The due date for this 
+lab was moved to next friday.
+
+On the bright side, I have modified the scope of my 
+project a bit. It turns out that automated star 
+classification is a nightmare... something to do with 
+arbitrarily giving discrete classifications to a 
+continuous distribution of objects. Instead, I will 
+now be making a star/galaxy/quasar differentiator.
+The source of the datawill be the same, and I will 
+query the object in rough proportion to what one 
+would expect for a random sampling of bright spots in 
+the sky.
+
+Preston Went

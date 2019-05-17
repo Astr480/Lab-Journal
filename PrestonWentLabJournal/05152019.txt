@@ -1,0 +1,13 @@
+Notes for 05/15/2019:
+
+Today was a work day. I work better at home, so 
+I left for home soon after arriving.
+
+I worked on the data reduction lab for a few hours 
+after getting home. It is going smoothly, for the 
+most part, but CCDProc makes it a pain to trim 
+overscan from the middle of  images. I wound up 
+spending much of my time just sorting out how to 
+do so.
+
+Preston Went

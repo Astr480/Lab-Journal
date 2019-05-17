@@ -1,0 +1,15 @@
+Notes for 05/13/2019:
+
+Today in class we discussed photometry and some of 
+the decisions that one has to make while analyzing 
+photometric data. The conversation mainly focused 
+on aperture photometry, but also touched on the more 
+general point-spread function (PSF)  photometry. I 
+think that I will find PSF photometry to be more 
+powerful, but substantially more involved. Time will 
+tell.
+
+We also installed photutils. This, thankfully, went 
+very smoothly.
+
+Preston Went
