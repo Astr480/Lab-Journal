@@ -207,3 +207,45 @@ Joke of the week: What do you call an alien with three eyes?
       `--Y--.___________.--Y--'
          |==.___________.==| hjw
          `==.___________.==' `97
+
+WEEK 7
+
+Date: Monday, May 13
+
+Finished up and turned in the CCD lab. I don't feel too confident on my 
+results, but, hey, it's finished, and I can put it behind me. After
+that, I started working on the reducing imaging data lab. I have done the bias
+and flat part, but not the overscan nor all the photometry. I have circles
+around stars. Not sure if it's correct, but there are circles and they are
+around stars. Yay.
+
+Date: Wednesday, May 15
+
+Worked on the reducing images lab. I worked for a long time but didn't make
+much progress. It's really frustrating. I realized I didn't have ccdproc, and
+trying to get it on my computer was a  mess. 
+
+Date: Friday, May 17
+
+I came in early today to work on the reducing images lab. I didn't make much
+progress despite working for two hours. I just can't seem to remove the 
+overscan nor figure out PSF fitting. I'm so lost, but greatful for the 
+extension on the due date. We talked about the first draft of our project in
+class. I haven't really started on that due to having to rework my project
+since APO was rained out when I needed to use it. I still want to work with
+the Coma Stellar Cluster, and I will probably just grab existing data and 
+work with that.
+
+Joke of the week: How many astronomers does it take to change a light bulb?
+		  None, they use standard candles!
+       (
+       )\
+       {_}
+      .-;-.
+     |'-=-'|
+     |     |
+     |     |
+     |     |
+     |     |
+     '.___.'
+
