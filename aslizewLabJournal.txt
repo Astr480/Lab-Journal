@@ -203,13 +203,13 @@ SUBTRACT BIAS.  Bias is a voltage applied to the chip. some reasonable nonzero c
 FLAT FIELDS. DIVIDE science obs by flat.  pixels have different responsiveness/sensitivities
   -pixel response function of WAVELENGTH not times
 DARKS-- thermal. temp decrease (QE also drops oops)
-  DC fcn of time (increaseswith time.  long exposures -> long darks)
+  DC fcn of time (increases with time.  long exposures -> long darks)
   long vs short dark. (i.e 900 sec totally gets shape vs 40 sec looks more like bias)
   -precautions rather than desperate need.
 
-  
+
 Day 17: DATA REDUCTION
--NEW lab-- ^ , plus photometry.  download folder frmo canvas for sample files on Wolf
+-NEW lab-- ^ , plus photometry.  download folder from canvas for sample files on Wolf
 -Install CCDProc python package (done)
 -downloading- get filename, mget something*.FITS
 Observing Project Progress:
@@ -218,3 +218,42 @@ Taken a lot of data, now looking through (subtracting bias, dividing by correcte
 
 Day 18:
 Out of town, class is probably working on Data Reduction assignment
+
+Day 19:
+-Turned in CCD paper
+-Reduction lab due Friday
+-Monday first project draft is due!!!peer reviews in class (bring at least 2 copies)
+    need intro, sources, outline, project approach, status, some plots, screen grabs, notes on Progress
+-Scientific papers, appraoch, framework, details
+INTRO TO PHOTOUTILS-- installed it ok
+-Photometry: basic task= how much energy did an object release over the time we observed?
+    -> what is the shape of the object / which pixels belong to object?
+    -> are there other contrib to count besides the object?
+PSF: Point spread function: RESPONSE of telescope/instrument to object
+  -shape of light changes as it goes thru imaging System
+  -(systems have aberrations that shape images ie coma or spherical abb)
+  -even without abb, still get a shape (just from optics), gaussian distrib, airy disk, rings
+  -peaks, know shape of PSF -> know first peak -> more accurate light that isnt in center of image (cast out)
+  -want as many of the photons as possible! but also dont want new noise
+  -SKY BACKGROUND: sky glows even when reducing data -> every pixel must have Sky counts, not just the object :(
+  -Zodiacal light (dust), bright objects (moon), airmass, unresolved objects (cant see but still there)
+  -infrared is absolute mess from the ground, worst at start of night ! (vary w time and location)
+  -must subtract sky background (time variation, proximity)
+  -----does  PSF apply to everything? I thought was only an instrument thing rather than the object?
+  -one method:: aperture photometry  (ring around the object to find sky background, close enough but not so far away), another is back and forth eye views
+  -----spectra not as much a problem? (Slits?)
+  -No correct photometric approach.  Aperture is blunt, how much energy in this Aperture and compare etc
+  -vs PSF photometry= models to determine distribution of photons= generic for when u use a model
+  -So many choices, great
+  -Fiddle nobs to gain intuition
+  -point vs extended source, PSF for extended might be hard instead of apertures
+  -source extractor can do some automated finding (might pick up noise)/
+  -Shape of aperture, "center" of object, excluded objects even when not spatially resolved, how far should sky pixels be, how crowded, how deal w large objects like galaxies, foreground stars? masks?
+  -Some automatic things pick out regions but may get confused by nearby stars etc
+-Best for point sources (stars!)
+-pixels r square
+
+Day 20:
+working on data reduction and photometry lab with meredith
+
+Dat 21:
