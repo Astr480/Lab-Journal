@@ -1,0 +1,54 @@
+Day 19:
+
+first draft:
+  introduction
+  outline of project approach
+  current status
+
+how much energy did this object release?
+  what is the shape? which pixels?
+  other sources of photons?
+
+point spread function
+  even with no aberrations, airy disk
+
+sky background
+  zodiacal interplanetary dust near ecliptic creates reflects light
+  local atmosphere
+
+  subtract sky
+
+different approaches:
+  aperture
+  PSF
+
+list of things at positions
+at these positions what is value?
+
+
+Day 20:
+  trying and failing to work with apertures on photutils
+
+Day 21:
+
+Writing Scientific Papers
+  Approach:
+    answer a question
+    reproducibility: show exact process so someone else can do same experiment
+    tie into larger context
+      science is a conversation
+      find relevant works
+  Sections:
+    Introduction
+    Methods/Data
+      probably bulk of paper
+      nothing should only exist in caption
+    Results/Discussion
+      intellectual risks
+      guess about what results mean
+    Conclusion/Summary
+  Reference everything
+    go through each assertion and find literature references
+    use ADS search to find body of knowledge for a topic
+
+Bring 2 copies on Monday
