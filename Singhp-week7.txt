@@ -1,0 +1,13 @@
+Monday
+Kept working on the data reduction worksheet.
+I got the photometry stuff with Photutils working.
+Still need to read the docs to understand what is going on.
+
+Wednesday
+Continued more work on the Data reduction lab.
+CCDproc is not very good, the second half of the worksheet
+is almost easier.
+
+Friday
+Assignmen due date was extended, Continued work.
+Trying to make CCDproc work again.
