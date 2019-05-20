@@ -1,3 +1,52 @@
+Friday 5/17:
+
+Reducing image data lab is not due until next friday
+Thank christ
+
+Finish up reducing data today
+Start on first draft research paper this weekend
+
+Writing paper:
+Write out all of the steps through your paper
+Reproducibility
+Bring it into context with what is happening in the field
+
+Needs a method and data section
+Results and discussion is used for talking about what your results mean 
+
+discussed game of thrones
+
+
+
+Wednesday 5/15:
+
+glob in list of biases
+ccdproc.combine
+
+Overscan is like a bias layered on top of an image
+No idea how to trim the Overscan
+Probably have to find the dimensions of the Overscan
+
+Using wolf for the biases, but arcsat data for the flats
+
+reduced fits file in the assignment page
+How do i scale the fits file like I would in ds9
+
+
+
+Monday 5/13:
+
+Data reduction lab is due friday, first draft is due Monday
+It does not need to be perfect, but have a good outline of where your paper is going
+
+photometry:
+The sky glows so every pixel has sky count in it
+
+Start the reducing image data assignment
+CCDproc to make master bias
+
+
+
 Friday 5/10:
 
 Was not in class, nothing to report
@@ -22,8 +71,6 @@ Darks
   all good
 
 Dome flats
-
-
 
 
 
