@@ -121,12 +121,12 @@ Day16 (5/6)
 -shot noise is the time for photons to hit even if coming from the same source.
 -ADC is the electronic component that performs the conversion from analog to digital... it has a defined number of bits which dictates max output. if the ADC has 16 bits, max value = 65500
 NOISE:
--usually read noise (bias) or shot noise (bright) regime. signal to noise is either ~S (read) or ~sqrt(S) (shot)
--alter ADU saturation when using up a byte by having both positive and negative bias (if u set all bias to zero straightaway). bias is not a function of time.
--flats reveal pixel to pixel variation. histogramming creates a gaussian distr. we flatten our observations by dividing by the flat fields
+	-usually read noise (bias) or shot noise (bright) regime. signal to noise is either ~S (read) or ~sqrt(S) (shot)
+	-alter ADU saturation when using up a byte by having both positive and negative bias (if u set all bias to zero straightaway). bias is not a function of time.
+	-flats reveal pixel to pixel variation. histogramming creates a gaussian distr. we flatten our observations by dividing by the flat fields
 DARKS:
--scales with time
--can show large scale pattern noise (like if there are mechanical cooling boys that aren't constant across the CCD)
+	-scales with time
+	-can show large scale pattern noise (like if there are mechanical cooling boys that aren't constant across the CCD)
 
 Day17 (5/8)
 -fixed astroplan!! scheduled an observing run
@@ -136,3 +136,25 @@ Day18 (5/10)
 -lots of reasons that you may not pick the center of your object (avoid bright object)
 -dots in the vingetting (part blocked by the instrument) and main image are cosmic rays. are not gaussian, maybe more streaky, while stars are round
 -infrared sky glows, including in spectral data. very difficult to calibrate in the infrared
+
+Day19 (5/13)
+-installed photutils
+-discovered way more files of the star I wanted to look at (thx tuttle <3). going to use it for the data reduction lab pt2
+-spent a good portion of the time organizing the files into their respective folders, setting up a notebook for fits file analysis. made a master notebook for calibration
+-going to pour over ccdproc documentation and make a list here of applicable information:
+
+Day20 (5/15):
+-played with DAOstarfinder, which is a package inside photutils that takes data and identifies regions that have peaks in brightness above the specified threshold
+-there is only one other star in the viewfinder when taking exposures of my boy HD122970
+
+Day21 (5/17):
+-data reduction due next fri :')
+writing scientific papers (first draft due mon (intro with complete sentences, rescope the project))
+	-ya wanna be addressing a question, review the info, talk about what you've learned. probably reproducing a question that has been asked
+	-talk about the choices made along the way to the measurement
+	-tie into larger field context (aka magnetic field, chemical peculiarities)
+	-sections = intro, methods/data, results/discussion, conclusion/summary
+	-in results, take risks about interpreting the plots you give in data
+	-make sure plots are colorblind visible, use legends/dashes/squares ("i said a shape" -joe), use the appendix
+-for the paper on monday, i connected my latex acct to the new form, overleaf. transferred bib files for easy references
+-talked about project x with joe. matthew broderick is a GREAT actor. leave him alone
