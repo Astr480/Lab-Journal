@@ -1,3 +1,44 @@
+Friday 5/24:
+
+PSF is impossible but everyone seems to be having the same trouble
+except Joe
+
+New lab on archival data
+
+Finally got psf to run but it looks horrible
+Tried to fix it but my stomach feels horrible so Im going home 
+
+
+
+Wednesday 5/22:
+
+Joe pointed out that I was not using quadru the whole time
+plot is a lot simpler once i got the correct fits file in
+
+Found 191 stars but need to get rid of the bad stars
+I believe i used the center method but it might be the subpixel, we'll see
+
+apeture radius of 5
+annulus min of 3 and max of 8
+
+Subtracted flux and the plot is pretty erratic but it should do
+On friday I'll finish up with PSF
+
+
+
+Monday 5/20:
+
+Peer reviewed two different papers
+both look much more professional than mine
+I struggled to give notes because both papers were so short
+
+Preston gave me good tips on how to defend lomb scargle
+Also how to describe what it does
+
+Back to working on data reduction assignment
+
+
+
 Friday 5/17:
 
 Reducing image data lab is not due until next friday
@@ -12,7 +53,7 @@ Reproducibility
 Bring it into context with what is happening in the field
 
 Needs a method and data section
-Results and discussion is used for talking about what your results mean 
+Results and discussion is used for talking about what your results mean
 
 discussed game of thrones
 
