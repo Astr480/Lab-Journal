@@ -73,7 +73,21 @@ adjusting the FWHM to be larger seems to have helped but may have just better st
 
 This is a lot of work for this week. Mary gates is tomorrow and I can't come to class and we have the rough draft of our paper due Monday. I think the Reducing Imaging Data would have been fine if it was accompanied by a jupyter notebook for the apperature and PSF portions. Maybe I'm just really bad at coding though.
 
+The reducing image data lab was long but informative. I enjoyed being able to work with PSF in this context but wish I was able to get a better handle on it in python.
 
+The bias removal and overscan removal were both relatively straight forward problems. The concatenation with the removal of the overscan was tough to figure out but simple now that I know how to do it.
+
+I didn't get to work through the different filter sets but I work with confocal microscopy so I feel like a have a good intuition for what the data sets would look like.
+
+My research project has good direction now and I have most of my data analysis method figured out. I am sure that my concept of "position" from RA, DEC, and Z needs some sort of expansion correction and that I shouldn't use it as typical spherical coordinates. I can just come in after the data anylitics are set up though and I intend to.
+
+I don't expect to see much of a signal but I know exactly what my signal should look like and how I can best plot it to reflect a correlation that is dependant on galaxy morphology. Again though, I don't expect to see much at all.
+
+I am having issues sorting out how to account for oversampling in a changing phase space for the spin correlations. When calculating statistics I believe I can multiply each data point by cos(theta) with theta being the spin difference. After doing this the average spin orientation should point at 45 degrees if I properly accounted for the phase space oversampling. If not I will need to hit the drawing board with my head a few more times.
+
+I am very much looking forward to any results I get but even more so to having a data anylitic structure set up for comparing spin correlations. Maybe I'll be able to refine it for a more targeted galaxy spin allignment study in the future.
+
+If I do get a result I will do everything I can to try and blame it on some error I made before interpretting it. I will have some interpretations however just in case. I am going for a writting credit after all.
 
 
 
