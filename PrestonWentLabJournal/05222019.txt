@@ -1,0 +1,13 @@
+Notes for 05/22/2019:
+
+Today was a work day for the photometry lab. I 
+completed the aperture photometry section, though 
+I do not know if my way of comparing different 
+photometric measurements is particularly useful. 
+I made histograms showing the flux distribution, 
+but this does no provide information about like objects 
+across measurements.
+
+I will have to think on this more later.
+
+Preston Went
