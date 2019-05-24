@@ -1,0 +1,14 @@
+Notes for 05/24/2019:
+
+Todat we received a new lab on downloading and 
+manipulating data from SDSS and other databases. 
+This will help my project, and I will work on them 
+concurrently.
+
+We also finished up the photometry lab today. PSF 
+photometry in particular, but the photutils 
+documentation proved very useful in figuring it out. 
+Should I ever have to do this again in the future, I 
+will return there.
+
+Preston Went
