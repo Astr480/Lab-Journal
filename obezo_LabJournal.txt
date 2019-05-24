@@ -82,3 +82,67 @@ Big day we worked on the Reducing data Lab and got a lot done
 
 Friday
 Continued to work on Reducing Data Lab
+
+Week 8
+Monday
+We reviewed other people's lab. Since they were relatively short it wasn't too much extra work to grade two, so most of us did exactly that.
+
+Wednesday
+Worked on photometry part of the lab. Read a lot of the documents for the photoutls lab. Using example code written in it and reading how the functions worked I was able to complete parts of it.
+
+Friday
+New lab starting today. SDSS survey lab. I missed around a bit with SDSS but as I'm new to this I'm just messing around with the values to see what happens.This lab was good for me as it helped me understand how to use SDSS and this will be helpful for my project. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
