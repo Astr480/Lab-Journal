@@ -249,3 +249,64 @@ Joke of the week: How many astronomers does it take to change a light bulb?
      |     |
      '.___.'
 
+WEEK 8
+
+Date: Monday, May 20
+
+Today was a peer review day. I finished that pretty fast and moved on to work 
+on my project. I made quite a few color magnitude diagrams for my star
+clusters. Unfortunately, only one of them looked like a CMD, the rest looked
+like garbage, but at least I know the code is correct. So, I am guessing
+something is wrong with the data from WEBDA. It's probably not exactly
+what I think it is.
+
+Date: Wednesday, May 22
+
+I did more work on the data reduction lab. I am almost done. All I have to do 
+is find an image with a different filter and do the same photometry as the 
+quadRU image.
+
+Date: Friday, May 24
+
+Came in early to finish up the data reduction lab. My code that worked 
+Wednesday no longer works today, and I had to figure out why. It was quite
+fustrating, and the results do not look as good as they did on Wednesday.
+However, it's turned in and I am done with it. Hmph.
+
+I started working on the new lab and discovered that Zelda exist in the M16
+stellar clusters.
+
+I also did more work on my research project. I still have ugly color
+diagrams. 
+
+
+Joke of the Week: 
+
+Two spiral galaxies walk into a bar.
+
+The first one goes up to the bar and asks for two drinks, one for him and one
+for his friend.
+
+The barman looks suspiciously at the second spiral galaxy and says "I' sorry
+but I can't serve your friend, he'll have to go."
+
+The first spiral galaxy complains, "Why can't you serve him?"
+
+The barman replies, "Because he's barred."
+
+I couldn't find a good ASCII galaxy so here is an ASCII and a joke.
+
+        __I__
+   .-'"  .  "'-.
+ .'  / . ' . \  '.
+/_.-..-..-..-..-._\ .---------------------------------.
+         #  _,,_   ( I hear it might rain people today )
+         #/`    `\ /'---------------------------------'
+         / / 6 6\ \
+         \/\  Y /\/       /\-/\
+         #/ `'U` \       /a a  \               _
+       , (  \   | \     =\ Y  =/-~~~~~~-,_____/ )
+       |\|\_/#  \_/       '^--'          ______/
+       \/'.  \  /'\         \           /
+        \    /=\  /         ||  |---'\  \
+   jgs  /____)/____)       (_(__|   ((__|
