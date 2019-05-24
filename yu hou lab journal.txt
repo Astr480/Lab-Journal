@@ -274,3 +274,32 @@ Reference! your information comes from somewhere. Make sure to credit that work 
 Can use wikipedia to start the formation of your reference. Like look at what paper they are referencing 
 plots:
 Be legible, have labels, have captions, be referred to the text of the paper
+
+Week 8
+
+Class 1
+
+Working on the final paper, we did a peer review on this paper.
+I am working on the habitability of plaent in binary star system, the major challenge is how to do the analysis
+I have see many paper on this topic, they introduced many way to tacle this problem but many of them are too deep 
+some of them is about the habitable zone, my thought on this is to first analysis the orbit satbility, second is to analysis
+the flux on the planets by the two star, how are they changing and is it possible for any life to surrive under that intensity of energy
+
+Still a long way to go, with the analysis and data reduction. 
+
+Class 2
+
+This time we are keep working on the photometry lab, Doing the aperture photometry this time with photutils, it is relative simple to work on this problem
+because the aperture is a set value and the program is just add them all together to get the flux
+
+But it is interesting to learn about the DAOStarFinder which did not do photometry but find star on the image for you
+
+Also we googled some fact about bees that are interesting, like you need two million flowers to make one pound of honey
+
+Class 3
+
+Keep working on the photometry lab, this time is the PSF fitting photometry, which is very hard to understand, it need many
+parameters and the fitting model does some algrism that I did not quite understand. But it will fit for each star differently 
+by working on different point seprate function. I think it is better for data with a lot of star with different size. 
+
+Also introduced a new lab of using SDSS survey data, which will due next Friday, but there are paper need to work on on wednesday
