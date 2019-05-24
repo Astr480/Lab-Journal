@@ -1,0 +1,19 @@
+Monday: Today I reviewed two papers and left comments. The papers were pretty
+interesting, but I was generous with my comments because I believe that 
+something is wrong if the first draft is not a mess.
+
+I will level with you here. I had already finished my data lab assignment so
+I spent the rest of that data learning about bees. Apparently it takes a total
+of 2 million flowers to produce 1 lb of honey. Also in the lifetime of a bee
+(120 - 150 ish days) they will produce 6 times their weight in honey.
+
+Wednesday: I spent all of today buliding a composite image of my galaxy for 
+the research project. I messed around with various different techniques and 
+programs before ultimately deciding to just do it my own method and this 
+ended up working out.
+
+Friday: I spent all of today findiong a line of best fit through the center
+of my galaxy and then turning those x and y values into a 2d array and 
+creating a mask to find the flux of a image along that line. I then applied
+that mask to each of my filter photos and plotted their relative flux vs 
+the radius. I will do fitting for the brightness curve soon.
