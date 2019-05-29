@@ -155,6 +155,39 @@ writing scientific papers (first draft due mon (intro with complete sentences, r
 	-tie into larger field context (aka magnetic field, chemical peculiarities)
 	-sections = intro, methods/data, results/discussion, conclusion/summary
 	-in results, take risks about interpreting the plots you give in data
-	-make sure plots are colorblind visible, use legends/dashes/squares ("i said a shape" -joe), use the appendix
+	-make sure plots are colorblind visible, use legends/dashes ("square"...i look at him..."i said a shape" -joe), use the appendix
 -for the paper on monday, i connected my latex acct to the new form, overleaf. transferred bib files for easy references
 -talked about project x with joe. matthew broderick is a GREAT actor. leave him alone
+
+Day22 (5/20):
+-spent the entire morning before class pouring through the 15 or so papers i had bookmarked
+	-it took wayyy longer to write the intro than expected, as my knowledge of the mechanisms behind radial/non-radial oscillations was so limited
+	-didn't spend any time writing about calibration because i figured my explanation of project purpose was more important
+goals for the project, ordered somewhat by priority:
+	-reduce noisy lightcurve... obtain a model of the star's variability over time
+	-calculate errorbars
+	-read papers and determine just how many data points are needed to obtain an accurate multi-periodic signal
+	-use markov chain monte carlo to constrain the period of oscillations, if possible
+	-if it turns out that my data isn't useful, play with it in all possible ways
+	-write extensively about the theory behind the oscillations and why my data isn't accurate enough to measure them
+	-try out the process with the raw data of brett's star because im a stubborn bitch and i wanna learn how to do this monte carlo shit
+-anyways. we spent the day peer reviewing. and holywow do people have no idea what they're doing. it made me feel better about myself lol. "what is a galaxy" how did you get this far
+
+Day23 (5/22):
+-helped a classmate, talked to them for a while about their project since they didn't have any direction still. i recommended they look into plotting hr diagrams to find the age of galaxies
+-i went through the bookmarks i made of websites depicting dipole oscillations, explaining asteroseismology, etc. deleted ones that were irrelevant
+-went through all the papers i had and downloaded them, saving them with their year first. ive started a works cited and have five papers so far listed.
+-after reading sufficient text, i realize now it's definitely impossible for me to truly get multimodal frequency analysis out of 32 data points
+-spoke to tuttle and luckily i don't need to come to a legitimate conclusion in the paper... i have a feeling it'll consist of:
+		-25% data reduction
+		-20% theoretical explanation of radial pulsations and how they would show up in data
+		-20% discussion of methods (markov chain monte carlo, fourier analysis)
+		-35% results/discussion
+		(which im fairly comfortable with)
+
+Day24 (5/24):
+-for the sdss lab: SED is an extremely low resolution spectrum. plot wavelength vs flux to look at the shape of the spectra. due next friday
+-spent the day finishing the lab up. barely could turn it in on time... had two assignments due at 5pm and an appt at 5pm that i was late for
+-turns out there are a bajillion different ways of obtaining the right data. i got incredibly overwhelmed and tried a lot of them and ended up with zero plots
+-my code has been uploaded but it's incomplete. had to clean all day saturday then watch a friend play in their band, went camping sunday/monday...
+	will have all day tue to finish the code and implement it into my own project
