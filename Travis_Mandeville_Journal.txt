@@ -75,3 +75,9 @@ Monday was comprised of continuing to work on the Data Reduction lab. Struggled 
 Data Reduction lab was continued on Wednesday. Spent a good amount of time trying to generate a best fit line to my original Aperture Sum, with the Residual Aperture Sum. Once it fitted the slope came out to be roughly what was expeted. I got a value of 1.12, whereas the slope would ideally be 1. Finished up the data reduction lab after battling with the PSF fitting for hours the night pervious. 
 
 Friday was spent working finding usable archival data. The primary challenge is that most data for variable stars simply provideds the period data and not the raw CCD data to reduce. After figuring our how to deal with (Vizier), switch to the Harvard mirror or you get no data. I had to call an audible on the project as the data reduction was going to be the most robust section of my paper, but bad weather left me with only being able to image 2 stars. Instead I will now reduce the data I have, find the magnitude of the star, and consult a light-curve associated with the star and figure out where in the luminosity fluctuation period I made the observation. I will then go on to answer my original question of generating an error function for the Leavitt Law. 
+
+================================================================================
+Week 9:
+Wednesday I spent most of my time on my research project. I was finally able to get a plot to work that was desribing my periodic variability for EW_Sct. This plot will be similar to other so this is like 7 or 8 birds with  one stone.
+
+Friday was spent going over the SDSS lab. The matching portion of the assignment was not too difficult but getting the data to read in turned out to be a giant pain. Additionally, the columns names are the least instructive things on the planet. 
