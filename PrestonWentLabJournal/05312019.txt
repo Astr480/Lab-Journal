@@ -1,0 +1,11 @@
+Notes for 05/31/2019:
+
+Today was spent on the SDSS Survey Data lab. I worked until 
+forced to leave by other responsibilities, and did not quite 
+finish. The takeaway: even relatively simple data manipulation 
+can take a lot of time. I was excited to get a database crossmatch 
+working. I may even use this in some of my summer projects.
+
+Note to self for the future: Just use pandas.
+
+Preston Went
