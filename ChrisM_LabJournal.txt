@@ -18,3 +18,76 @@ Is there galaxy rotational axis correlation: Requires a catalog with spectra to 
 I updated my notes for my project and have opened six papers and saved them to my Zotero.
 
 It is difficult to work on this project only from the astrolab. I should figure out how to work on this from home.
+
+Vignetting: dark regions at edges due to scattering
+
+Bias/Overscan: give information about electronics. Might have something to do with amplifiers.
+
+A large enough number of samples will cause many types of distrobutions (poisson included) into gaussian distributions.
+
+Serial register/horizontal CCD: bottom row of CCD array. Gets pushed right to a single cell.
+
+Dark current = thermal noise
+
+quantum efficiency is bad for ~<300nm
+
+n_{tot}=sqrt{(n_{phot})^2+(n_{dark})^2+(n_{read})^2+(n_{bias})^2}
+
+noise=sqrt{signal}
+
+want to subtract dark current from scan by exposing for same amount of time.
+
+bias is read noise?
+
+today we are beginning a characterization lab report on CCDs. Refer to the back of the packet for grading.
+
+Compare measurements with vendor information.
+
+Gain: #electrons/ADU. But it is somehow inversely related to the gain of the amplifier?
+
+Must take two bias frames and two flatfield exposures to get difference images
+
+get ___ for single files and mget ___* for all files that begin with the same starting part.
+
+We are working on a new Reducing Imaging Data using Bias, Flats, Darks, and Images.
+
+Thus far I have been using ds9 to collect data for the processes. I will probably have to come in over the weekend because my personal research is pressing and I have a group meeting presentation coming up tomorrow. Yay 19 credits...
+
+PSF - point spread function. Must make sure that we are subtracting background from our image to ensure our signal is all from our object
+
+There are many different sources that can be giving different point spread functions as well as varying the background at all background wavelengths.
+
+To find the background you can point at a "dark" area of sky and try to characterize the background.
+
+Masking nearby objects might make sense if the point spread function is an issue.
+
+Does is make sense to define the center of the object as its peak.
+
+Have to deal with other objects that may not be spatially resolvable as well as other galaxies with foreground stars.
+
+When using data for Aperature photomotry it is best to use point sources.
+
+Using the gaussian fits in DAOStarFinder it seems to REALLY like some of my brightest stars. It tends to fit more gaussians to my brightest stars and I don't see any parameters to adjust this.
+
+adjusting the FWHM to be larger seems to have helped but may have just better stacked the same gaussians. Tough to say.
+
+This is a lot of work for this week. Mary gates is tomorrow and I can't come to class and we have the rough draft of our paper due Monday. I think the Reducing Imaging Data would have been fine if it was accompanied by a jupyter notebook for the apperature and PSF portions. Maybe I'm just really bad at coding though.
+
+The reducing image data lab was long but informative. I enjoyed being able to work with PSF in this context but wish I was able to get a better handle on it in python.
+
+The bias removal and overscan removal were both relatively straight forward problems. The concatenation with the removal of the overscan was tough to figure out but simple now that I know how to do it.
+
+I didn't get to work through the different filter sets but I work with confocal microscopy so I feel like a have a good intuition for what the data sets would look like.
+
+My research project has good direction now and I have most of my data analysis method figured out. I am sure that my concept of "position" from RA, DEC, and Z needs some sort of expansion correction and that I shouldn't use it as typical spherical coordinates. I can just come in after the data anylitics are set up though and I intend to.
+
+I don't expect to see much of a signal but I know exactly what my signal should look like and how I can best plot it to reflect a correlation that is dependant on galaxy morphology. Again though, I don't expect to see much at all.
+
+I am having issues sorting out how to account for oversampling in a changing phase space for the spin correlations. When calculating statistics I believe I can multiply each data point by cos(theta) with theta being the spin difference. After doing this the average spin orientation should point at 45 degrees if I properly accounted for the phase space oversampling. If not I will need to hit the drawing board with my head a few more times.
+
+I am very much looking forward to any results I get but even more so to having a data anylitic structure set up for comparing spin correlations. Maybe I'll be able to refine it for a more targeted galaxy spin allignment study in the future.
+
+If I do get a result I will do everything I can to try and blame it on some error I made before interpretting it. I will have some interpretations however just in case. I am going for a writting credit after all.
+
+
+

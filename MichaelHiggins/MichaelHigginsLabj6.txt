@@ -1,0 +1,15 @@
+Monday:
+Today I worked on my CCD code and began writing my paper in Overleaf. We
+decided not to retake our flats for our linearity data since it would
+take too much time so we are using data from another group.
+
+Wednesday:
+Today I started my reducing Imagining data assignment and began it using my
+own data that I recorded from ARCSAT. I got as far as subtracting a master 
+bias and dividing by the master flat.
+
+Friday:
+I spent all day working on making my Latex document for the CCD Lab Assignment
+and formatting it. I have gotten up to the Linearity section completed and I
+plan to finish it over the weekend. Fingers crossed my code still works and 
+it won't take too long.  

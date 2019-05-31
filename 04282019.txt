@@ -1,0 +1,18 @@
+Notes for 04/28/2019:
+
+Today I was quickly sectioned off into a group and told 
+to follow Prof. Fraser to a different room for a project. 
+There was an old CCD from a defunct company in the room, 
+and we were informed that we were going to characterize 
+it. Navigating Windows XP was fun - a flashback to my 
+childhood.
+
+In the end we had to stay a bit overtime to get the flats 
+needed for linearity testing. The main issue was finding 
+the correct object to prop open the dark box the camera 
+was on, such that precisely the right amount of light made 
+it in. We wound up using a pencil.
+
+The things we do in astronomy...
+
+Preston Went

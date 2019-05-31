@@ -66,3 +66,128 @@ Day9 (4/19)
 -spectroscopy is flux per unit wavelength
 -airmass, dust gets in the way
 -turned in proposal!!!! i can do both types of variable stars!!!!
+
+Day10 (4/22)
+-i was a gross sicko, didn't attend class in order to not infect people
+
+Day11 (4/24)
+-used the metal pirate-spectrograph to see how slit size affected resolution of spectral lines
+-plastic blue spectrograph could distinguish wavelength of spectral lines
+-i looked at a lot of lamps (helium, nitrogen, deuterium) and then me zach n prof tuttle talked about adhd while i had pasta
+
+Day12 (4/26)
+-skipped to do 226 hw, told that the class is optional
+-made a list of roAP stars with periods less than ten min
+
+Day13 (4/29)
+-introduced to the CCD lab.... Anika, Megan, two others are my partners
+-downloaded the uw VPN
+-travel to apo website and click on multiple weather forecast for IR, cloud movement (atmospheric seeing which broadens spatial resolution)
+-want mirror to be the same temp as the air... wind affects dome closure
+-"current weather summary" gives a dark screen describing all telescopes on mountain. yellow/red text denotes alarming conditions
+-rec: use a finding chart of the sky with digitized sky survey
+
+Day14 (5/1)
+-CCD lab time! We went into the TEG AUEG corner to the spectrograph, which will eventually be underneath MRO (I'll be in charge of programming an arduino to turn the spectrometer lamp on/off)
+-a pencil was used to prop open the box which the CCD was pointed into. lamp could be turned on/off, illuminating the slit
+-usb plugged in, camera connected to CCDsoft, temperature turned on which turns on the fan. both imager and autofocus turned on
+-i played with the exposure, bin size, light, etc. while we set up the format
+-for flats, an exposure time of 90 seconds was sufficient for a solid circle and max saturation of 48,000 counts
+-reduced exposure by 9s until 18s. saved all fits files to my usb which i emailed to my groupmates
+
+Observing (5/2)
+-VPN client didn't work on my tablet, so I used my windows computer to login. took a while to get things moving.
+-took bias. couldn't determine how to take flats without it being twilight... couldve made dome flats, but that wouldve required us to close the dome
+-first exposure i tried to take, i checked the autofocus boxes, which the system really didn't like. it took a while to bring the observatory back online
+-after some trial and error (i had very optimistic limits for RA), i was able to take images of four different roAp stars!!!!!!
+-the first two i imaged were more test-run-y... the last two had periods of 5.4 and 8.3, and i used halpha and sdss_u for both
+-couldnt figure out how to download the files so i'll do it in class tomorrow!!!!
+
+Day15 (5/3)
+-determined how to fts the files... basically. i didn't need permission, and didnt need a vpn yesterday. went to localhost in my terminal, cd'ed into my specific directory
+-mget the fits files! megan took flats but they werent in bin4 which is brutal. i'll probably have to retake all my observations, which is fin
+-opened the files... the halpha exposure of HD 137949 is just. empty. which is super weird. i'll be able to try other filters later
+-i think i'm going to stick with two of the stars, HD 137949 and HD 134214
+
+Day16 (5/6)
+-reasserted deadlines - CCD lab due next monday
+-things we want to know about our CCD's:
+"full well": max electrons a pixel can hold... bigger pixels (bins) can hold more charge. measured using a photon transfer curve
+"read noise": false positives... measured by calculating the standard deviation of bias
+"charge transfer efficiency": transferring loss from pixel to pixel, usually super efficient. use Fe55 x-ray source then do stats of how much transferred
+"dark current": caused by thermal charge generation, reduced with cooling. measured with taking darks.
+"quantum efficiency": how efficiently the ccd detects light. measured with standard, well-calibrated illumination. often variable with time/wavelength.
+-photon transfer curve lets us know which portion of the CCD gives a linear behavior. a full well has a slope=1
+-shot noise is the time for photons to hit even if coming from the same source.
+-ADC is the electronic component that performs the conversion from analog to digital... it has a defined number of bits which dictates max output. if the ADC has 16 bits, max value = 65500
+NOISE:
+	-usually read noise (bias) or shot noise (bright) regime. signal to noise is either ~S (read) or ~sqrt(S) (shot)
+	-alter ADU saturation when using up a byte by having both positive and negative bias (if u set all bias to zero straightaway). bias is not a function of time.
+	-flats reveal pixel to pixel variation. histogramming creates a gaussian distr. we flatten our observations by dividing by the flat fields
+DARKS:
+	-scales with time
+	-can show large scale pattern noise (like if there are mechanical cooling boys that aren't constant across the CCD)
+
+Day17 (5/8)
+-fixed astroplan!! scheduled an observing run
+-was late to class bc my grandpa died and i had family stuff messing up my day
+
+Day18 (5/10)
+-lots of reasons that you may not pick the center of your object (avoid bright object)
+-dots in the vingetting (part blocked by the instrument) and main image are cosmic rays. are not gaussian, maybe more streaky, while stars are round
+-infrared sky glows, including in spectral data. very difficult to calibrate in the infrared
+
+Day19 (5/13)
+-installed photutils
+-discovered way more files of the star I wanted to look at (thx tuttle <3). going to use it for the data reduction lab pt2
+-spent a good portion of the time organizing the files into their respective folders, setting up a notebook for fits file analysis. made a master notebook for calibration
+-going to pour over ccdproc documentation and make a list here of applicable information:
+
+Day20 (5/15):
+-played with DAOstarfinder, which is a package inside photutils that takes data and identifies regions that have peaks in brightness above the specified threshold
+-there is only one other star in the viewfinder when taking exposures of my boy HD122970
+
+Day21 (5/17):
+-data reduction due next fri :')
+writing scientific papers (first draft due mon (intro with complete sentences, rescope the project))
+	-ya wanna be addressing a question, review the info, talk about what you've learned. probably reproducing a question that has been asked
+	-talk about the choices made along the way to the measurement
+	-tie into larger field context (aka magnetic field, chemical peculiarities)
+	-sections = intro, methods/data, results/discussion, conclusion/summary
+	-in results, take risks about interpreting the plots you give in data
+	-make sure plots are colorblind visible, use legends/dashes ("square"...i look at him..."i said a shape" -joe), use the appendix
+-for the paper on monday, i connected my latex acct to the new form, overleaf. transferred bib files for easy references
+-talked about project x with joe. matthew broderick is a GREAT actor. leave him alone
+
+Day22 (5/20):
+-spent the entire morning before class pouring through the 15 or so papers i had bookmarked
+	-it took wayyy longer to write the intro than expected, as my knowledge of the mechanisms behind radial/non-radial oscillations was so limited
+	-didn't spend any time writing about calibration because i figured my explanation of project purpose was more important
+goals for the project, ordered somewhat by priority:
+	-reduce noisy lightcurve... obtain a model of the star's variability over time
+	-calculate errorbars
+	-read papers and determine just how many data points are needed to obtain an accurate multi-periodic signal
+	-use markov chain monte carlo to constrain the period of oscillations, if possible
+	-if it turns out that my data isn't useful, play with it in all possible ways
+	-write extensively about the theory behind the oscillations and why my data isn't accurate enough to measure them
+	-try out the process with the raw data of brett's star because im a stubborn bitch and i wanna learn how to do this monte carlo shit
+-anyways. we spent the day peer reviewing. and holywow do people have no idea what they're doing. it made me feel better about myself lol. "what is a galaxy" how did you get this far
+
+Day23 (5/22):
+-helped a classmate, talked to them for a while about their project since they didn't have any direction still. i recommended they look into plotting hr diagrams to find the age of galaxies
+-i went through the bookmarks i made of websites depicting dipole oscillations, explaining asteroseismology, etc. deleted ones that were irrelevant
+-went through all the papers i had and downloaded them, saving them with their year first. ive started a works cited and have five papers so far listed.
+-after reading sufficient text, i realize now it's definitely impossible for me to truly get multimodal frequency analysis out of 32 data points
+-spoke to tuttle and luckily i don't need to come to a legitimate conclusion in the paper... i have a feeling it'll consist of:
+		-25% data reduction
+		-20% theoretical explanation of radial pulsations and how they would show up in data
+		-20% discussion of methods (markov chain monte carlo, fourier analysis)
+		-35% results/discussion
+		(which im fairly comfortable with)
+
+Day24 (5/24):
+-for the sdss lab: SED is an extremely low resolution spectrum. plot wavelength vs flux to look at the shape of the spectra. due next friday
+-spent the day finishing the lab up. barely could turn it in on time... had two assignments due at 5pm and an appt at 5pm that i was late for
+-turns out there are a bajillion different ways of obtaining the right data. i got incredibly overwhelmed and tried a lot of them and ended up with zero plots
+-my code has been uploaded but it's incomplete. had to clean all day saturday then watch a friend play in their band, went camping sunday/monday...
+	will have all day tue to finish the code and implement it into my own project

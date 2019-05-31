@@ -1,0 +1,14 @@
+Monday:
+I worked on the light/spectra lab the entire class period. I got the whole lab done on Monday.
+I found it interesting how effective the real filters were at allowing narrow ranges of wavelengths
+through. 
+
+Wednesday:
+I already had the lab finished so I wrote some code to find lensing sources that would be visible the
+same time I was planning to observe my primary galaxy M82. I found a few candidates, but I am not
+hopeful that I will be able to observe them because they would only be about 5 pixels wide. Still 
+worth trying. I submitted my canvas assignment detailing this.
+
+Friday:
+I worked on the homework and read some of the CCD handbook. I also learned about how to work some 
+specifics of dataframes in pandas.

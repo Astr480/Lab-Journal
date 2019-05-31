@@ -1,0 +1,19 @@
+Monday:
+Began working on the Reducing Imaging Data assignment. I completed everything
+except for the overscan part of the Data Reduction section. I used my images
+of M82 to do this section. It went very smoothly.
+
+Wednesday:
+I began the photometry section of the lab and used the quadRU image for this.
+I mostly copied the code from photoutils, but I needed to change quite a 
+bit before running it because I noticed issues with the way it was reading
+images. I completed everything except the PSF photometry.
+
+Friday:
+I finished the PSF photometry and went back and completed the overscan
+portion with the wolf data. Then I uploaded everything to github photometry. 
+
+SIDE NOTE: If no one else had offered I wouldn't mind spending some time over
+the summer rewriting the labs. I was thinking I could do it in overleaf
+and then people can fill out their answers in overleaf and submit that pdf
+to a git folder along with their code. 

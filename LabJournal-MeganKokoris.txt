@@ -43,3 +43,184 @@ to start! Although I am still concerned I ont be able to get the code to
 work.. Leanred more about the CMD. Look up more about Photometry. round stars
 and pixels, only use full pixels. 
 
+4/22
+
+overscan, light has been blocked, only a little scattered light getting through
+"souls have been trapped in telescope"
+undering lying guides for distributions to understand what is happening in the system
+CCD linear, to a point
+pixels saturate
+CCD changing in temperature, cool them or dark current will be high, also can't be
+too cold or the electrns will be sluggish. 100secod image, need a dark thats a 100
+second. dark same length as data working with. I looked at many lamps today. so 
+many lamps.
+
+
+4/24 I worked on the CCD homework, finished the lab and looked at when my
+globular clusters will ride and set.
+
+4/26
+
+simbad, visar(?), everything that isnt important has a comment sign in front
+(.... ,comment'#', delim_whitespace=True) instead of delim_ use(.., sep='\t')
+de.drop([0,1]) #to drop rows, to do this to the original add# ,inplace=True]
+mix type: string, float, int.. but sometimes it misses them. make all columns
+numbers, .dtype
+
+na_filer=
+basically just keep trying stuff.
+
+4/29
+
+Started reading the CCD project and also looked over observing project more.
+
+5/1
+
+We took all of our pictures today and began working on the project. I ran into
+an issue about my observing project. One program says I wont see it, but
+another said I will?? Will take care of that 5/2. I think it'll work
+because Prof. Tuttle showed me that I would be able to observe it and I'm
+guessing I made an error.
+
+we also got pizza 
+
+5/3
+
+Worked on the CCD code, I am done with gain and linearity and am currently
+working on band_gap. I also did my observing last night!
+
+
+5/6
+
+characterzing CCDs;
+
+full well-max number of electrons a pixel can hold? bigger pixels, binned, can
+hold more charge
+System gain constant-electrons per DN
+
+full well- using a photon transfer curve
+system gain control- PTC also
+read noise- calculation sigma(standard deviation) of bias. Make sure to
+use 'clean' parts of chip
+Charge transfer efficiency; using Fe55 x ray source
+dark current- by taking dark frames
+quantum efficiency- flats and something calibrated
+
+photon transfer 
+		curves- read noise dominated- so few photons strongest noise 
+		is from chip
+		short noise- when the arrival time of the photons does a thing
+		full well- turn over and start going down
+two kinds of saturation- how many photons can you accecp. Analogue to digital
+ADC has a certain number of bits, max output fot the CCD. will stop being able
+to count. hardware and software. 
+
+ptc: theory vs data, red is real, it turns over and enter nonlinear as it goes
+into ful well. magenta, big issues in flat feild, not really flat and you can mask
+it out
+dark current is lower down and a linear line, but not linearity stuff
+NOISE- three kinds of noise dominate at different regions. read noise we
+remove with our bias.
+
+the ccd eq.
+
+S is sigmal, S* signal for object, Ss sky signal, t is time, dc dark current
+R is read noise, G is gain. n is number of pixels
+
+bias have zero exposure time, exposure not time, additive and we subtract it
+flat field arent perfectly flat
+
+flat-illuminated evenly by light
+
+5/8
+
+I worked on the bias/flat/fits lab thing. I am confused. I feel like I am 
+behind in the actual project. I started my paper, but like have zero code.
+
+wish me luck.
+
+5/10
+
+ra and dec- checking it on the header thing
+
+(do i print the CCD paper? turn it in on github? canvas?)
+
+overscan is the dark line down the center between different amplifiers
+some cosmic rays and such
+tiny white points in dark band- those are the cosmic rays and such. high
+energy particles. (can we look at these for fun??) they are disrespectful 
+jerks.
+
+how to get rid of them?
+
+how you load it in will make it different
+if you read it in as an array there is a thin break in amp. ds9 is easier
+a white line is also incorrect
+
+DONT LICK THE CCD
+
+not a lot of sky lines in the optical
+
+5/13
+
+confused.
+
+psf (point spread function) the response of your telescope/instrument/system
+to the object you are observing
+
+systems have aberations, want as many photons from the object without introducing
+noise from other sources. The sky glows. have this sky backgroud, so they all have sky counts
+in the image that we need to get rid of. astronmical bckground effects, but they still cause a
+background, also local source. caused by dust.
+how do we calculate sky.
+does proximity matter?
+apperature photometry- how much energy in appeature
+PSF- 
+
+what shape is youre apperature
+wheres the center?
+exclude nearby objects?
+how far away should sky pixels be?
+how to deal with large objects?
+
+
+5/15
+
+Well I figured out the data reduction up to PSF(??)
+
+5/17
+
+tie into larger field, and say how the stuff youre doing is realated to the 
+larger field. ads and type in key words
+intro, methods/data, results/discussion, conclusion, 
+methids: what're you looking at, wheres it coming from, very explicit about
+lables, most of paper will be in methods, with a little in results
+guess in results, weird result, what does it mean, its okay not to know
+results, i fit this to this and i think it means this
+report vs interpret
+
+intro and conlusion shorter
+
+Details: show data, plots and tables. dont need to put all images in, but
+put one as an example. Nothing should only exsist in captions.
+
+refer to figures
+
+reference a lot.
+
+units and everything. lable..
+
+
+5/20
+
+I read a paper and worked on my own.
+
+
+5/22
+
+I worked on my paper more and finished up the lab.
+
+5/24
+
+got a new lab. I am already confused. i made the star finder and finished
+my lab.

@@ -1,0 +1,63 @@
+Day 16:
+
+Characterizing CCDs
+full well: max number of electrons per pixel
+  photon transfer curve
+system gain: electrons/DN
+  PTC
+read noise: voltage uncertainty
+  stdev of bias, must use clean part of chip
+charge transfer efficiency: usually 0.99999995+
+  use an Fe55 x-ray source
+dark current: thermal charge
+  dark frames
+quantum efficiency: how well a pixel handles light
+  flats with calibrated source
+
+photon transfer curves
+  signal vs noise (both units DN)
+
+types of saturation
+  full well: governed by pixels
+  ADU: max output based on number of bits
+
+noise
+  read noise: S/N ~S
+  shot/photon noise: S/N ~sqrt(S)
+
+bias subtraction
+  don't want negative values (bit allocation)
+  function of readout, not time, so we subtract it
+
+flat fields are wavelength dependent
+  divide signal by flat fields
+
+dark fields
+  can show large scale pattern noise
+
+Day 17:
+
+Data Reduction
+
+every night, you should take flats, darks, and biases
+
+full well for arcsat 65000
+
+Day 18:
+
+HCG (Hickson Compact Group)
+  groups of galaxies
+  HCG 79 Seyfert's Sextet
+
+quad: quad readout mode -- 4 amplifiers
+
+may choose to put object offcenter to keep all in one amplifier
+
+cosmic rays: high energy particles crashing through CCD
+  may be a streak if hitting at an angle
+
+dual image spectrograph
+
+not many sky emission lines in optical, most in IR
+
+donut shape (dark middle light ring) means star out of focus

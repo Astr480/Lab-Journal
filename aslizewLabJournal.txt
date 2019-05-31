@@ -69,3 +69,264 @@ Day 8:
 -Lowest airmass is 1
 -Kept working on FITS lab, due Monday
 -turned in project proposal!
+
+Day 9:
+-next week test taking data w CCDs, brief pause to play w SPECTROgraphs cool!HW/reading due next Monday
+CCDs:
+-Fits flat0012- flat for Arctic isnt rly flat.  Telescope and instrument have vignetting (light blocked), chip bigger than field of view,
+-Bias/Overscan is line.  not actual pixels, but where readout amplifiers have gone past and show electronics
+- Baffle is where telescope connects to instrument, scatter is in wrong direction (restricts fov)
+- Trapped Souls
+- Four amplitudes- four times the amt.  Can do >1 amplifiers
+-how many counts=??
+-usually use logarithmic or zscale (bigger stretch wider range)
+-Continuous scale is easier to judge how regions are related (transition regions!!!! dont use rainbow)
+-Histograms- different regions are governed by different distributions
+-Poisson= How many times does an event occur
+-Gaussian = all DF w large samples system.  not always perfect, offset, smoother with more and mroe points
+-Data distributions, large area= Gaussian, smaller area- bing bing bong lines
+PHOTOns GOVERNED by POISSON (quantized and independent), looking at probability of arrival
+-Lots of photons (flat) approached a Gaussian
+-Overscan still gaussian (small area tho)
+-Variations n CCDs etc change DF,
+-Bias = 0 second image.  Look at noise from individual pixels (just readout, not info)
+-CCD  detectors and how they change w different wavelengths
+-Charge transfers- one/4 number of readout amplifiers (only one at a time), transfer charge from pixel to pixel until amplifier (bucket brigade)
+-Use electricity to keep created electrons in single well, but still need to be passed.  Voltage change moves electrons a lil bit! Sometimes lose things methods
+-quantum efficiency = photons vs electrons. as time goes by transfer number aint ideal
+-Readout CCD, vertical / parallel array, been optimized.  Things get read one at a time, read entire last row then bumps down
+-CCD properties, QE, gain, intrinsic stuff, size. While taking data- orientation,
+-Linear, up to a point (incr photons, incr electrons LINEARLY, responsiveness in optical- material issue
+-Detectors- CMOS technology (detectors in cellphone).  Photon and electron as well as voltage conversion all in pixels each.  this reduces contiguous area of object (electronic take up room, so not taking in light there.  microlenses focuses light onto pixel, fully fill field! cool)
+-Types of noise, shot noise, thermal noise/dark current, read noise, and bias level/across every pixel baselevel
+-Shot noise= poisson distrib, photons come in windows but theres variation, different counts
+-Dark current- fundmtl to material. We cool CCDS from this.  Adds electrons to counts, fcn of time. too cold reduces QE.  DCurrent- more noise over time, so need same length of data
+-Read noise is Gaussian, CCD electronics better, set floor number of counts
+-use all these characteristics to erase stuff form data!
+-LAB w SPECTROgraphs! wowza!
+
+Day 10+11: Finish spectra lab with gas tubes, filters, etc
+-Turned in google form for observing project
+
+Day 12: Meredith class, working with files and fits and Astropy
+-Using VizieR. Unit and format options, click relevant,  can compute distance, can compute RA, DEC in degrees (with underscore if not frm original data set)
+-Table formats: Unlimited rows, tab separated, submit button not for each group, submit and download (asu.tsv, rename as things)
+-! in Jupyter notebook-- Shell commands!!!!! (like terminal!!!!!)
+-comments in files #, read inc catalogue with Pandas.  ignore comments / ignore a character (comment="#")
+-read.csv for any text and column file
+-delim whitespace=true, but careful!!! Might mess up.
+-sep="\t" separated by tabs !!!!! Nice.
+-Drop method-- .drop()[0,1]), inplace=True to replace table instead of make comment
+-Dtype warnings- columns have mixed types-- when Pd reads in, auto set data type for each (missing, numbers, spaces not numbers).  Cant infer = object (.dtype_)
+-To make all numeric, .astype.  type help[thing] for help
+-Use df.apply(function) i.e. Make np.float, do math, etc to apply across all the columns instead of four loops
+-.strip() gets rid of strings/whitespace at end, astype string to make all strings, may need for loop
+-If index gets crazy, use .loc[:,col]  (: all indices for this particular column), then reassign pd.to_numeric after turned into string to make all numeric
+-Dropping na, any or all, inplace true.  (if ANY or ALL in a row are nan, get rid.  Use any if need whole data for each rows)
+-Pandas built in plotting, dont need to import matplotlib (.plot, pass col names)
+-select types of data. df.query('(colname<#)'), returns subplot.  colormap, vmin, vmax
+-astropy tables, use pandas not astropy.  more complete/powerful
+-FITS files, import matplotlib
+-fits.open('file name')--- need to close file (always open, looking thru file)-- instead,
+-with fits.open as f:.,... then once leave tabbed area, file closed
+-f.info shows properties, NDU stores mg data and header for extensions, dimensions, cards= nmbr header keywords
+-astropy has conversions of ra, dec, to deg, world coords, etc using/from header
+-data is a huge array, doesnt make sense yet.
+-print median, std, can use astropy for histograms etc (plt.hist(data.ravel(), bins=100)), ravel changes 2d array to 1d array, not inplace so data no change
+-zeroith pixel is bottom left, other formats have top left so tell origin as lower
+-df.query to pick out certain stars to plot over img
+-from astropy.wcs import WCS (world coordinate system), W=WCS('file') to get info frm header, or certain values
+-.values when trying to do conversions to prevent pandas frmo freaking outl (makes np arrays, no more panda attachment)
+-all_world2pix to object, origin usually 0 but somtimes labeled as 1. in python always 0.  -->> give pixel values of image
+-plt scatter of stars over the .imshow
+-.sample draws random sample frm a df, like a preview
+
+Day 13:
+-Group project, lab report practice/assignment
+-make comparisons to actual google data (value from vendors/manufacturer)
+-Look at back of camera to see what type of camera it is, might vary,
+-Binning- want 1x1, no change. 1x1 is all pixels.  2x2 binning combines two pixels' charges.  -> less spatial resolution, but for brighter things, the full well goes up (sharing across 4 pixels, might not need high spatial resoltuion)
+-Arcsat- all need same binning to process that data
+-Gain, Read noise.  Bias (overscan) -> electronic noise.
+-don't let flat saturate (all pixels have same counts and you'll get spikes etc).  Expose for less time (shouldnt actually be super flat)
+-Intentionally saturate to find when nonlinear starts (can convert easily etc)
+-To measure linearity, mess w exposre / count number vary it intentionally (change lamp, we'll use exposure time instead)
+-Dark current from temperature (electrons in the silicon, warmer/longer exposure reads out more)
+APO NOTES-- weather generally getting better, friday nighy showers DANG
+-https://irsc.apo.nmsu.edu/ can show clouds etc/ sky standard deviation-- plot bouncing a lot is cloud density
+-https://weather.apo.nmsu.edu/ shows clouds, forecast for the week.  breezy ok, but rain and humidity and high wind is bad so cant open telescope.
+    -cloud cover, seeing, transparency (clear sky forecast.  look at these for cloud cover etc on observing dates).  Don't care too much about temperature, mirror should be same temp as outside air.  wind sucks
+    -better spatial res for lower seeing
+-https://weather.apo.nmsu.edu/cgi-bin/weather.py current weather summary
+    -all the telescopes, sensors on mountain telling about conditions (observing specialists use these)
+    -Arcsat doesnt rly have sensors, follow others (Follow 3.5 meter (if 3.5 closed, we close, if open, we open)
+    -yellow text, speed 30 mph.  red = bad, yellow = kinda bad, white = ok.
+Day 14: CCD Camera lab! Took data.
+Dat 15: Made graphs and finished analysis of CCD characterization lab.
+  -Python is fun! I do have questions on if my graphs are correct (about the dark Current)
+  -Observing tonight with class with sweet and salty sNACKS!
+  -My observing on Saturday ad Sunday!!!!! AHHHHH! I have all of my finding charts ready.
+
+Day 16:
+CCDs and Data reduction
+Characterizations:
+  1. Full well capacity- max # electrons a pixel can hold.  fcn of pixel size (binning)
+    Use a photon transfer curve
+  2. System gain constant = electrons per DN (digital numbers)
+    PTC as well
+  3. Read Noise- "voltage uncertaintY"
+    Calculate sigma of bias
+  4. CTE= charge transfer efficiency, usually close to .99999999
+    Use a Fe55 Xray source
+  5. Dark Current- thermal charge generation
+    Take dark frames
+  6. Quantum efficiency- How efficient detects light
+    well calibrated source flats (know exactly the source)
+  QE=Nabs/Ninc = (1-Ra)e^stuffs.
+  -signals can be variable with time as well as wavelengths
+  PTC: first, read noise, then shot noise, then fixed pattern noise.
+    flat, linear, incr slope to full well then down.
+    (theory vs  actual data).  Turns over in nonlinear as you approach full well (not ALL linear)
+    Flat field errors might make it curve up aaaaaaaaaaa
+  FULL WELL vs ADU SATURATION:
+    full well governed by pixels.  how many can you accept.
+    ADU (analog to digital converter), ADC has number of bits that have a max output of CCD.
+    -wrong number of bits gives weird signal.  ADC stops being able to count when saturated (hardware and software)
+  NOISE: Read: remove with bias. not ideal (subtract)
+        Shot: bright objects ~ sqrt(object signal)
+        Pattern:
+      CCD EQUATION-- S/N full sqrt equation. wow! throw away sigma (digitization noise)
+      npix for source count. nsky is sky pix
+SUBTRACT BIAS.  Bias is a voltage applied to the chip. some reasonable nonzero count number
+    If you set bias to 0, bias is NOT same for each read out (not fcn of time) so the distribution goes pos and negative so computers dont like it
+    (used up a bit with a negative sign (-4 vs just 4)) (additive, so subtract)
+FLAT FIELDS. DIVIDE science obs by flat.  pixels have different responsiveness/sensitivities
+  -pixel response function of WAVELENGTH not times
+DARKS-- thermal. temp decrease (QE also drops oops)
+  DC fcn of time (increases with time.  long exposures -> long darks)
+  long vs short dark. (i.e 900 sec totally gets shape vs 40 sec looks more like bias)
+  -precautions rather than desperate need.
+
+
+Day 17: DATA REDUCTION
+-NEW lab-- ^ , plus photometry.  download folder from canvas for sample files on Wolf
+-Install CCDProc python package (done)
+-downloading- get filename, mget something*.FITS
+Observing Project Progress:
+Taken a lot of data, now looking through (subtracting bias, dividing by corrected flats)
+-so far there are a LOT of donuts.  Not sure if the data is usable!
+
+Day 18:
+Out of town, class is probably working on Data Reduction assignment
+
+Day 19:
+-Turned in CCD paper
+-Reduction lab due Friday
+-Monday first project draft is due!!!peer reviews in class (bring at least 2 copies)
+    need intro, sources, outline, project approach, status, some plots, screen grabs, notes on Progress
+-Scientific papers, appraoch, framework, details
+INTRO TO PHOTOUTILS-- installed it ok
+-Photometry: basic task= how much energy did an object release over the time we observed?
+    -> what is the shape of the object / which pixels belong to object?
+    -> are there other contrib to count besides the object?
+PSF: Point spread function: RESPONSE of telescope/instrument to object
+  -shape of light changes as it goes thru imaging System
+  -(systems have aberrations that shape images ie coma or spherical abb)
+  -even without abb, still get a shape (just from optics), gaussian distrib, airy disk, rings
+  -peaks, know shape of PSF -> know first peak -> more accurate light that isnt in center of image (cast out)
+  -want as many of the photons as possible! but also dont want new noise
+  -SKY BACKGROUND: sky glows even when reducing data -> every pixel must have Sky counts, not just the object :(
+  -Zodiacal light (dust), bright objects (moon), airmass, unresolved objects (cant see but still there)
+  -infrared is absolute mess from the ground, worst at start of night ! (vary w time and location)
+  -must subtract sky background (time variation, proximity)
+  -----does  PSF apply to everything? I thought was only an instrument thing rather than the object?
+  -one method:: aperture photometry  (ring around the object to find sky background, close enough but not so far away), another is back and forth eye views
+  -----spectra not as much a problem? (Slits?)
+  -No correct photometric approach.  Aperture is blunt, how much energy in this Aperture and compare etc
+  -vs PSF photometry= models to determine distribution of photons= generic for when u use a model
+  -So many choices, great
+  -Fiddle nobs to gain intuition
+  -point vs extended source, PSF for extended might be hard instead of apertures
+  -source extractor can do some automated finding (might pick up noise)/
+  -Shape of aperture, "center" of object, excluded objects even when not spatially resolved, how far should sky pixels be, how crowded, how deal w large objects like galaxies, foreground stars? masks?
+  -Some automatic things pick out regions but may get confused by nearby stars etc
+-Best for point sources (stars!)
+-pixels r square
+
+Day 20:
+-working on data reduction and photometry lab with meredith
+
+Day 21:
+-Lab due date moved back, but draft still due Monday
+-Approach, Framework, and Details
+Framework: Introduction, Methods/Data-- most in here.  All the stuff you did,
+Results/Discussion- guess about plots, what they mean, ok to be wrong
+Conclusion/summary (general flow)
+-Reproducibility!!
+-CITE SOURCES!!! Easy to plagiarize
+
+Day 22:
+-Peer Reviewing rough drafts
+-did two
+
+Day 23:
+-Got peer reviews back
+-kept working on Data Red lab as well as Project, going to start new lab on friday
+-PSF is hard, not sure how to get it to work flexibly..
+
+Day 24:
+-started the SDSS lab
+-Poem:
+I am very gay
+Zippity Bop Bop Zip Zop
+So so very gay....
+###########################'`################################
+###########################  V##'############################
+#########################V'  `V  ############################
+########################V'      ,############################
+#########`#############V      ,A###########################V
+########' `###########V      ,###########################V',#
+######V'   ###########l      ,####################V~~~~'',###
+#####V'    ###########l      ##P' ###########V~~'   ,A#######
+#####l      d#########l      V'  ,#######V~'       A#########
+#####l      ##########l         ,####V''         ,###########
+#####l        `V######l        ,###V'   .....;A##############
+#####A,         `######A,     ,##V' ,A#######################
+#######A,        `######A,    #V'  A########'''''##########''
+##########,,,       `####A,           `#''           '''  ,,,
+#############A,                               ,,,     ,######
+######################oooo,                 ;####, ,#########
+##################P'                   A,   ;#####V##########
+#####P'    ''''       ,###             `#,     `V############
+##P'                ,d###;              ##,       `V#########
+##########A,,   #########A              )##,    ##A,..,ooA###
+#############A, Y#########A,            )####, ,#############
+###############A ############A,        ,###### ##############
+###############################       ,#######V##############
+###############################      ,#######################
+##############################P    ,d########################
+##############################'    d#########################
+##############################     ##########################
+##############################     ##########################
+#############################P     ##########################
+#############################'     ##########################
+############################P      ##########################
+###########################P'     ;##########################
+###########################'     ,###########################
+##########################       ############################
+#########################       ,############################
+########################        d###########P'    `Y#########
+#######################        ,############        #########
+######################        ,#############        #########
+#####################        ,##############b.    ,d#########
+####################        ,################################
+###################         #################################
+##################          #######################P'  `V##P'
+#######P'     `V#           ###################P'
+#####P'                    ,#################P'
+###P'                      d##############P''
+##P'                       V##############'
+#P'                         `V###########'
+#'                             `V##P'
+
+                                                        (palm tree)

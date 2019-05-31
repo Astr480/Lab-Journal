@@ -1,0 +1,14 @@
+Notes for 05/06/2019:
+
+Today was a short lecture on CCD data reduction and 
+analysis - including signal-to-noise ratio calculation. 
+This was useful, and I plan to read the article on it 
+that is linked on the course website.
+
+Analysis is proceeding - albeit slowly. I spent much of 
+time today assisting my neighbors in debugging their 
+code. I know what to expect and how to approach it now - 
+it's just the doing of it that remains. I suspect I'll 
+tackle it tomorrow, since I have no classes on Tuesday.
+
+Preston Went

@@ -102,3 +102,175 @@ Just noticed that fit file can also store spectroscopy data, it look nothing lik
 Filters: different type, U, R, I ...... each filter could need different treatment in terms of exposure time
 
 differential vs. absolute photometry: need to do this becuase sometimes it is hard to find a reference star
+
+Week 4
+ Class 1
+
+ distruibution difference between gaussis and poisson
+ photon distruibute like poisson
+
+ charge transfer: loss charge between transfer
+ readout: readout from each pixel then transfer them to the next pixel, finally move all of them to the last roll
+
+ QE comparisons
+
+ Key feature:
+    CCD are linear
+    pixel can saturate
+    gain is intrinsic
+    Responsive in the optical
+    CCD have become commercially viable
+
+CMOS: the charge to voltage conversion are in the pixel
+
+Noise:
+    shot noise: photon arrival at the chop for any given interval is governed by the poisson distruibution
+    Dark current: need to cool it, function of time , need dark which match the length of the time of exposure
+    read noise: gaussian, around bias level
+
+CLASS 2
+
+    we did the experiment of spectroscopy, where we use a very simple spectroscopy device to look at different elements
+    There are H that we can clearly see the three bright balmer series emission line. 
+
+    Also many other elements for us to explore, the scope spectroscopy can get a better view of the spectrom line than the
+    palastic one. 
+
+    some line are repeated in different elements, I guess it is becuase they all have the same electron orbit energy which result
+    in emmit the same frequence line
+
+    We also did the filter experiment, which is simple, different filter are only allow certain band of frequence to be through
+    THe interesting one is the UV filter which block most of the sunlight, but when you see a sunglasses from the UV filter,
+    you see the sunglasses become transparent
+
+CLASS 3
+    we talked about some method to manipulate the data you can find from the catalog. Like add or delete some rows or coloumn
+    Also, we looked about how to use fits file to draw in the python
+
+Week 5 
+Class 1
+
+We start to working on a new project related to the CCD
+
+The homework about CCD introduce a lot about it
+Bias/overscan: region with 0 time exposure use it as a refrence frame
+Possion distruibution random incident
+photon can be approximated by the Possion
+CCD electronic noise, dark current
+CCD has two different type, back-end and front-end this means where is all the electronic are
+
+Back-thinned have higher QE due to that
+
+CCD are linear
+
+Go to the lab to work on the CCD cameras
+
+we take many times of the exposeture time from 60s to 5s
+
+Also three bias image and three flat image
+
+We did that by put a paper in front of the CCD camera
+
+We will need to work on some data from those picture
+
+Class 2
+
+Keep working on the CCD lab
+
+We need to calaculate the Gain and the Read Noise
+
+It is weird for the gain to negtive for our image but I think it is becuase some region
+are broken
+
+We will have time to look at the telescope Friday night
+
+Class 3
+
+Keep working on the CCD lab
+
+Next part is finding the linear regime of the CCD which is not that hard
+Just plot the average value compare to the time
+
+The final part is the dark current which is caused by the thermal noise 
+that the electron will move somehow in the chip which creat a current
+
+Week 6
+
+Class 1
+
+ADU saturation 
+
+in CCD we have to convert from analog to digital signals
+ADC has a bits limits
+
+Noise -The CCD equation
+S/N 
+
+Bias subtraction
+bias current
+bias level is not stable where we can not just set it to 0
+
+Flat field 
+pixel response is a function of wavelength - so we need flats for each filter we are using for data
+Flat result in information about the pixel to pixel variation
+
+Darks current: thermal current, often samll and change with time. 
+
+Class 2
+Data reduction
+Install CCDProc
+download some data from the arcset
+It is important to vissally inspect all your data becuase it is possible for 
+some missname, check the headers
+combine bias frame to create a master bias frame
+
+Class 3
+We shift the coordinate a little to move the image a bit to avoid the overscan region
+the dark dege of image are not part of the image.
+
+Cosmic ray can cause small dot on the CCD
+
+HCG 79 : group of galaxies called seyfert's sextet
+
+The grating is projected onto the area with in the grey box 
+The galaxy spectrum is in the inner box
+blue box inside the grey box which the blue box contain the bright of the spectrum graph
+
+There are gap in the wavelength that we can not get on the ground
+We can use telescope on a plane or in space to avoid the gap
+
+Week 7
+
+Class 1
+
+PSF(Point Spread Function)
+system have aberrations that give shape to the images they are creating
+Even with no aberrations, we get a shape like a ring around the main gaussian distruibute
+sky background: the sky is glowing, a lot of things can cause it like ground light scattering in the nearby atmosphere
+Also unresolved astronomical objects; the zodiacal light is caused by sunlight reflecting
+Hydroxl emmission lines from the atmosphere cause a lot of narrow lines.
+
+different photometric approaches
+aperture photometric
+PSF photometric
+
+Class2
+Keep working on the photometry lab. 
+Using DAOStarFinder do find star in the picture where you can setup some parameter to change how many star you can
+identify. 
+Need to subtract the median, also need to cliped the background by some sigma to get the right number
+tricky to let the image to show with the imshow function
+
+
+Class 3
+science paper is different than english paper
+Need to be reproductable
+paper section : 
+Introduction, Methods/Data, Results/Discussion, conclution/Summary
+
+Details: include/present your data
+Include the theorem s and equations
+Reference! your information comes from somewhere. Make sure to credit that work appropriatily
+Can use wikipedia to start the formation of your reference. Like look at what paper they are referencing 
+plots:
+Be legible, have labels, have captions, be referred to the text of the paper

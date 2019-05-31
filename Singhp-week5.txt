@@ -1,0 +1,18 @@
+Monday
+
+Looked at the CCD lab, read it all. Doesn't seem too bad but didn't
+get to collect data yet. I am excited to see how this will work, and how
+the flats will look.
+
+Wednesday
+
+Our group got to go the room to collect data. We pointed the CCD
+to the ceiling, after failing to get a decent image due to its own 
+shadow. After taking images at varying exposure times, we uploaded
+our data to Google Drive.
+
+Friday
+Processing CCD data, gain is negative and small. Wrong but fine. Probably continue
+working on the lab throughout the weekend and see where I end up.
+note-changing the region still doesn't have an effect on the gain but
+professor says its ok.

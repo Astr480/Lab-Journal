@@ -40,6 +40,104 @@ https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.2638C/abstract
 Followed path of a photon
 Continued fits problem data
 
+Week 4
+Monday
+Started the project. Took a lot of time to understand how to use the sprectrameter for the second part
+
+Wednesday
+Finished that project
+
+Friday
+Spent time on python.
+Learned about vizier (https://vizier.u-strasbg.fr/viz-bin/VizieR)
+
+Week 5
+Monday
+We learned about the assignment
+
+Wednesday
+We did nothing
+
+Friday
+We took the data. We are also clearly the best group because we did it properly.
+
+
+Week 6
+Monday
+We were given another assignment and started working on the one due next week
+
+Wednesday
+Continued working on the assignment
+
+Friday
+I missed this class due to being sick. Presumably the same as Wednesday
+
+
+Week 7
+Monday
+Started Work on the Reducing Data Lab
+
+Wednesday
+Big day we worked on the Reducing data Lab and got a lot done
+
+Friday
+Continued to work on Reducing Data Lab
+
+Week 8
+Monday
+We reviewed other people's lab. Since they were relatively short it wasn't too much extra work to grade two, so most of us did exactly that.
+
+Wednesday
+Worked on photometry part of the lab. Read a lot of the documents for the photoutls lab. Using example code written in it and reading how the functions worked I was able to complete parts of it.
+
+Friday
+New lab starting today. SDSS survey lab. I missed around a bit with SDSS but as I'm new to this I'm just messing around with the values to see what happens.This lab was good for me as it helped me understand how to use SDSS and this will be helpful for my project. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,18 +1,312 @@
-Friday 4/5:
+Friday 5/24:
 
-Use simbad to gain knowledge on specific stars or a group of stars
-Ned is better for extragalactic research, learning about galaxies
+PSF is impossible but everyone seems to be having the same trouble
+except Joe
 
-Jskycalc: download it and try it out
-iobserve is an alternative to Jskycalc
+New lab on archival data
 
-What to consider while observing:
-Airmass is how much atmosphere is in between you and your object
-The more vertical the better (at the zenith airmass=1)
-You want an airmass at 1.5 or less
-While observing consider what phase the moon is in because its brightness can effect observing greatly
-When does your night actually start?
-  Night does not start until a certain darkness
+Finally got psf to run but it looks horrible
+Tried to fix it but my stomach feels horrible so Im going home 
+
+
+
+Wednesday 5/22:
+
+Joe pointed out that I was not using quadru the whole time
+plot is a lot simpler once i got the correct fits file in
+
+Found 191 stars but need to get rid of the bad stars
+I believe i used the center method but it might be the subpixel, we'll see
+
+apeture radius of 5
+annulus min of 3 and max of 8
+
+Subtracted flux and the plot is pretty erratic but it should do
+On friday I'll finish up with PSF
+
+
+
+Monday 5/20:
+
+Peer reviewed two different papers
+both look much more professional than mine
+I struggled to give notes because both papers were so short
+
+Preston gave me good tips on how to defend lomb scargle
+Also how to describe what it does
+
+Back to working on data reduction assignment
+
+
+
+Friday 5/17:
+
+Reducing image data lab is not due until next friday
+Thank christ
+
+Finish up reducing data today
+Start on first draft research paper this weekend
+
+Writing paper:
+Write out all of the steps through your paper
+Reproducibility
+Bring it into context with what is happening in the field
+
+Needs a method and data section
+Results and discussion is used for talking about what your results mean
+
+discussed game of thrones
+
+
+
+Wednesday 5/15:
+
+glob in list of biases
+ccdproc.combine
+
+Overscan is like a bias layered on top of an image
+No idea how to trim the Overscan
+Probably have to find the dimensions of the Overscan
+
+Using wolf for the biases, but arcsat data for the flats
+
+reduced fits file in the assignment page
+How do i scale the fits file like I would in ds9
+
+
+
+Monday 5/13:
+
+Data reduction lab is due friday, first draft is due Monday
+It does not need to be perfect, but have a good outline of where your paper is going
+
+photometry:
+The sky glows so every pixel has sky count in it
+
+Start the reducing image data assignment
+CCDproc to make master bias
+
+
+
+Friday 5/10:
+
+Was not in class, nothing to report
+
+
+
+Wednesday 5/8:
+
+Learning about data reduction today
+
+download ccdproc
+in the command line, get to apo archive
+Download biases, flats, objects and darks
+
+Cannot find sky flats or darks to save my life
+Got em
+
+Checking out the biases
+  one dud, but the rest are fine
+
+Darks
+  all good
+
+Dome flats
+
+
+
+Monday 5/6:
+
+Outline of our day:
+Learn about ccd
+Work on the ccd paper
+
+Full well - maximum number of electrons for a pixel
+Read noise - voltage uncertainty
+
+How do we measure?
+Full well - using a photon transfer curve
+Read noise - calculation SD of bias
+Dark current- taking dark frames
+QE - flats with well calibrated and controlled illumination
+
+Two kinds of saturation
+Full well saturation
+ADU saturation
+
+Working on a CCD problem
+All in electrons
+
+Data reduction:
+
+Dont set bias to 0, adds negative numbers to your reduction
+Bias is a function of readout, not of time
+
+Take flats in the filter you will be observing in
+
+Back to the CCD assignment
+My linearity plot is completely out of whack
+Spent the next 20 min watching Preston troubleshoot the plot and finally get it working
+
+
+
+
+Friday 5/3:
+
+Reread the assignment
+Check out the jupyter notebooks
+
+Notebook will not open my fits files beacause exptime is not in the header
+Turns out it needs to be exposure
+Our data is linear enough
+
+On to the gain
+gain of about 0.4
+read noise of about 16 (is this right?)
+
+
+
+Wednesday 5/1:
+
+Today we're reading through the assignment
+Start on the analysis
+
+First draft of final paper is due May 20th, I should probably get on that
+
+Sarah talked about the education system
+Research is much more important than teaching ability
+Reminds me of Bulgac
+
+Trying to read this assignment but keep zoning out
+
+
+
+Monday 4/29:
+
+Picking groups to work with for the next couple weeks
+
+We are the first group to use the ccd thing
+Taking biases and flats
+biases were easy enough, but it is extremely difficult to find the saturation point of the flat
+
+To get the right amount of light into the box we tried to hold it open with a pencil and different sizes of tapes
+We also tried a flashlight but that brought in too much light
+Eventually the pencil ended up letting in the right amount of light
+Saturation at about 90 seconds
+
+
+
+Friday 4/26:
+
+Learning about coding and downloading from databases
+Vizier
+You can control the dimensions of the catalog you download
+Reading in a csv, you can use delimwhitespace so it recognizes spaces
+
+All done with pandas
+There can be a lot of trouble just trying to get a catalog in order
+
+After the lecture start working on ccd homework
+
+Wednesday 4/24:
+
+Today working on the light filters
+Most simple part of the lab
+
+No other work to do
+Finsih up all of the writing on the lab, then head out
+
+
+
+Monday 4/22:
+
+Distributions:
+Photons usually follow Poisson distribution unless it is a flat which is more gaussian
+
+Bias is a 0 second image
+A detector will mean a device that used to measure electromagnetic radiation
+
+Charge transfer:
+Charge is transferred from pixel to pixel until it gets to the amplifier
+As charge is transferred thousands of times there can be complications
+
+CCD:
+They are linear
+Pixels can saturate, gain is intrinsic
+need cooling, but should not be cooled too much because it slows electrons
+
+Playing with light today, through spectroscopes
+Plastic blue spectroscopes are extremely tough
+
+
+
+Friday 4/19:
+
+Some lessons on observing
+Focus on what you are observing, and what you are trying to observe
+
+We are going to do a quick assignment on the life of a photon
+It hits the instrument before it hits the ccd (the detector)
+
+Techniques on how to view flux of objects
+  imaging
+  photometry
+  spectroscopy
+
+Filters differ in transmission percentages and what wavelength they let in
+Less transmission means less light getting through so you must observe longer
+
+Finally decided on my project proposal with 20 minutes to go
+Finish the lab for this week over the weekend
+
+
+
+Wednesday 4/17:
+
+Still no idea what to do for the project, outside of it being on exoplanets
+
+Starting lab for the week, looking at fits files to better understand ccd
+Started with fitsviewer but switched to ds9, seems to work better
+
+Checked out certain regions of a flat, and the overscan
+The histogram overscan has a fairly normal distribution
+The histogram of the regions have a extremely skewed distribution
+
+On to the bias frame (has not been exposed to light)
+Mean is much smaller but that is expected
+
+
+
+Monday 4/15:
+
+Start working on project proposals this week
+No idea what my topic will be
+
+There will be observing time at arcsat
+Even if you have a partner you must submit your own write up and code
+
+Reading scientific papers:
+Read the abstract then the conclusion before reading the whole paper
+It can help to write a summary of a paper so you can actually see if you have an understanding of the paper
+
+
+Use Annual reviews of astronomy to check out some papers and think about a possible topic
+Make sure to find a topic that I can find an archive for
+Looking at exoplanets (maybe inhabitable ones, maybe hot jupiters)
+
+
+
+Friday 4/12:
+
+Created my folder for NightSky with my screenshots from jskycalc and my writeup
+screenshots are of the airmass graph and seasonal observability table
+
+Finishing up my writing for the Planning observations assignment
+Getting everything together on my computer to send into github
+Checked that my write up included everything it needed
+It's easier than I thought to push a folder into github, had a slight problem with a space in my folder name
+Not much to do today
+
 
 
 Monday 4/8:
@@ -46,70 +340,19 @@ We were also able to use jskycalc to view if the moon would affect our observati
 observability tool
 
 
-Friday 4/12:
 
-Created my folder for NightSky with my screenshots from jskycalc and my writeup
-screenshots are of the airmass graph and seasonal observability table
+Friday 4/5:
 
-Finishing up my writing for the Planning observations assignment
-Getting everything together on my computer to send into github
-Checked that my write up included everything it needed
-It's easier than I thought to push a folder into github, had a slight problem with a space in my folder name
-Not much to do today
+Use simbad to gain knowledge on specific stars or a group of stars
+Ned is better for extragalactic research, learning about galaxies
 
+Jskycalc: download it and try it out
+iobserve is an alternative to Jskycalc
 
-
-
-Monday 4/15:
-
-Start working on project proposals this week
-No idea what my topic will be
-
-There will be observing time at arcsat
-Even if you have a partner you must submit your own write up and code
-
-Reading scientific papers:
-Read the abstract then the conclusion before reading the whole paper
-It can help to write a summary of a paper so you can actually see if you have an understanding of the paper
-
-
-Use Annual reviews of astronomy to check out some papers and think about a possible topic
-Make sure to find a topic that I can find an archive for
-Looking at exoplanets (maybe inhabitable ones, maybe hot jupiters)
-
-
-
-Wednesday 4/17:
-
-Still no idea what to do for the project, outside of it being on exoplanets
-
-Starting lab for the week, looking at fits files to better understand ccd
-Started with fitsviewer but switched to ds9, seems to work better
-
-Checked out certain regions of a flat, and the overscan
-The histogram overscan has a fairly normal distribution
-The histogram of the regions have a extremely skewed distribution
-
-On to the bias frame (has not been exposed to light)
-Mean is much smaller but that is expected
-
-
-
-Friday 4/19:
-
-Some lessons on observing
-Focus on what you are observing, and what you are trying to observe
-
-We are going to do a quick assignment on the life of a photon
-It hits the instrument before it hits the ccd (the detector)
-
-Techniques on how to view flux of objects
-  imaging
-  photometry
-  spectroscopy
-
-Filters differ in transmission percentages and what wavelength they let in
-Less transmission means less light getting through so you must observe longer
-
-Finally decided on my project proposal with 20 minutes to go
-Finish the lab for this week over the weekend
+What to consider while observing:
+Airmass is how much atmosphere is in between you and your object
+The more vertical the better (at the zenith airmass=1)
+You want an airmass at 1.5 or less
+While observing consider what phase the moon is in because its brightness can effect observing greatly
+When does your night actually start?
+  Night does not start until a certain darkness

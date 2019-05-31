@@ -1,0 +1,16 @@
+Monday
+
+Looked at ways to reduce data, stuff was kinda confusing but
+I think I get it.
+
+Wednesday
+
+SSH into some archive and downloaded a ton of data.
+Visually inspected everything to make sure its okay and
+made an excel file to keep log.
+
+Friday
+
+Worked more on reduction and started getting into the worksheet
+that is due soon. Need to figure out some more things on the CCD
+worksheet as well, gonna be a long weeekend.

@@ -133,3 +133,169 @@ This tells you about the use of the bandpasses as wavelength increases the preci
 - What is your object emitting?
 
 Differential Photometry: Comparison to a star of *unknown* star e.g. not listed info for it.
+
+Day ten - 4/22/20
+
+CCDs etc..
+Bias/Overscan - gives you information about the instrument
+
+Fits and such
+* log or z scale
+* Histograms - different regions of the image are governed by different statistics
+  - Poisson = How many —> to Gaussian if sample is large enough.
+  - Gaussian = deviation from norms
+  - Can calc noise and gain from the histogram
+* Photons are dictated by poisson but the overall flat is Gaussian
+
+CCDs
+* Bucket brigade = Charge transfer
+* Care about: 
+    * Quantum effeciency
+    * Gain
+    * Dark current=thermal noise
+    * orientation of CCD
+* Things to know:
+    * Track linearly
+    * pixels can saturate pixels
+    * gain is intrinsic
+    * Responsive in the optical (some ability to extend) —> material issue
+Microchannel plate - know when, up to a few ms a photon, arrived 
+
+Noise — How do we get rid of all of this? That’s the dream.
+* Shot Noise - Underlying photon noise. Photons b/c governed by poisson in repeated intervals will not give you the same count
+* Dark Current - as heated the thermal excitation will add untrue electrons to your count (as a function of time more electrons added)
+    * Dark should be the same duration as our observation
+* Read Noise - variations in the CCD readout/electronics will raise a normal distribution around the bias level. Not such 
+
+element lines: http://www.umop.net/spctelem.htm
+https://www.nist.gov/
+
+Day eleven - 4/24/20
+
+I love spectroscopy. I remember doing a lab very close to this in my first chemistry lab and feeling like this could be my thing! That’s why I almost went into geochemistry then I found out about radiation theory and quantum mechanics and how you can determine the composition of things in the deep reaches of space using spectroscopy and I changed my major! Very happy to revisit this lab and this path! 
+
+Also this is the periodic table of spectra I have hanging above my desk now :D
+https://images.app.goo.gl/choEdWRh9Lh9RvCr5
+
+
+Day twelve - 4/26/20
+
+VizieR —> Find more catalogues
+* multiple submits indicate appended data
+
+http://vizier.u-strasbg.fr/viz-bin/VizieR-3?-source=J/A%2bA/471/127&-out.max=50&-out.form=HTML%20Table&-out.add=_r&-out.add=_RAJ,_DEJ&-sort=_r&-oc.form=sexa
+
+FITS:
+HDU where the header and such is stored 
+
+Day thirteen- 4/29/19
+
+1st Draft due on May 20th - Basic plan, basic argument 
+
+5-10 NGC catalogue biggest and brightest. if bright enough can do V_R and Halpha.   ~10-15h, dec 0-60, apparent mag (low), and ~10 arc min gals 
+
+Catalogue:
+https://heasarc.gsfc.nasa.gov/db-perl/W3Browse/w3query.pl
+
+Today we gathered data  this is my haiku about it:
+
+Together we try
+Tape, pencils, and boxes, oh my! 
+Its data, I guess.  
+
+Day fourteen- 5/01/19
+
+Work day!
+
+I got my objects together for viewing then I got very, very intimidated by the instructions and rescheduled my viewing. 
+
+Meredith imparted more code to me and I love them for it:
+for t in targets:
+    print(t.name)
+
+observable_targets = [t for t in targets if t.name in observable['target name']]
+observable_targets
+
+We also learned about the great travesty that is standardization of material taught across different quarters is. Emphasizing that the astronomy department is SO much better than the physics department. As well as how the graduate school is paid and a sham. 
+
+Day fifteen- 5/03/19
+
+I JUST NOTICED TODAY THAT ALL MY JOURNALS HAVE BEEN DATED FOR 2020…. I have transcended time and space. 
+
+Day sixteen- 5/06/19
+
+QE - get it and don’t do it again. How efficient CCD detects the photons
+- flats with well calibrated and controlled illumination
+Full well = bigger pixels —> more e —> deeper full well
+- photon transfer curves —> show dif regimes that is dominated by read noise(getting just noise fo the chip — strongest source of noise), shot noise(photons not arriving at the same time — poisson list), or fixed pattern (saturation full well domination — see a pointed turn over)
+Saturation types(1,2):
+1. ADU saturation — your ADC stops being able to count, where the ADC converts analog to digital, basically there is a counting mismatch. 
+ 
+read noise = voltage uncertainty
+- calc sigma —> std dev of bias
+- can be regional deficiencies within the CCD
+Charge transfer:
+- X ray Fe55 source
+Dark current:
+- take dark frames
+
+Noise —> which dominates? which regime are you in? 
+Read noise - remove with bias (not ideal) S?N ~S*
+Shot noise - 
+Sat. Noise
+* bright stuff doesn’t matter too much but when you get into dim objects and it DOES
+
+Bias frames —> subtract them!  
+- is a function of 
+- Bias level - set voltage your pixels can oscillate around. 
+    - Don’t want it to be 0 because then the variation does negative and in computers this takes 2 ADU and now you have lowered 
+- quadrant biases different due to amplifier read out
+Flat field —> normalize the responsiveness in each pixel. 
+- errors multiply 
+- wavelength dependent (like QE)
+- any filter you’ve taken data in you must take a flat in see defects in filter & DUST
+Darks —> see uneven cooling eg an uneven pattern imbedded into the image due to dark current
+- Need long exposure to see dc
+
+Observation happened and I got clouded out.
+
+Day seventeen- 5/08/19
+
+calibrate with every move because gravity changes optics when telescopes move. 
+
+INSPECT YOUR DATA!!!!!!
+
+Day eighteen- 5/10/19
+
+arcstat 11’x11’ — how big is 1’?
+
+NCG 2998 — star forming
+
+When you look up ra and dec it is centered at that object.
+- There may be situations when you don’t want that. eg 4 quadrants reading out ea of its own amplifier, so center/ kinda center it in the quadrant (but avoid edge effects)
+
+Spectograph
+- no filters
+- and it’s clearly not an image
+
+IR flux is ~ on the scale of 1’ and 1” —> WE CARE about this scale
+
+* display fits in the notebook: http://learn.astropy.org/FITS-images.html
+Day twenty- 5/20/19
+I have fallen horribly behind. My computer died and caused me sadness but things got better!
+
+Day twenty two- 5/22/19
+Work day
+
+I got to the photometry portion of the lab I’m late on. 
+
+Day twenty three- 5/24/19
+Today was a good day I only have a few  questions on the last lab. My partner’s dad is in town and we’re going to go to dinner tonight! I hope I can get caught up on the weekend and have some fun. Sorry my logs have been short this week. My brain hurts and there’s been a lot lately. I’ll live though ;). Thanks for all the things. I’m enjoying dis stuffers!
+
+Here’s all the links you’ll need later, Mercedes:
+https://github.com/astropy/ccdproc/blob/master/docs/ccdproc/reduction_toolbox.rst
+https://photutils.readthedocs.io/en/stable/detection.html
+https://photutils.readthedocs.io/en/stable/api/photutils.detection.find_peaks.html#photutils.detection.find_peaks
+https://photutils.readthedocs.io/en/stable/aperture.html
+https://photutils.readthedocs.io/en/stable/api/photutils.aperture_photometry.html#photutils.aperture_photometry
+http://docs.astropy.org/en/stable/visualization/

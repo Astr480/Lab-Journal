@@ -1,0 +1,39 @@
+####################################
+	Week 6
+####################################
+####################################
+	05/13/19
+####################################
+
+Finished up CCD lab.	
+	
+####################################
+	05/15/19
+####################################
+
+Example header data table:
+Need to make columns then use astropy.table.Table()
+
+	filters = [object_data[i][0].header['Filter'] for i in range(len(object_data))]
+	exptime = [object_data[i][0].header['exptime'] for i in range(len(object_data))]
+	names = objects
+
+	t = Table([names,filters,exptime], names=('Files','Filters','ExpTime'))
+
+
+####################################
+	05/17/19
+####################################
+
+Removing overscan is wack. Found script from Lick.
+
+DAOStarFinder:
+	Make object, then method find_star()
+	finder = photutils.DAOStarFinder(Threshold, FWHM)
+	stars = finder.find_star(data)
+
+Final:
+	Will be using "Everest" pipeline for transit finding.
+	Different method from 419 paper. 
+
+
