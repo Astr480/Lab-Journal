@@ -93,8 +93,15 @@ Worked on photometry part of the lab. Read a lot of the documents for the photou
 Friday
 New lab starting today. SDSS survey lab. I missed around a bit with SDSS but as I'm new to this I'm just messing around with the values to see what happens.This lab was good for me as it helped me understand how to use SDSS and this will be helpful for my project. 
 
+Week 9
+Monday
+NO CLASS!
 
+Wednesday
+Worked on the SDSS part. Worked on it outside of class so got most of the plots done, and got stuck on problem 7 and waited to work from there in class on friday
 
+Friday
+We got stuck several times trying to read the data. The first time was totaly my fault. I didn't put it in the right place. The second issue was not. The data just has random strings throughout the data and couldn't plot them correctly due to this.
 
 
 
