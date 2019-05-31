@@ -330,3 +330,15 @@ So so very gay....
 #'                             `V##P'
 
                                                         (palm tree)
+Day not sure, 5/31
+-Finishin up SDSS Lab.  Don't know how to match since the lists are different lengths..
+-Astropy matching skycoords weird/not working as well...
+-Spectral Energy Distribs sharp (not continuous data?)
+-Turned in thing
+                        __
+                    ___( o)>-quack QUACK  _      _      _
+                    \ <_. )             >(.)__ <(.)__ =(.)__
+                     `---'               (___/  (___/  (___/
+                  _        _       _          _        _      _
+               __(.)<   __(.)>  __(.)=     __(.)<   __(.)> __(.)=
+               \___)   \___)    \___)      \___)    \___)  \___)
