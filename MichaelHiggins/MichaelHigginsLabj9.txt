@@ -1,0 +1,9 @@
+Monday: No class
+
+Wednesday: I turned in my paper and worked on the first half of the SDSS assignment. I completed up to
+the SQL query section and had started to make some color magnitude plots.
+
+Friday: Today was a mad rush to try and finish the assignment on time. I came to class 2 hours early
+and started working on the SDSS assignment. I had some issues with reading data, but I got that figured
+out eventually. Since the assignment was due at 5pm I ran out of time to properly finish question 10
+and question 11. This makes me very sad. I wish we could have had until later tonight.
