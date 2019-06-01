@@ -303,3 +303,20 @@ parameters and the fitting model does some algrism that I did not quite understa
 by working on different point seprate function. I think it is better for data with a lot of star with different size. 
 
 Also introduced a new lab of using SDSS survey data, which will due next Friday, but there are paper need to work on on wednesday
+
+Week 9 
+Class 1
+There are no class one, memorials day!
+
+Class 2
+Submitting the second draft of the paper, and working on the SDSS data match lab
+Finding chart are for reference, when you want to see some star or galaxy you create a finding chart, in the case you are at a telescope
+and you are not sure that if you are pointing to the right object, you can use the survey data to confirm it. 
+It is suprise to know haw easy you can just download the survery data into a csv data,
+and also surprise to know that there are more than 67000 object in a 0.5 degree radius of sky. 
+we ploted many diagrm by using the data.
+
+Class 3
+Keep working on the SDSS data matching lab. Today, I match the SDSS data to the WISE data and found out that the ra and dec of a star are not 
+constant, they could vary based on the equipment you are using. But the difference are relative small. 
+Also plot the CMD but there are just too many star in the data, so a lot portion of it are just squized together. 
