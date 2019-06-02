@@ -1,0 +1,32 @@
+####################################
+	Week 8
+####################################
+####################################
+	05/27/19
+####################################
+
+	No class. Worked on MCMCs for project.
+
+	Wrote a new script fro parallel to see if
+	higher number of iterations will help. 
+
+####################################
+	05/29/19
+####################################
+	
+	SQL Example script for getting
+	objects in a range of RA and DEC
+	'''
+	SELECT ra, dec, u, g, r, i, z
+	FROM PhotoObj
+	WHERE ra BETWEEN "first value" AND "second"
+	AND dec BETWEEN "first value" AND "second"	
+
+####################################
+	05/31/19
+####################################
+
+	Color-Mag diagram: flip mag axis.
+	Use ylim([]) to invert.
+	
+	
