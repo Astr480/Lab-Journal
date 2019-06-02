@@ -39,3 +39,24 @@ April 26th:
 -Brainstormed possible ideas for observing projects.
 -Possible ideas would be dark matter (this seem to hard though) and then focused on some idea
 about dwarf galaxies
+
+May 27th:
+-No class today
+-I personally worked on my project
+-grabbed data from SDSS and started to work with some CMD in python
+
+May 29th:
+-Worked through SDSS Survey lab
+-Had some trouble with the finding chart and am unsure on what an optimal size for it
+would be. I decided to go with a .35 '' to pixel scale and 600 pixels due to size of the picture
+and that it includes all of M67
+-Worked a bit on my project outside of class, wrote some more code to get the plots looking better
+-Filled out a couple of the sections but unsure how to analyze my plots
+
+May 31st:
+-Finished up working on the SDSS Lab
+-Had some code issues when trying to mask the data into a inner and outer radius
+-I had many problems with cross matching and am still a bit confused. I will need to go over what
+to do a bit more before fully understanding.
+-I tried to match SDSS, 2MASS and WISE but unsure how effective it was
+
