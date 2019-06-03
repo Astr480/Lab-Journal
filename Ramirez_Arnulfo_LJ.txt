@@ -54,3 +54,11 @@ Week7:
 		Worked on CCD assignmnet as well as on research project.
 	Class3:
 		Went over slides about expectations for the rough draft of research essay. Began writing the rough draft of research essay.
+
+Week8:
+	Class1:
+		Did peer reviews of two seperate classmates' research papers. I did not have a rough draft however and worked on the project.
+	Class2:
+		This class period was devoted mainly to the ImageReduction assignment. I spent most of the time working with the CircularAperture and getting my plots to graph properly.
+	Class3:
+		Began with a quick overview of the next lab assignment. Finished up the ImageReduction assignment. Specifically I was on the CircularAnnulus portion and completed that. I was not able to figure out the PSF fitting however.
