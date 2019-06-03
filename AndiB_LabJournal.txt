@@ -191,3 +191,17 @@ Day24 (5/24):
 -turns out there are a bajillion different ways of obtaining the right data. i got incredibly overwhelmed and tried a lot of them and ended up with zero plots
 -my code has been uploaded but it's incomplete. had to clean all day saturday then watch a friend play in their band, went camping sunday/monday...
 	will have all day tue to finish the code and implement it into my own project
+
+Day25 (5/29):
+-finished a word doc consisting of my explanation for all the of packages used in the data reduction / photometry lab - see the word doc for a summary of my work on this day
+
+Day26 (5/31):
+-did some reading on supervised vs unsupervised learning.... the difference is in the information you give the algorithm. sorting a dataset for it gives it parameters
+-zach and i rambled about basian stats... updating my sleeping pattern... cannot assume gaussian but it converges to 7 hrs at least
+-neural networks are insane... the algorithms are just running through stuff in their black box. like what
+
+MRO:
+-spent the weekend at MRO !!!!!!! after Oliver and I rewired the motor for the filter wheel so it stopped groaning, we initialized the camera
+-taking exposures worked but the server only transferred the file to Bifrost who didn't communicate it to Evora :(
+-after rebooting, we eventually worked it out. Michael and I took exposures of different nebulae and experimented with exposure time until 3am. so sosososo exciting
+-didn't take flats though :( the dome flats are terrible and we didn't want to wait until 5am to take dawn flats lmao
