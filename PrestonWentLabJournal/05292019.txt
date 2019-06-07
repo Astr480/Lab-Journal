@@ -1,0 +1,13 @@
+Notes for 05/29/2019:
+
+SDSS data is not designed for PCA. That is what I learned 
+this weekend. As such, my project is going very slowly, 
+and I may just have to give up and write about what I have. 
+The main issues are redshift and the high variability of 
+stellar spectra.
+
+The SDSS survey lab, however, is going quite well. After 
+spending so much time doing this kind of stuff for my project, 
+this is a piece of cake.
+
+Preston Went

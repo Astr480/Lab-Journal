@@ -1,0 +1,42 @@
+####################################
+	Week 7
+####################################
+####################################
+	05/20/19
+####################################
+
+	Peer Reviews
+	
+	Need to figure out why MCMC chains
+	aren't converging to a single value.
+	Seem to be almost bimodal. Maybe simultaneous
+	transits?	
+	
+####################################
+	05/22/19
+####################################
+	
+	For MCMC, look at data first, then 
+	choose inital guesses. The example wants
+	very strict constraints. 
+
+	Everest doesn't play nice with conda...
+
+	Maybe need to switch to systems with
+	only one transit. Not sure how to do fits
+	for multiple.
+
+####################################
+	05/24/19
+####################################
+	
+	use "origin='lower'" so the bottom left
+	of an image is (0,0).
+	
+	'bias sections' in fits header are
+	overscan regions.
+
+	Not sure how some of the PSF function 
+	parameters are chosen. 
+	Also, having a preset model for sky noise 
+	could be problematic. 

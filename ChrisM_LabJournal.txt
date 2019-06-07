@@ -89,5 +89,15 @@ I am very much looking forward to any results I get but even more so to having a
 
 If I do get a result I will do everything I can to try and blame it on some error I made before interpretting it. I will have some interpretations however just in case. I am going for a writting credit after all.
 
+ have been reading plenty of papers trying to get a better idea of my final direction for my paper. I am going to need to write a lot for it this weekend before and after my friend's wedding in eastern washington.
 
+It has been exciting making headway on the project learning how to read in SDSS catalogs and figuring out a nested for loop for the most calculation intensive portion of my project.
+
+The target galaxy that my code gave me is apparently obscured by a foreground star. Fortunately I have the numbers I need printed out so I will figure out how to put them into a dictionary and find the best correlation galaxy.
+
+I wanted to find different candidate galaxies with varying z values but the DR15 data does not appear to have very large z values. I will show the range of each of the data points I have in a table on my paper so that it is clear what I am working with.
+
+Even if I don't finish this project fully by Friday I would love to keep working on my code over the summer and maybe something interesting will end up popping out of it.
+
+I at least will have enough for some interesting plots and I believe I've settled all my oversampling mechanisms besides edge-on extinction undersampling.
 

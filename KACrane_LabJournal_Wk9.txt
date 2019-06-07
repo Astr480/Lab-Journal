@@ -1,0 +1,17 @@
+Day 25:
+
+worked on SDSS data lab
+
+hard to tell boundaries of M67
+best way to reduce number of stars queried?
+  used TOP n
+
+CMDs look strange -- no clear main sequence
+
+
+Day 26:
+
+inner 0.25deg stars don't make much sense to me. They don't seem meaningfully different from the rest. Maybe not dense enough on image?
+
+how to match crossmatched stars to the input star it's matching?
+  err_maj vs err_min?
