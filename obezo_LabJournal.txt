@@ -103,53 +103,14 @@ Worked on the SDSS part. Worked on it outside of class so got most of the plots 
 Friday
 We got stuck several times trying to read the data. The first time was totaly my fault. I didn't put it in the right place. The second issue was not. The data just has random strings throughout the data and couldn't plot them correctly due to this.
 
+Week 10
+This week was mostly stressing about the project
+Monday
+Started reading the machine learning chapters. Started looking at the Lab
 
+Wednesday
+Worked mostly on the Lab. We spent most of the time messing with the values for the solution code to see how that affected the outcome. For the most part it didn't change the values by very much
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Friday
+Last day. Mostly just doing last minute stuff. You made a list of various stuff.
 
