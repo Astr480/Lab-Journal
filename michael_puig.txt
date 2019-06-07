@@ -1,3 +1,43 @@
+Friday 6/7:
+
+Turning in all assignments
+
+Talking about the class
+what was good, what was bad
+
+done with machine learning hw
+done with machine learning lab
+done with college
+
+
+
+Wednesday 6/5:
+
+Working on scikit-learn tutorial in class
+conda install is taking years
+
+If you follow the tutorial pretty tightly its pretty easy
+Time to finish up the final paper
+
+Done with machine learning lab
+Done with machine learning homework
+
+Just have to mess with the test size
+
+
+
+Monday 6/3:
+
+Learning about machine learning today
+Running through machine learning tutorial on Wednesday
+
+Supervised vs. unsupervised learning
+
+supervised learning can be biased because the data put into the computer might be biased
+I think the naive bayes model fits that plot
+
+
+
 Friday 5/31:
 
 This lab is due today at 5
@@ -8,7 +48,6 @@ crossmatch went well just delete the top three rows of the table
 
 From the color-color we know these stars are pretty cold
 What is an SED?
-
 
 
 
