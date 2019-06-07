@@ -1,0 +1,14 @@
+Notes for 06/07/2019:
+
+I salvaged my laptop! My data drive had failed, becoming 
+unreadable. The master boot record was on that drive - 
+for some godforsaken reason - so its failure also prevented 
+me from booting. The solution: remove the drive and reinstall 
+Windows on my boot drive again.
+
+As for the final project. I spoke with Prof. Tuttle, and it was 
+agreed that I would have an extra week to finish it. I'm excited 
+for the opportunity to finish my work, and I plan on working on 
+it like a full-time job.
+
+Preston Went
