@@ -1,0 +1,24 @@
+Ioana Alexandra Mititean
+6/7/19
+ASTR 480
+Lab Journal: Week 10
+
+6/3/19
+- Worked heavily on the machine learning homework. 
+- First I read about machine learning (an overview) from the PDF textbook that was supplied on Canvas. 
+- Then I answered the questions as best as I could, with occasional help from the Web. 
+- Began the machine learning lab - opened up the resources, such as the Scikit tutorial on the Web, and installed Scikit-learn using Anaconda.
+
+6/5/19
+- Worked on and completed the machine learning lab assignment.
+- Read through the tutorial for Scikit-Learn online, and answered the 5 questions on the lab worksheet in a Word document. 
+- Read the prompt for the coding exercise portion, and decided to try the first exercise option.
+- Using Jupyter notebook and the help from the code skeletons provided in the Github repository for Scikit-Learn, I attempted the exercise and got something to work :)
+
+6/7/19
+- Finished up my final paper this morning. Unfortunately I couldn't complete 100% of it, but I tried my best with the time and energy I had x.x
+- Printed out the final paper. 
+- I also made sure to have my machine learning homework and lab code ready, and my laptop in my backpack (otherwise I would be doomed). 
+- Before class ended, I turned in my machine learning homework and paper (by hand) and a snapshot of the code results (to Github).
+- I also made this lab journal and uploaded it to Github. 
+- Found out a bit late that my laptop was at low battery when class began. And yet I magically remembered to bring my charger cable, which was amazing. 
