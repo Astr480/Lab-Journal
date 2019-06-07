@@ -349,7 +349,7 @@ MACHINE LEARNING
 -AI?????????
 -Computer Program=Set of instructions, decision trees, if loops, Kermit
 -Supervised Learnings: Use training data (examples) to "teach" the algorithm what input maps to what ouput, based ont raining Set
-  -matters what your structure/algorithm is, but also the decisions made in the training data 
+  -matters what your structure/algorithm is, but also the decisions made in the training data
 -Unsupervised learning: no inputs or present categories or labels to match.  this can be both useful in producing unbiased information about a data set but also is not constrained by your question (the computer doesnt know physics, s might create a model based on a superfiical feature or error)
 -also Reinforcement Learning.  Humans are so angry
 -Clustering, regression, classification, Dimensionality reduction
@@ -362,3 +362,13 @@ MACHINE LEARNING
 
 LAB:
 really bad instructions but hopefully we'll figure it out
+
+Second to last day:
+-went through skeletons, solutions for the machine learning exercises
+-Cool!!! s o l u t i o n s
+-Finished the machine learning hw and lab
+
+LAST DAY:
+-frantically finishing project
+-brought duck to say hi
+THANK UUUUUUUUUUUUUUUU~~~~~~~~~
