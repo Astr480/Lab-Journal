@@ -101,3 +101,17 @@ Even if I don't finish this project fully by Friday I would love to keep working
 
 I at least will have enough for some interesting plots and I believe I've settled all my oversampling mechanisms besides edge-on extinction undersampling.
 
+Last week!:
+
+This week is a rush trying to get everything done for my final project but I enjoy a good challenge!
+
+I used the plots from my third draft to reduce my data set by finding outliers on apparent magnitude (-999 what?!), RA and dec excluding isolated galaxies, and T-type removing ellipticals and irregulars. This made working with my data set about 4 times more efficient.
+
+I was able to get out the max, median, and min correlated galaxies and began plotting them the night before the project was due. The phase space oversampling was as I expected and for the most part appears to be well corrected with a simple cos(theta) convolution.
+
+I  would have liked to spend more time on ML but my brain was too dead this week to dive as deeply into it as I would have liked to.
+
+This has been a wonderfully informative class and like every other astro class I've taken it leaves me excited for the next one. I learned muchly about galaxy angular momentum origins and todal torque theory connecting dark matter to galaxy spins and filament structure. I am taking cosmology in Fall so I hope to be able to dive deeper into the structure of the cosmic web. 
+
+I will recommend this class to everyone interested in astro research!
+-Chris Moore
