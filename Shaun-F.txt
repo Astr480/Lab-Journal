@@ -223,4 +223,16 @@ may 29th, 2019:
 May 31st, 2019:
 	Worked the entire time on SDSS lab trying to finish. Was unsuccessful on finishing it.
 
+Jun 03, 2019:
+	Started Machine Learning. 
+	Over the weekend, I worked aton on the research paper. I am at ~8 pages, including the bibliography. Currently working on the correlations section.
+
+Jun 05, 2019:
+	Continued Machine Learning.
+	Learned about the solutions and skeleton folders, which made the coding significantly easier. 
+
+Jun 07, 2019:
+	Last day of class.
+	Submitted Machine learning lab and HW, Submitted Project paper and accompanying code.
+	DONE!
 
