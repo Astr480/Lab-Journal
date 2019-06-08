@@ -333,3 +333,124 @@ not know how I am gonna finish it in time.
 Joke of the Week: Me.
 
 Weekly ASSCI: :c
+
+
+WEEK 10
+
+Date: Monday, June 3
+
+We started the machine learning lab. It was a pain and a half to get the 
+tutorial set up on my computer. Lot's of things went wrong, little went right.
+I did get it up and ready to go by the end of the class, but that wasn't how
+I wanted to spend that class.
+
+I also did a lot of work on my project. 
+
+Date: Wednesday, June 5
+
+Continuing the ML lab, I have no idea how this works. I get the concepts. The
+code, however, leaves me more confused than a chicken in a fox hole (I'm 
+not sure what that means; it was just the first simile that came to mind). 
+Looking at the solution doesn't help much either. To try and understand the
+code, I have been going through each command and line and looking up what it
+does then making notes on it in my Jupyter Notebook. This kinda has been
+helping.
+
+Lots and lots and lots of work on my project. And then, when I could no longer
+read and my brain no longer functioned, I did lots and lots and lots more 
+work. The saddest part is that it is trash and I don't think there is anything
+I can do for it at this point. Why does Murphy haunt me so?
+
+Date: Friday, June 7
+
+"Don't yuck my yum"
+
+The last day for us
+We learned, we cried, we didn't die 
+And now we are done
+
+I have already turned my final project in on canvas before coming to class.
+I don't really have anything to do in this class. I may just relax and let
+my brain recover. It has been a long week.
+
+
+Joke of the Week: What did the Nuclear Physicist have for lunch?
+		  Fission Chips.
+
+BONUS JOKE: Why should followers of special theory of relativity not be taken
+	    seriously?
+	    They fail to see the gravity of the situation.
+
+One more for the road:How many ears does Captain Kirk have?
+		      Three. A left ear, a right ear, and a final frontier! 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!>''''''<!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!'''''`             ``'!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!''`          .....         `'!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!'`      .      :::::'            `'!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!'     .   '     .::::'                `!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!'      :          `````                   `!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!        .,cchcccccc,,.                       `!!!!!!!!!!!!
+!!!!!!!!!!!!!!!     .-"?$$$$$$$$$$$$$$c,                      `!!!!!!!!!!!
+!!!!!!!!!!!!!!    ,ccc$$$$$$$$$$$$$$$$$$$,                     `!!!!!!!!!!
+!!!!!!!!!!!!!    z$$$$$$$$$$$$$$$$$$$$$$$$;.                    `!!!!!!!!!
+!!!!!!!!!!!!    <$$$$$$$$$$$$$$$$$$$$$$$$$$:.                    `!!!!!!!!
+!!!!!!!!!!!     $$$$$$$$$$$$$$$$$$$$$$$$$$$h;:.                   !!!!!!!!
+!!!!!!!!!!'     $$$$$$$$$$$$$$$$$$$$$$$$$$$$$h;.                   !!!!!!!
+!!!!!!!!!'     <$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$                   !!!!!!!
+!!!!!!!!'      `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$F                   `!!!!!!
+!!!!!!!!        c$$$$???$$$$$$$P""  """??????"                      !!!!!!
+!!!!!!!         `"" .,.. "$$$$F    .,zcr                            !!!!!!
+!!!!!!!         .  dL    .?$$$   .,cc,      .,z$h.                  !!!!!!
+!!!!!!!!        <. $$c= <$d$$$   <$$$$=-=+"$$$$$$$                  !!!!!!
+!!!!!!!         d$$$hcccd$$$$$   d$$$hcccd$$$$$$$F                  `!!!!!
+!!!!!!         ,$$$$$$$$$$$$$$h d$$$$$$$$$$$$$$$$                   `!!!!!
+!!!!!          `$$$$$$$$$$$$$$$<$$$$$$$$$$$$$$$$'                    !!!!!
+!!!!!          `$$$$$$$$$$$$$$$$"$$$$$$$$$$$$$P>                     !!!!!
+!!!!!           ?$$$$$$$$$$$$??$c`$$$$$$$$$$$?>'                     `!!!!
+!!!!!           `?$$$$$$I7?""    ,$$$$$$$$$?>>'                       !!!!
+!!!!!.           <<?$$$$$$c.    ,d$$?$$$$$F>>''                       `!!!
+!!!!!!            <i?$P"??$$r--"?""  ,$$$$h;>''                       `!!!
+!!!!!!             $$$hccccccccc= cc$$$$$$$>>'                         !!!
+!!!!!              `?$$$$$$F""""  `"$$$$$>>>''                         `!!
+!!!!!                "?$$$$$cccccc$$$$??>>>>'                           !!
+!!!!>                  "$$$$$$$$$$$$$F>>>>''                            `!
+!!!!!                    "$$$$$$$$???>'''                                !
+!!!!!>                     `"""""                                        `
+!!!!!!;                       .                                          `
+!!!!!!!                       ?h.
+!!!!!!!!                       $$c,
+!!!!!!!!>                      ?$$$h.              .,c
+!!!!!!!!!                       $$$$$$$$$hc,.,,cc$$$$$
+!!!!!!!!!                  .,zcc$$$$$$$$$$$$$$$$$$$$$$
+!!!!!!!!!               .z$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+!!!!!!!!!             ,d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$          .
+!!!!!!!!!           ,d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$         !!
+!!!!!!!!!         ,d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$        ,!'
+!!!!!!!!>        c$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$.       !'
+!!!!!!''       ,d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$>       '
+!!!''         z$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$>
+!'           ,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$>             ..
+            z$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$'           ;!!!!''`
+            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$F       ,;;!'`'  .''
+           <$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$>    ,;'`'  ,;
+           `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$F   -'   ,;!!'
+            "?$$$$$$$$$$?$$$$$$$$$$$$$$$$$$$$$$$$$$F     .<!!!'''       <!
+         !>    ""??$$$?C3$$$$$$$$$$$$$$$$$$$$$$$$""     ;!'''          !!!
+       ;!!!!;,      `"''""????$$$$$$$$$$$$$$$$""   ,;-''               ',!
+      ;!!!!<!!!; .                `"""""""""""    `'                  ' '
+      !!!! ;!!! ;!!!!>;,;, ..                  ' .                   '  '
+     !!' ,;!!! ;'`!!!!!!!!;!!!!!;  .        >' .''                 ;
+    !!' ;!!'!';! !! !!!!!!!!!!!!!  '         -'
+   <!!  !! `!;! `!' !!!!!!!!!!<!       .
+   `!  ;!  ;!!! <' <!!!! `!!! <       /
+  `;   !>  <!! ;'  !!!!'  !!';!     ;'
+   !   !   !!! !   `!!!  ;!! !      '  '
+  ;   `!  `!! ,'    !'   ;!'
+      '   /`! !    <     !! <      '
+           / ;!        >;! ;>
+             !'       ; !! '
+          ' ;!        > ! '
+            '
