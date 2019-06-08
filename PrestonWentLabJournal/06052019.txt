@@ -1,0 +1,8 @@
+Notes for 06/05/2019:
+
+My work laptop died the yesterday, and without access to the 
+astronomy lab computers I could not work today. I am lucky 
+to have finished the work prior to this. I spent this class 
+assisting my classmates with the assigned scikit-learn tutorials.
+
+Preston Went
