@@ -1,0 +1,22 @@
+Day 27:
+
+"No one's yet called me a bitch in my evaluations, so it's not clear whether I'm in fact a female professor."
+
+Machine Learning:
+  supervised:
+    training data with "correct" results
+  unsupervised:
+    lets learner determine its own categories
+
+  Naive Bayes
+    only works if classes are fairly far apart
+    fast
+    has all limitations of Gaussian for overlapping regions
+
+Day 28:
+
+"we try not to physically assault each other in class; it's not helpful for learning"
+
+Day 29:
+
+I don't have any thoughts on anything at this point
