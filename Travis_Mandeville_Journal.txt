@@ -81,3 +81,11 @@ Week 9:
 Wednesday I spent most of my time on my research project. I was finally able to get a plot to work that was desribing my periodic variability for EW_Sct. This plot will be similar to other so this is like 7 or 8 birds with  one stone.
 
 Friday was spent going over the SDSS lab. The matching portion of the assignment was not too difficult but getting the data to read in turned out to be a giant pain. Additionally, the columns names are the least instructive things on the planet. 
+
+================================================================================
+Week 10:
+Monday we began working on the Machine learning lab. I had a hard time gettng everything setup. It took me the better part of 20 minutes to figure out that the "fetch.py" file was going to fetch the data I needed, not some random python script. Startd to make some good progress by the time calss ended.
+
+Wednesday I continued working on the machine learning lab. Was finally able to get an output and I've never been so excited to produce something called a "Confusion Matrix". Also completed the HW and Lab questions that went along with the lab. 
+
+Friday I spent most of the day working on my paper and uploading various things to github. This class has been incredibly helpful in a lot of ways. I am, and I'm sure everyone is aware, a terrible coder. However, this class has given me the opportunity to learn more in the last 10 weeks than I had previously in however many years I have been at UW. So, to Meredith or Professor Tuttle, whichever is reading this to grade it's completion, Thank you for all of your help this quarter and please pass the message along to the other person! Or I'll just come thank you in person!
