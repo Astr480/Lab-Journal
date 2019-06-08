@@ -60,3 +60,16 @@ May 31st:
 to do a bit more before fully understanding.
 -I tried to match SDSS, 2MASS and WISE but unsure how effective it was
 
+June 3rd:
+-Worked through the Machine Learning at my own house
+-Also worked on the Observing project and grabbing the rest of the fits files I needed
+
+June 5th:
+-Fully Caught up in Machine Learning and worked a bit on the Machien Learning HW
+-Nearly finished up the lab without any major problems. 
+
+June 7th:
+-Turned in Machine Learning Lab and HW
+-Worked most of the time on finishing the last touches of my Observing Project.
+
+
