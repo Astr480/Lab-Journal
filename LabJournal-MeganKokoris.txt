@@ -235,3 +235,39 @@ I began the newest lab. the Project is going well!!
 began working on project- got a headache and went home. Finihed it wehn I
 got home and continued to work of 480! (thanks for letting me turn this in 
 latter, its really, really appreciated!!)
+
+
+6/3
+
+last week:(
+
+sets of instructions for computer program.
+No punch card, yay! bc they would choke, smh computers. Kermit can type real
+fast. 
+
+supervised: use training data, examples, to teach the  algorithm what input
+maps to what output, based on training set
+
+here it matters what your structuire/ algorthm is but also decisions made
+in creating your training data.
+
+unsupervised: no inputs or preset categories or lables too match. this can
+be both useful in producing unbiased information about a data set- but also 
+not constrained by your question. computer doesnt know physics, might create
+an error based on a superficial feature.
+
+weather forcasting will get worse. "wouldn't you like to know weatherboy"
+naive bayes- good starting point, for well seperated classes. fast, so east
+to test
+
+read all of it. running the code. read it carefully. Skykit? 
+
+6/5
+
+i am confused:)
+
+4:52pm slightly less confused
+
+6/7 
+
+turning everything in
