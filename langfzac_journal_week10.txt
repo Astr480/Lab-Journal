@@ -1,0 +1,31 @@
+####################################
+	Week 10
+####################################
+####################################
+	06/03/19
+####################################
+
+	Machine Learning is magic
+	
+	Make sure to train with only a subset 
+	of data and test with other. 
+
+####################################
+	06/05/19
+####################################
+	
+	Be very delibarate about the 
+	classifier you use.
+
+	Use pandas for machine learning things
+	scikit-learn and keras know how to deal
+	with data frames well. 
+
+####################################
+	06/07/19
+####################################
+
+	FINALLY GOT THE MCMC TO WORK(ish)
+	
+	FINISHED PROJECT	
+	
