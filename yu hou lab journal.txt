@@ -320,3 +320,21 @@ Class 3
 Keep working on the SDSS data matching lab. Today, I match the SDSS data to the WISE data and found out that the ra and dec of a star are not 
 constant, they could vary based on the equipment you are using. But the difference are relative small. 
 Also plot the CMD but there are just too many star in the data, so a lot portion of it are just squized together. 
+
+Week 10
+
+Class 1
+Today we mainly talks about the machine learning, what is it and how can we use it 
+ML are basicly using data to train the compter to learn how to predict and process the feature data
+The teacher say it is a fancy line fit which is totally true, it share the same hasic ideas.
+I would image to use ML in computer vision.
+Need to finish the lab about ML on Friday
+
+Class 2
+Today we keep working on the ML lab, this time we talks about some actual application to do ML on text
+which we train the computer to learn how to ditinguish between good and bad movie reviews. 
+Still need to work on the final paper ! Planet are tough to deal with
+
+Class 3
+The last day of class! Finishing the final paper, has been working so long about it. Finishing the ML lab
+The end of the quarter of my undergraduate life ! Happy about it !
