@@ -1,0 +1,12 @@
+Monday:
+Today I spent most of the day working through the ML homework. I got to the
+last problem and wrote about galaxy morphology classification through machine
+learning.
+
+Wednesday:
+I spent all of today struggling through the lab until finally realizing the 
+reason it was not working was because I never downloaded the data. Whoops.
+
+Friday: 
+All done with everything. Keeping this short and sweet so you don't have to
+waste any more time reading this. Thank you for a wonderful quarter!! 
