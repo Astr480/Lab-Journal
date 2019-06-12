@@ -205,3 +205,29 @@ MRO:
 -taking exposures worked but the server only transferred the file to Bifrost who didn't communicate it to Evora :(
 -after rebooting, we eventually worked it out. Michael and I took exposures of different nebulae and experimented with exposure time until 3am. so sosososo exciting
 -didn't take flats though :( the dome flats are terrible and we didn't want to wait until 5am to take dawn flats lmao
+
+
+Day27 (6/3):
+-machine learning involves code and a process of decision making... this decision making can be supervised or unsupervised.
+supervised learning:
+	-use training data to "teach" the algorithm what input maps to what output, based on the training set. here it matters what your structure/algorithm is, but also in your training data
+	-classification (identity fraud detection, diagnostics, image classification) or regression (population growth prediction, market forecasting, advertising popularity prediction)
+unsupervised learning:
+	-no inputs or preset categories/labels. may liberate bias from the training set, but could produce unconstrained results that violate physics
+	-dimensionality reduction (structure discovery, big data visualization) or clustering (social media/targeted marketing, customer segmentation)
+-lots of diff models!!!! use basian stats!!!! naive bayes are good starting points, esp for well separated classes. assumes everything is drawn from gaussians
+
+Day28 (6/5):
+-more machine learning!!! i like this stuff. vectorization is an interesting concept. takes features that comprise a data set and assign numbers to each result
+-this reminds me of quantum a ton, which I guess is wholly about the probability distribution that each particle's features are dictated by
+-im really curious about how these numbers are derived, esp in the case of unsupervised situations.
+		(this classification of knowledge seems fundamental to consciousness, and i'd bet its a big part of AI development)
+
+Day29 (6/7):
+-last day, and i spent it hammering away at my paper. good god i was not ready. i spent a fair amount of time writing about the reduction but it only took up two pages
+-by the time i got to the part where i put in my plots, it was 4pm. the xticks for my frequency chart were completely out of wack and i spent an obscene amount of time getting them to work
+-i learned my lesson.... the plot making takes me way more time than the writing. i really underestimated the time id take on the data reduction portion of the project
+-the frequency part itself didn't take too long but i worked on the plot itself until 7pm, two hours past the due date, which was awful. had zero time to derive a frequency and compare
+-honestly felt very ashamed at how close i cut it when working on this project. i was just so backlogged with work that it murdered me in the end
+-i think this project has convinced me to work with james davenport on magnetically active stars though. im emailing him immediately following completion of finals
+-thanks for an amazing class prof tuttle i love u with all my heart hehe <333333
